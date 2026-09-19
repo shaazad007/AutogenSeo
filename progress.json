@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 35,
+  "today_done": 45,
   "today_date": "2026-09-19",
-  "last_product_id": "gid://shopify/Product/6701250871455",
-  "last_product_title": "Auj D-12 Fleur De Lux 2021",
-  "last_run_started_at": "2026-09-19T19:01:04.650Z",
-  "last_run_finished_at": "2026-09-19T19:02:04.132Z",
+  "last_product_id": "gid://shopify/Product/6701249986719",
+  "last_product_title": "Auj D-01 Fleur De Lux 2021",
+  "last_run_started_at": "2026-09-19T19:12:42.633Z",
+  "last_run_finished_at": "2026-09-19T19:14:40.945Z",
   "status": "completed_for_today",
   "estimated_days_left": 10
 }
