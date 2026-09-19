@@ -1,0 +1,12 @@
+{
+  "total_products": 0,
+  "total_done": 0,
+  "today_done": 0,
+  "today_date": null,
+  "last_product_id": null,
+  "last_product_title": null,
+  "last_run_started_at": null,
+  "last_run_finished_at": null,
+  "status": "idle",
+  "estimated_days_left": null
+}
