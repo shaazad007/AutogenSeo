@@ -1,0 +1,31 @@
+{
+  "daily_cap": 1000,
+  "delay_seconds": 7,
+  "gemini_model_vision": "gemini-2.5-flash-lite",
+  "gemini_model_text": "gemini-2.5-flash-lite",
+  "gemini_enable_web_search": false,
+
+  "brand_name": "Your Brand Name",
+  "brand_url": "https://your-store.myshopify.com",
+
+  "language": "English",
+
+  "detect": "product type, traditional or modern styling, pattern/geometry, embroidery work, print work, stitching style, neckline, sleeves, overall design details",
+
+  "extra_rules": "Do not mention or guess the fabric type unless it is already present in the existing product title or description. Do not invent specifications, measurements, or care instructions that are not already known. Never mention a designer, celebrity, or model's name unless it is confirmed via the designers.json or models.json lists, or already present in the title/tags.",
+
+  "banned_phrases": [
+    "elevate your wardrobe",
+    "must-have",
+    "timeless elegance",
+    "take your style to the next level",
+    "in today's fast-paced world"
+  ],
+
+  "meta_description_min_chars": 150,
+  "meta_description_max_chars": 160,
+
+  "collection_filter": [],
+
+  "_notes": "This file is safe to edit directly on GitHub. 'detect' controls what the AI looks for in the image — change it per product category (e.g. for electronics: 'device type, ports, buttons, screen, material, colour, design style'). 'extra_rules' and 'banned_phrases' control tone and guardrails. 'collection_filter' can be a list of Shopify collection handles to restrict processing to (leave empty to process the whole catalog)."
+}
