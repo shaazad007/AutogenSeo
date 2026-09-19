@@ -1,18 +1,16 @@
 PRODUCT: Khaadi L20216 Beige Summer Collection 2020
 URL HANDLE (unchanged): khaadi-l20216-beige-summer-collection-2020
+TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-SEO TITLE:
-Khaadi Beige Three-Piece Suit | Your Brand Name
-
-META DESCRIPTION (144 chars):
-Shop the Khaadi beige three-piece suit featuring a printed kurti with geometric motifs, dupatta, and trousers. Available now at Your Brand Name.
+META DESCRIPTION (152 chars):
+Discover the Khaadi L20216 Beige Summer Collection three-piece suit featuring a printed kurti, geometric dupatta, and matching trousers at Sara Clothes.
 
 TAGS:
-khaadi, three-piece suit, beige suit, printed kurti, traditional wear, summer collection, womens suit
+three-piece suit, traditional, beige, printed kurti, khaadi, sara clothes, summer collection, printed dupatta
 
 IMAGE ALT TEXT:
-Khaadi beige printed three-piece suit by Your Brand Name
+Khaadi L20216 Beige printed three-piece traditional suit from Sara Clothes
 
 DESCRIPTION HTML:
-<p>Embrace effortless traditional dressing with this beige three-piece suit from the Khaadi Summer Collection. It brings a grounded, everyday feel to your seasonal rotation through a thoughtful mix of prints and earthy tones.</p><p>The printed kurti features a blend of geometric and floral motifs, accented by drawstrings and green tassels at the neckline. Three-quarter sleeves are finished with solid dark teal cuffs, while the printed dupatta showcases a mix of grid and polka dot patterns. Complete with matching trousers, it offers a cohesive look that transitions easily from morning errands to afternoon gatherings.</p><h3>Design Highlights</h3><ul><li>Printed kurti featuring geometric and floral motifs</li><li>Neckline accented with drawstrings and green tassels</li><li>Printed dupatta with contrasting grid and polka dot patterns</li></ul><h3>Stitching & Finish</h3><ul><li>Three-quarter sleeves finished with solid dark teal cuffs</li><li>Includes matching trousers for a coordinated look</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional three-piece suit suited for casual daytime wear and warm-weather outings</li></ul><p>Brought to you by Your Brand Name.</p>
-<p><a href="https://your-store.myshopify.com">Your Brand Name</a></p>
+<p>A refined take on everyday traditionalwear, this three-piece suit balances subtle beige tones with sharp accents of teal and coral. It brings a grounded approach to seasonal dressing through thoughtful placement prints.</p><p>The printed kurti features distinctive motif patterns alongside a drawstring neckline finished with playful tassels and three-quarter sleeves with contrasting cuffs. It is paired with a printed dupatta showcasing geometric and polka dot patterns, plus matching trousers that complete the coordinated look.</p><h3>Design Highlights</h3><ul><li>Printed kurti featuring traditional motif patterns</li><li>Neckline accented with functional drawstrings and tassels</li><li>Three-quarter sleeves detailed with contrasting cuffs</li><li>Coordinating printed dupatta with polka dot and geometric patterns</li></ul><h3>Stitching & Finish</h3><ul><li>Three-piece suit including matching trousers</li><li>Cleanly constructed finishes across all components</li></ul><h3>Styling & Occasion</h3><ul><li>Suitable for casual daytime gatherings and informal events</li><li>Pairs naturally with everyday footwear and understated accessories</li></ul><p>Available now from Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

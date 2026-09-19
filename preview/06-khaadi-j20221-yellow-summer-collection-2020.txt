@@ -1,18 +1,16 @@
 PRODUCT: Khaadi J20221 Yellow Summer Collection 2020
 URL HANDLE (unchanged): khaadi-j20221-yellow-summer-collection-2020
+TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-SEO TITLE:
-Khaadi J20221 Yellow Suit Summer Collection
-
-META DESCRIPTION (151 chars):
-Shop the Khaadi J20221 Yellow Summer Collection 2020 suit featuring traditional vertical stripes, floral print work, and tassel details. Available now.
+META DESCRIPTION (144 chars):
+Shop the Khaadi yellow summer collection 2020 pakistani branded suit featuring a printed kurti, floral patterns, and trousers from Sara Clothes.
 
 TAGS:
-khaadi, yellow suit, summer collection, traditional suit, printed trousers, floral print, womens fashion
+khaadi, pakistani branded suit, yellow summer collection, printed kurti, traditional style, womens fashion, sara clothes
 
 IMAGE ALT TEXT:
-Khaadi J20221 yellow traditional suit with floral print and tassel details by Your Brand Name
+Khaadi yellow printed kurti and trousers from the summer collection by Sara Clothes
 
 DESCRIPTION HTML:
-<p>Brighten your seasonal wardrobe with the lively energy of the Khaadi J20221 Yellow Summer Collection 2020 suit. This traditional piece balances vivid color with thoughtful detailing for everyday wear.</p><p>Clean vertical stripes meet expressive floral print work across the silhouette, complemented by playful tassel details on the neckline. The matching printed trousers and delicate hem detailing tie the look together effortlessly.</p><h3>Design Highlights</h3><ul><li>Vertical stripes pattern</li><li>Floral print work</li><li>Tassel details on neckline</li></ul><h3>Stitching & Finish</h3><ul><li>Long sleeves</li><li>Hem detailing</li><li>Printed trousers</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional suit styling for warm-weather days</li></ul><p>Brought to you by Your Brand Name.</p>
-<p><a href="https://your-store.myshopify.com">Your Brand Name</a></p>
+<p>Brighten your warm-weather rotation with this cheerful yellow piece from the Khaadi summer collection. It brings a lively palette of white, blue, and orange together in a thoroughly traditional silhouette.</p><p>The printed kurti features clean vertical stripes contrasted against intricate floral and ornamental print work. Delicate tassel details accent the neckline, while the accompanying trousers echo the patterned aesthetic for a cohesive look.</p><h3>Design Highlights</h3><ul><li>Yellow summer collection 2020 design</li><li>Printed kurti with vertical stripes</li><li>Floral and ornamental print work</li><li>Tassel details on neckline</li><li>Patterned trousers</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional style suited for warm days</li><li>Complemented by a lively mix of yellow, white, blue, and orange</li></ul><p>Available now through Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

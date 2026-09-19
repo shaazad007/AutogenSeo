@@ -1,18 +1,16 @@
 PRODUCT: Khaadi J20220 Pink Summer Collection 2020
 URL HANDLE (unchanged): khaadi-j20220-pink-summer-collection-2020
+TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-SEO TITLE:
-Khaadi J20220 Pink Summer Suit
-
-META DESCRIPTION (157 chars):
-Discover the Khaadi J20220 Pink Summer Collection 2020 pakistani branded suit featuring floral and geometric patterns, a tassel neckline, and plain trousers.
+META DESCRIPTION (143 chars):
+Shop the Khaadi pink summer collection pakistani branded suit featuring a floral print, striped lower torso, and scalloped hem at Sara Clothes.
 
 TAGS:
-khaadi, pakistani branded suit, pink suit, traditional wear, summer collection, floral print, geometric pattern
+khaadi, pakistani branded suit, pink suit, floral print, traditional wear, summer collection, sara clothes
 
 IMAGE ALT TEXT:
-Khaadi J20220 Pink traditional pakistani branded suit by Your Brand Name
+Khaadi traditional pink pakistani branded suit with floral print by Sara Clothes
 
 DESCRIPTION HTML:
-<p>Embrace a harmonious blend of soft tones and intricate artistry with the Khaadi J20220 Pink Summer Collection 2020. This traditional pakistani branded suit brings a refreshing palette to your seasonal wardrobe.</p><p>The tunic is detailed with a thoughtful mix of floral and geometric patterns, anchored by a striped lower portion that adds a distinctive linear contrast. Finished with a round neckline featuring a tassel tie-up, long sleeves, and scalloped hems with side slits, it pairs naturally with the included plain trousers for an effortless everyday look.</p><h3>Design Highlights</h3><ul><li>Floral and geometric patterns throughout the tunic</li><li>Distinctive striped lower portion</li><li>Round neckline complete with a tassel tie-up</li></ul><h3>Stitching & Finish</h3><ul><li>Long sleeves with clean tailoring</li><li>Scalloped hem and side slits</li><li>Accompanied by plain trousers</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional style suited for daytime gatherings</li><li>Pair with simple sandals to let the patterns stand out</li></ul><p>Available now through Your Brand Name.</p>
-<p><a href="https://your-store.myshopify.com">Your Brand Name</a></p>
+<p>Embrace a soft palette of pink, purple, beige, and cream in this traditional Pakistani branded suit from Khaadi. It brings an effortless, artistic rhythm to everyday dressing through thoughtful pattern work.</p><p>The shirt features vibrant floral print work across the upper canvas, contrasting neatly with a striking striped pattern on the lower torso. A round neckline with a delicate keyhole opening and decorative tassels adds a touch of artisan charm. Down below, scalloped hems and side slits frame the silhouette, paired cleanly with plain trousers and matching pink sandals for a complete look.</p><h3>Design Highlights</h3><ul><li>Floral print work combined with a striped pattern on the lower torso</li><li>Round neckline featuring a keyhole opening and decorative tassels</li><li>Long sleeves and matching plain trousers</li></ul><h3>Stitching & Finish</h3><ul><li>Scalloped hem and side slits for a refined finish</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional styling suited for daytime gatherings and casual occasions</li><li>Comes together naturally with matching pink sandals</li></ul><p>Available now through Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

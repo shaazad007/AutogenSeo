@@ -1,18 +1,16 @@
 PRODUCT: Khaadi J20228 Green Summer Collection 2020
 URL HANDLE (unchanged): khaadi-j20228-green-summer-collection-2020
+TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-SEO TITLE:
-Khaadi Green Printed Suit | Your Brand Name
-
-META DESCRIPTION (146 chars):
-Shop the Khaadi J20228 Green suit featuring a printed kurti with a geometric front panel, floral motifs, and matching trousers at Your Brand Name.
+META DESCRIPTION (149 chars):
+Shop the Khaadi J20228 green suit at Sara Clothes, featuring a printed kurti with geometric patterns, floral motifs, and solid trousers. Order today.
 
 TAGS:
-khaadi, suit, green suit, printed kurti, traditional, womenswear, casual wear
+khaadi, suit, green suit, printed kurti, traditional suit, casual wear, sara clothes
 
 IMAGE ALT TEXT:
-Khaadi printed green suit with geometric front panel by Your Brand Name
+Khaadi traditional printed kurti with solid trousers by Sara Clothes
 
 DESCRIPTION HTML:
-<p>Embrace vibrant seasonal hues with this printed green suit from Khaadi. It brings together lively shades in an easy, traditional silhouette designed for warm days.</p><p>The front features a striking geometric panel paired with soft floral print motifs. A clean V-neckline edged with blue trim frames the piece, while long sleeves are finished with subtle button and lace details, coming together neatly with matching trousers.</p><h3>Design Highlights</h3><ul><li>All-over green base with contrasting floral print motifs</li><li>Statement geometric panel on the front</li><li>Contrasting blue trim along the V-neckline</li></ul><h3>Stitching & Finish</h3><ul><li>Long sleeves detailed with buttons and delicate lace</li><li>Includes matching trousers for a complete look</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional style suited for daytime gatherings and casual wear</li></ul><p>Available now through Your Brand Name.</p>
-<p><a href="https://your-store.myshopify.com">Your Brand Name</a></p>
+<p>Embrace vibrant seasonal hues with the Khaadi J20228 green suit, designed to bring a fresh perspective to your daily rotation. This traditional ensemble balances striking color contrasts with everyday wearability.</p><p>The printed kurti features a central geometric panel balanced by delicate floral print motifs, bringing a touch of nature into the modern layout. Style this piece with simple slip-on sandals and minimal accessories to keep the focus on the vibrant red, yellow, and blue print details.</p><h3>Design Highlights</h3><ul><li>Printed kurti with geometric pattern on the front panel</li><li>Accented with classic floral print motifs</li><li>V-neckline finished with a clean blue trim</li></ul><h3>Stitching & Finish</h3><ul><li>Long sleeves detailed with functional buttons and lace trim</li><li>Paired with solid colored trousers for a balanced look</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional suit suited for casual daytime outings and gatherings</li></ul><p>Available now at Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>
