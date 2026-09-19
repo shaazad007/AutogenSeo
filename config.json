@@ -1,6 +1,6 @@
 {
-  "daily_cap": 1000,
-  "delay_seconds": 7,
+  "daily_cap": 850,
+  "delay_seconds": 120,
   "gemini_model_vision": "gemini-3.5-flash-lite",
   "gemini_model_text": "gemini-3.5-flash-lite",
   "gemini_enable_web_search": false,
