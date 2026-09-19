@@ -54,4 +54,14 @@ jobs:
         env:
           SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
-          SHOPIFY_CLIE
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node index.js --mode=live --limit=1000
+
+      - name: Commit progress, logs and (preview) output back to the repo
+        run: |
+          git config user.name "shopify-cloth-ai-bot"
+          git config user.email "actions@github.com"
+          git add progress.json failed.csv docs/last-run-log.json preview/ || true
+          git diff --cached --quiet || git commit -m "chore: update progress [skip ci]"
+          git push
