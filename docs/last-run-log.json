@@ -1,29 +1,9 @@
 {
   "mode": "preview",
-  "finished_at": "2026-09-19T18:16:18.079Z",
-  "processed": 5,
+  "finished_at": "2026-09-19T18:31:07.424Z",
+  "processed": 0,
   "failed": 0,
   "lines": [
-    "[18:15:19] Starting collection: auj",
-    "[18:15:20] Fetching + analyzing images for: Khaadi I20206 Yellow Summer Collection 2020",
-    "[18:15:21] Generating description for: Khaadi I20206 Yellow Summer Collection 2020",
-    "[18:15:22] Preview written for: Khaadi I20206 Yellow Summer Collection 2020",
-    "[18:15:22] Waiting 7s for rate-limit guard...",
-    "[18:15:29] Fetching + analyzing images for: Khaadi I20210 Pink Summer Collection 2020",
-    "[18:15:31] Generating description for: Khaadi I20210 Pink Summer Collection 2020",
-    "[18:15:35] Preview written for: Khaadi I20210 Pink Summer Collection 2020",
-    "[18:15:36] Waiting 7s for rate-limit guard...",
-    "[18:15:43] Fetching + analyzing images for: Khaadi J20219 Orange Summer Collection 2020",
-    "[18:15:44] Generating description for: Khaadi J20219 Orange Summer Collection 2020",
-    "[18:15:45] Preview written for: Khaadi J20219 Orange Summer Collection 2020",
-    "[18:15:45] Waiting 7s for rate-limit guard...",
-    "[18:15:52] Fetching + analyzing images for: Khaadi J20220 Pink Summer Collection 2020",
-    "[18:15:54] Generating description for: Khaadi J20220 Pink Summer Collection 2020",
-    "[18:15:56] Preview written for: Khaadi J20220 Pink Summer Collection 2020",
-    "[18:15:56] Waiting 7s for rate-limit guard...",
-    "[18:16:03] Fetching + analyzing images for: Khaadi J20220 Purple Summer Collection 2020",
-    "[18:16:09] Generating description for: Khaadi J20220 Purple Summer Collection 2020",
-    "[18:16:11] Preview written for: Khaadi J20220 Purple Summer Collection 2020",
-    "[18:16:11] Waiting 7s for rate-limit guard..."
+    "[18:31:07] Starting collection: auj"
   ]
 }
