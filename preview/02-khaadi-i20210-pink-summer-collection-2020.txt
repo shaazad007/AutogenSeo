@@ -2,15 +2,15 @@ PRODUCT: Khaadi I20210 Pink Summer Collection 2020
 URL HANDLE (unchanged): khaadi-i20210-pink-summer-collection-2020
 TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-META DESCRIPTION (149 chars):
-Shop the Khaadi I20210 Pink Summer Collection printed suit at Sara Clothes. Traditional design featuring multi-colored floral and paisley print work.
+META DESCRIPTION (148 chars):
+Shop the Khaadi I20210 Pink Summer Collection 2020 printed suit featuring vibrant floral prints, tassel details, and scalloped hems at Sara Clothes.
 
 TAGS:
-khaadi, printed suit, traditional, pink suit, floral print, paisley print, sara clothes
+khaadi, printed suit, traditional, pink, floral print, summer collection, sara clothes
 
 IMAGE ALT TEXT:
-Traditional printed suit with floral and paisley patterns by Sara Clothes
+Khaadi I20210 Pink printed suit with floral motifs and tassel details by Sara Clothes
 
 DESCRIPTION HTML:
-<p>Embrace vibrant seasonal hues with this traditional printed suit, showcasing a lively palette of pink, green, white, yellow, and orange. It brings a cheerful energy to your daily rotation through distinct artistry.</p><p>The multi-colored print work blends classic floral and paisley patterns across the fabric. Thoughtful details like a v-neckline with tassel accents, long sleeves, and a scalloped hem finish the piece with understated character.</p><h3>Design Highlights</h3><ul><li>Multi-colored print work</li><li>Floral and paisley patterns</li><li>Pink base with green, white, yellow, and orange tones</li></ul><h3>Stitching & Finish</h3><ul><li>V-neckline featuring a tassel detail</li><li>Long sleeves</li><li>Scalloped hem detail</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional style suited for daytime gatherings</li></ul><p>Find this genuine piece available now at Sara Clothes.</p>
+<p>Embrace the warmth of the season with a lively splash of pink and an intricate mix of floral and paisley motifs. This traditional printed suit balances classic artistry with everyday wearability.</p><p>Vibrant shades of green, yellow, and orange dance across the fabric, complemented by a band collar accented with playful tassels. Pair this look with simple footwear to let the detailed print and scalloped hemline take center stage.</p><h3>Design Highlights</h3><ul><li>Multi-colored floral and paisley print work</li><li>Band collar neckline with tassel detail</li><li>Long sleeves</li></ul><h3>Stitching & Finish</h3><ul><li>Scalloped hemline</li><li>Light-colored patterned trousers</li></ul><h3>Styling & Occasion</h3><ul><li>Traditional style suited for daytime gatherings and casual outings</li></ul><p>Available now at Sara Clothes.</p>
 <p><a href="https://saraclothes.com">Sara Clothes</a></p>
