@@ -1,0 +1,57 @@
+name: Auto Process Products
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "preview (safe, writes nothing to Shopify) or live"
+        required: true
+        default: "preview"
+        type: choice
+        options:
+          - preview
+          - live
+      limit:
+        description: "How many products to process in this run"
+        required: true
+        default: "10"
+  schedule:
+    - cron: "0 21 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shopify-cloth-ai-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run processor (manual dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node index.js --mode=${{ inputs.mode }} --limit=${{ inputs.limit }}
+
+      - name: Run processor (nightly schedule — live)
+        if: github.event_name == 'schedule'
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIE
