@@ -76,6 +76,23 @@ ke liye — koi embedded app, koi public OAuth login screen nahi.
 - **`designers.json`** — designer ka naam, use pehchanne wale keywords (`match`), collection link, Instagram. Isme placeholder example hai — ise apne asli designers se bharein/mitayein.
 - **`models.json`** — model/celebrity ka naam + Instagram, sirf yahan maujood naam hi description mein ayenge.
 
+### Collections ka order kaise set karein
+
+`config.json` mein `collection_filter` ek **ordered list** hai:
+
+```json
+"collection_filter": []
+```
+
+- **Khali `[]`** rakhein → poora catalog process hoga, koi particular collection-order nahi (jo bhi product ID ke hisab se mile).
+- **Collection handles list mein order se daal dein** → system pehli collection ko **pura khatam** karega (ya us run ki `limit` tak pahunch jaye), tabhi doosri collection shuru hogi:
+  ```json
+  "collection_filter": ["new-arrivals", "eid-collection", "winter-sale"]
+  ```
+  Yahan pehle `new-arrivals` ke saare products hongे, phir `eid-collection`, phir `winter-sale`.
+
+**Collection ka "handle" kahan se milega:** Shopify Admin → Products → Collections → us collection ko kholein → browser ke URL mein `.../collections/XXXXX` wala hissa hi handle hai।
+
 ---
 
 ## Folder Structure
