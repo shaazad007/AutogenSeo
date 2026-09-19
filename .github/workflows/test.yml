@@ -1,0 +1,10 @@
+name: Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello — if you can see this green tick, GitHub Actions is working on this repo."
