@@ -1,9 +1,29 @@
 {
   "mode": "preview",
-  "finished_at": "2026-09-19T18:39:11.137Z",
-  "processed": 0,
+  "finished_at": "2026-09-19T18:56:07.823Z",
+  "processed": 5,
   "failed": 0,
   "lines": [
-    "[18:39:10] Starting collection: auj"
+    "[18:55:14] Starting collection: auj",
+    "[18:55:15] Fetching + analyzing images for: Auj D-15 Fleur De Lux 2021",
+    "[18:55:17] Generating description for: Auj D-15 Fleur De Lux 2021",
+    "[18:55:18] Preview written for: Auj D-15 Fleur De Lux 2021",
+    "[18:55:18] Waiting 7s for rate-limit guard...",
+    "[18:55:25] Fetching + analyzing images for: Auj D-04 Fleur De Lux 2021",
+    "[18:55:27] Generating description for: Auj D-04 Fleur De Lux 2021",
+    "[18:55:29] Preview written for: Auj D-04 Fleur De Lux 2021",
+    "[18:55:29] Waiting 7s for rate-limit guard...",
+    "[18:55:36] Fetching + analyzing images for: Auj D-14 Fleur De Lux 2021",
+    "[18:55:38] Generating description for: Auj D-14 Fleur De Lux 2021",
+    "[18:55:39] Preview written for: Auj D-14 Fleur De Lux 2021",
+    "[18:55:39] Waiting 7s for rate-limit guard...",
+    "[18:55:46] Fetching + analyzing images for: Auj D-13 Fleur De Lux 2021",
+    "[18:55:48] Generating description for: Auj D-13 Fleur De Lux 2021",
+    "[18:55:50] Preview written for: Auj D-13 Fleur De Lux 2021",
+    "[18:55:50] Waiting 7s for rate-limit guard...",
+    "[18:55:57] Fetching + analyzing images for: Auj D-12 Fleur De Lux 2021",
+    "[18:55:59] Generating description for: Auj D-12 Fleur De Lux 2021",
+    "[18:56:00] Preview written for: Auj D-12 Fleur De Lux 2021",
+    "[18:56:00] Waiting 7s for rate-limit guard..."
   ]
 }
