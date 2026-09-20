@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 6,
+  "today_done": 252,
   "today_date": "2026-09-20",
-  "last_product_id": "gid://shopify/Product/6701250642079",
-  "last_product_title": "Auj D-09 Fleur De Lux 2021",
-  "last_run_started_at": "2026-09-20T16:00:23.119Z",
-  "last_run_finished_at": "2026-09-20T16:03:36.482Z",
-  "status": "completed_for_today",
+  "last_product_id": "gid://shopify/Product/9193410527460",
+  "last_product_title": "Sapphire PRW26CMV910T Pehchan Ready To Wear Collection 2026",
+  "last_run_started_at": "2026-09-20T16:11:25.573Z",
+  "last_run_finished_at": "2026-09-20T21:31:43.875Z",
+  "status": "paused_time_budget",
   "estimated_days_left": 8
 }
