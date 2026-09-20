@@ -2,15 +2,15 @@ PRODUCT: Khaadi I20206 Yellow Summer Collection 2020
 URL HANDLE (unchanged): khaadi-i20206-yellow-summer-collection-2020
 TITLE: unchanged — this system never edits the product title
 --------------------------------------------------
-META DESCRIPTION (152 chars):
-Shop the Khaadi I20206 Yellow branded suit at Sara Clothes. Features a printed yellow kurti with floral embroidery, long sleeves, and matching trousers.
+META DESCRIPTION (157 chars):
+Add the I20206 Yellow Summer Collection 2020 by Khaadi to your wardrobe — blue floral embroidery, dependable quality you can trust, shipped globally in days.
 
 TAGS:
-khaadi, branded suit, yellow kurti, embroidered suit, traditional wear, summer collection, sara clothes
+khaadi, yellow suit, summer collection, pakistani suit, embroidered suit, kurti set, casual wear
 
 IMAGE ALT TEXT:
-Yellow embroidered kurti with blue and white print and matching trousers by Sara Clothes
+Khaadi yellow embroidered summer suit by Your Brand Name
 
 DESCRIPTION HTML:
-<p>Brighten your rotation with the Khaadi I20206 Yellow Summer Collection 2020, featuring a vibrant palette built for warm-weather dressing. This traditional ensemble pairs a sunny yellow base with sharp contrast print details.</p><p>The kurti carries a clean v-neckline framed by intricate floral embroidery, flowing into long sleeves finished with patterned cuffs. Paired with matching yellow trousers, it offers a cohesive look that keeps things straightforward and striking.</p><h3>Design Highlights</h3><ul><li>Yellow kurti featuring a blue and white print</li><li>V-neckline accented with floral embroidery</li><li>Long sleeves with distinct patterned cuffs</li></ul><h3>Stitching & Finish</h3><ul><li>Traditional cut with coordinated matching yellow trousers</li><li>Cleanly finished cuffs and neckline details</li></ul><h3>Styling & Occasion</h3><ul><li>An ideal option for daytime gatherings and casual summer outings</li><li>Pair with simple sandals to let the printed details stand out</li></ul><p>Available now from Sara Clothes.</p>
-<p><a href="https://saraclothes.com">Sara Clothes</a></p>
+<p>Brighten your wardrobe rotation with the Khaadi I20206 Yellow Summer Collection 2020. This sun-kissed ensemble brings a cheerful palette to your seasonal styling.</p><p>The shirt features a detailed patterned base with delicate blue floral embroidery and a prominent dark blue tassel detail accenting the neckline. Contrast borders finish the wide sleeve cuffs and the lower hemline, paired cleanly with solid yellow trousers.</p><h3>Design Highlights</h3><ul><li>Vibrant yellow base with an all-over tiny geometric print</li><li>Blue floral embroidery and dark blue tassel accent at the neckline</li><li>Contrasting patterned borders on the lower hem and sleeve cuffs</li></ul><h3>Stitching &amp; Finish</h3><ul><li>Straight-cut shirt with long sleeves and finished hems</li><li>Paired with matching solid trousers</li></ul><h3>Styling &amp; Occasion</h3><ul><li>An easy choice for casual daytime gatherings and warm-weather outings</li></ul><p>Available now from Your Brand Name.</p>
+<p><a href="https://your-store.myshopify.com">Your Brand Name</a></p>
