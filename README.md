@@ -50,6 +50,18 @@ ke liye — koi embedded app, koi public OAuth login screen nahi.
 
    **Keys kabhi bhi chat mein, code mein, ya kisi file mein hardcode na karein — hamesha Secrets mein hi.**
 
+### C.5) Groq (optional — daily throughput badhane ke liye)
+
+Gemini ki daily quota khatam hone par system khud-ba-khud **Groq** (ek alag, free company) par switch ho jata hai — agar aap yeh key add karein:
+
+1. [console.groq.com](https://console.groq.com) par free account banayein (credit card nahi chahiye)
+2. **API Keys** section se ek key banayein
+3. GitHub repo → Settings → Secrets → **New repository secret**:
+   - Name: `GROQ_API_KEY`
+   - Value: (Groq se mili key)
+
+**Agar yeh secret nahi banate**, koi masla nahi — system sirf Gemini par hi chalta rahega jaisa pehle chal raha tha (bas Gemini ki quota khatam hone par us din ki run wahi ruk jayegi, agli baar continue hogi).
+
 ### D) Pehla Test
 
 1. Repo ke **Actions** tab mein jayein. Agar **"Test"** workflow nahi dikh rahi, kuch seconds wait karein (GitHub ko nayi repo ke workflows index karne mein thora waqt lagta hai).
@@ -66,7 +78,7 @@ ke liye — koi embedded app, koi public OAuth login screen nahi.
 - **GitHub → Actions tab**: har run ka pura log (kitne products hue, koi fail hua ya nahi).
 - **Dashboard**: `docs/index.html` ko GitHub Pages par publish karein (repo **Settings → Pages → Source: main branch, /docs folder**) — phir ek link milega jahan professional dashboard dikhega: total progress, aaj ka batch, ETA days, live-jaisa activity log, failed items list. Isse kholne se pehle `docs/index.html` mein `GITHUB_REPO` constant apne asli `username/repo` se badal dein.
 - **Shopify Admin**: processed products par `ai-done` tag lag jata hai, filter karke gin sakte hain.
-- `progress.json` aur `failed.csv` repo ki root mein hamesha latest sthiti rakhte hain.
+- `progress.json` aur `failed.csv` (`docs/` folder ke andar) hamesha latest sthiti rakhte hain — yahan isliye hain taake GitHub Pages dashboard bhi inhein padh sake.
 
 ---
 
@@ -103,8 +115,6 @@ shopify-cloth-ai/
 ├── config.json                    # editable AI prompt + settings
 ├── designers.json                 # designer name -> collection link, Instagram
 ├── models.json                    # model/celebrity name -> Instagram
-├── progress.json                  # auto-updated — current status
-├── failed.csv                     # auto-updated — products that errored
 ├── lib/
 │   ├── config.js                  # env + JSON config loader
 │   ├── shopify.js                 # Shopify GraphQL client (client-credentials auth)
@@ -113,7 +123,10 @@ shopify-cloth-ai/
 │   ├── processor.js               # batch loop, rate limiting, backup, tagging
 │   └── util.js                    # retry/backoff, logging, CSV helpers
 ├── docs/
-│   └── index.html                 # dashboard (host via GitHub Pages)
+│   ├── index.html                 # dashboard (host via GitHub Pages)
+│   ├── progress.json              # auto-updated — current status (lives here so the dashboard can read it)
+│   ├── failed.csv                 # auto-updated — products that errored
+│   └── last-run-log.json          # auto-updated — last run's activity log
 ├── preview/                       # preview-mode output yahan aata hai
 └── .github/workflows/
     ├── auto-process.yml           # manual + nightly cron run
