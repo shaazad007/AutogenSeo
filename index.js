@@ -35,7 +35,13 @@ async function main() {
     throw new Error(`Unknown --mode "${mode}". Use "preview" or "live".`);
   }
 
-  log(`Starting run — mode=${mode}, limit=${limit}`);
+  // Stay safely under GitHub Actions' hard 6-hour (360-minute) job limit.
+  // Configurable via config.json's job_time_budget_minutes; defaults to 320
+  // (5h20m), leaving buffer for setup/commit steps either side.
+  const budgetMinutes = config.promptConfig.job_time_budget_minutes || 320;
+  const deadlineMs = Date.now() + budgetMinutes * 60 * 1000;
+
+  log(`Starting run — mode=${mode}, limit=${limit}, time budget=${budgetMinutes}m`);
 
   const shopify = new ShopifyClient({
     store: config.env.SHOPIFY_STORE,
@@ -44,9 +50,16 @@ async function main() {
   });
 
   const runLog = [];
-  const { processed, failed } = await runBatch({ shopify, config, mode, limit, runLog });
+  const { processed, failed, stopReason, usedGroqCount } = await runBatch({ shopify, config, mode, limit, runLog, deadlineMs });
 
-  log(`Run finished. Processed: ${processed}, Failed: ${failed}.`);
+  const reasonNote =
+    stopReason === "time_budget"
+      ? " (stopped early: time budget reached — will resume next scheduled run)"
+      : stopReason === "daily_quota"
+      ? " (stopped early: Gemini daily quota exhausted — will resume next scheduled run)"
+      : "";
+  const groqNote = usedGroqCount ? ` (${usedGroqCount} of those via Groq fallback)` : "";
+  log(`Run finished. Processed: ${processed}, Failed: ${failed}.${reasonNote}${groqNote}`);
 
   // Write a small log file the dashboard (docs/index.html) can fetch and display.
   const logPayload = {
@@ -54,6 +67,7 @@ async function main() {
     finished_at: new Date().toISOString(),
     processed,
     failed,
+    stopReason: stopReason || null,
     lines: runLog.slice(-200), // keep the dashboard payload small
   };
   fs.writeFileSync(config.paths.runLog, JSON.stringify(logPayload, null, 2));
