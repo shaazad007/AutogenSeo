@@ -1,6 +1,7 @@
 name: Auto Process Products
 
 on:
+  # Manual run from the Actions tab — you choose preview or live, and how many products.
   workflow_dispatch:
     inputs:
       mode:
@@ -15,8 +16,17 @@ on:
         description: "How many products to process in this run"
         required: true
         default: "10"
+
+  # Automatic runs — live mode. Runs 4x/day (roughly every 6 hours) instead of
+  # once, because at the current delay_seconds in config.json, one 6-hour
+  # GitHub Actions job can only safely process ~150-170 products — running
+  # more often adds up to a higher daily total without ever hitting GitHub's
+  # hard 6-hour-per-job limit. Adjust times freely; these are UTC.
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 3 * * *"   # ~8am PKT/IST
+    - cron: "0 9 * * *"   # ~2pm PKT/IST
+    - cron: "0 15 * * *"  # ~8pm PKT/IST
+    - cron: "0 21 * * *"  # ~2am PKT/IST
 
 permissions:
   contents: write
@@ -28,6 +38,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 350 # stay safely under GitHub's hard 360-minute (6h) job limit
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,26 +53,43 @@ jobs:
 
       - name: Run processor (manual dispatch)
         if: github.event_name == 'workflow_dispatch'
+        timeout-minutes: 335
         env:
           SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # optional — leave the secret unset if you don't want the Groq fallback
         run: node index.js --mode=${{ inputs.mode }} --limit=${{ inputs.limit }}
 
-      - name: Run processor (nightly schedule — live)
+      # No need to hand-calculate a "safe" number anymore — index.js has its
+      # own internal time budget (job_time_budget_minutes in config.json,
+      # default 320 minutes) and stops itself cleanly well before GitHub's
+      # 6-hour hard limit, resuming automatically on the next scheduled run.
+      # It also stops cleanly (not as a pile of "failures") if Gemini's daily
+      # quota runs out mid-run. A high limit here just means "keep going
+      # until the time budget or the daily_cap in config.json is reached".
+      - name: Run processor (scheduled — live)
         if: github.event_name == 'schedule'
+        timeout-minutes: 335
         env:
           SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node index.js --mode=live --limit=1000
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # optional — leave the secret unset if you don't want the Groq fallback
+        run: node index.js --mode=live --limit=100000
 
+      # if: always() is essential — without it, this step is SKIPPED whenever
+      # the run above fails, times out, or gets cancelled, and every product
+      # that was already updated on Shopify during that run would silently
+      # never get reflected in the dashboard/progress.json.
       - name: Commit progress, logs and (preview) output back to the repo
+        if: always()
         run: |
           git config user.name "shopify-cloth-ai-bot"
           git config user.email "actions@github.com"
-          git add progress.json failed.csv docs/last-run-log.json preview/ || true
+          git add docs/progress.json docs/failed.csv docs/last-run-log.json preview/ || true
           git diff --cached --quiet || git commit -m "chore: update progress [skip ci]"
+          git pull --rebase || true
           git push
