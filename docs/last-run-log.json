@@ -1,18 +1,19 @@
 {
   "mode": "preview",
-  "finished_at": "2026-09-20T15:22:21.192Z",
+  "finished_at": "2026-09-20T16:03:36.482Z",
   "processed": 3,
   "failed": 0,
   "stopReason": null,
   "lines": [
-    "[15:16:13] Analyzing + writing (Gemini, 1 combined call) for: Khaadi I20206 Yellow Summer Collection 2020",
-    "[15:16:15] Preview written for: Khaadi I20206 Yellow Summer Collection 2020",
-    "[15:16:15] Waiting 120s for rate-limit guard...",
-    "[15:18:15] Analyzing + writing (Gemini, 1 combined call) for: Khaadi I20210 Pink Summer Collection 2020",
-    "[15:18:18] Preview written for: Khaadi I20210 Pink Summer Collection 2020",
-    "[15:18:18] Waiting 120s for rate-limit guard...",
-    "[15:20:18] Analyzing + writing (Gemini, 1 combined call) for: Khaadi J20219 Orange Summer Collection 2020",
-    "[15:20:21] Preview written for: Khaadi J20219 Orange Summer Collection 2020",
-    "[15:20:21] Waiting 120s for rate-limit guard..."
+    "[16:00:23] Starting collection: auj",
+    "[16:00:24] Analyzing + writing (Gemini, 1 combined call) for: Auj D-11 Fleur De Lux 2021",
+    "[16:00:28] Preview written for: Auj D-11 Fleur De Lux 2021",
+    "[16:00:28] Waiting 60s for rate-limit guard...",
+    "[16:01:28] Analyzing + writing (Gemini, 1 combined call) for: Auj D-10 Fleur De Lux 2021",
+    "[16:01:33] Preview written for: Auj D-10 Fleur De Lux 2021",
+    "[16:01:33] Waiting 60s for rate-limit guard...",
+    "[16:02:33] Analyzing + writing (Gemini, 1 combined call) for: Auj D-09 Fleur De Lux 2021",
+    "[16:02:36] Preview written for: Auj D-09 Fleur De Lux 2021",
+    "[16:02:36] Waiting 60s for rate-limit guard..."
   ]
 }
