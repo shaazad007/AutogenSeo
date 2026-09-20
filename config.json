@@ -1,5 +1,5 @@
 {
-  "daily_cap": 500,
+  "daily_cap": 1400,
   "delay_seconds": 120,
   "job_time_budget_minutes": 320,
   "gemini_model_vision": "gemini-3.5-flash-lite",
