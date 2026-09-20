@@ -1,11 +1,12 @@
 {
-  "daily_cap": 850,
+  "daily_cap": 500,
   "delay_seconds": 120,
+  "job_time_budget_minutes": 320,
   "gemini_model_vision": "gemini-3.5-flash-lite",
   "gemini_model_text": "gemini-3.5-flash-lite",
   "gemini_enable_web_search": false,
-  "brand_name": "Sara Clothes",
-  "brand_url": "https://saraclothes.com",
+  "brand_name": "Your Brand Name",
+  "brand_url": "https://your-store.myshopify.com",
   "language": "English",
   "detect": "product type, traditional or modern styling, pattern/geometry, embroidery work, print work, stitching style, neckline, sleeves, overall design details",
   "extra_rules": "Do not mention or guess the fabric type unless it is already present in the existing product title or description. Do not invent specifications, measurements, or care instructions that are not already known. Never mention a designer, celebrity, or model's name unless it is confirmed via the designers.json or models.json lists, or already present in the title/tags.",
@@ -18,8 +19,7 @@
   ],
   "meta_description_min_chars": 150,
   "meta_description_max_chars": 160,
-
-  "collection_filter": ["maria-b"],
+  "collection_filter": [],
 
   "_collection_filter_help": "Leave [] to process the whole catalog in no particular order. Or list collection HANDLES in the exact order you want them done, e.g. [\"new-arrivals\", \"eid-collection\", \"winter-sale\"] — the system fully finishes one collection (or hits the run's limit) before starting the next.",
   "_notes": "This file is safe to edit directly on GitHub. 'detect' controls what the AI looks for in the image — change it per product category (e.g. for electronics: 'device type, ports, buttons, screen, material, colour, design style'). 'extra_rules' and 'banned_phrases' control tone and guardrails. 'collection_filter' can be a list of Shopify collection handles to restrict processing to (leave empty to process the whole catalog)."
