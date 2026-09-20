@@ -20,7 +20,7 @@
   ],
   "meta_description_min_chars": 150,
   "meta_description_max_chars": 160,
-  "collection_filter": ["auj"],
+  "collection_filter": ["sapphire"],
 
   "_collection_filter_help": "Leave [] to process the whole catalog in no particular order. Or list collection HANDLES in the exact order you want them done, e.g. [\"new-arrivals\", \"eid-collection\", \"winter-sale\"] — the system fully finishes one collection (or hits the run's limit) before starting the next.",
   "_notes": "This file is safe to edit directly on GitHub. 'detect' controls what the AI looks for in the image — change it per product category (e.g. for electronics: 'device type, ports, buttons, screen, material, colour, design style'). 'extra_rules' and 'banned_phrases' control tone and guardrails. 'collection_filter' can be a list of Shopify collection handles to restrict processing to (leave empty to process the whole catalog)."
