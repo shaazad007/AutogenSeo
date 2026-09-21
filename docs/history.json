@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "at": "2026-09-21T21:04:40.518Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 520,
+    "processed_this_run": 196,
+    "failed_this_run": 38
+  }
+]
