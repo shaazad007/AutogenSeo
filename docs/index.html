@@ -160,6 +160,12 @@
   .collection-name-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
   .collection-name { font-size: 13.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .collection-count { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+  .new-badge {
+    font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+    background: rgba(217, 164, 65, 0.18); color: var(--gold-soft);
+    border: 1px solid rgba(217, 164, 65, 0.4);
+    padding: 2px 7px; border-radius: 999px; flex-shrink: 0;
+  }
   .collection-bar-track { height: 5px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
   .collection-bar-fill { height: 100%; border-radius: 3px; }
   .empty-note { font-size: 13px; color: var(--text-faint); padding: 4px 2px; }
@@ -432,17 +438,25 @@ async function refresh() {
     if (handles.length > 0) {
       collSection.style.display = '';
       const doneCollections = handles.filter(h => collections[h].total > 0 && collections[h].done >= collections[h].total).length;
-      document.getElementById('collections-meta').textContent = `${doneCollections}/${handles.length} complete`;
-      collList.innerHTML = handles.map(h => {
+      const newCollections = handles.filter(h => (collections[h].new_since_last_check || 0) > 0);
+      document.getElementById('collections-meta').textContent = newCollections.length
+        ? `${newCollections.length} with new items · ${doneCollections}/${handles.length} complete`
+        : `${doneCollections}/${handles.length} complete`;
+
+      const sortedHandles = [...handles].sort((a, b) => (collections[b].new_since_last_check || 0) - (collections[a].new_since_last_check || 0));
+
+      collList.innerHTML = sortedHandles.map(h => {
         const c = collections[h];
         const cp = pct(c.done, c.total);
         const color = swatchColor(h);
+        const newCount = c.new_since_last_check || 0;
+        const badge = newCount > 0 ? `<span class="new-badge">+${newCount} new</span>` : '';
         return `<div class="collection-row">
           <div class="swatch" style="background:${color}"></div>
           <div class="collection-info">
             <div class="collection-name-row">
               <span class="collection-name">${c.name || h}</span>
-              <span class="collection-count">${c.done}/${c.total}</span>
+              <span style="display:flex;align-items:center;gap:7px">${badge}<span class="collection-count">${c.done}/${c.total}</span></span>
             </div>
             <div class="collection-bar-track"><div class="collection-bar-fill" style="width:${cp}%;background:${color}"></div></div>
           </div>
