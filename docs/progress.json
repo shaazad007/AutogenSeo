@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 69,
+  "today_done": 324,
   "today_date": "2026-09-21",
-  "last_product_id": "gid://shopify/Product/9107954729188",
-  "last_product_title": "Sapphire DW7926C813 Teal Dark Summer Lawn 2026",
-  "last_run_started_at": "2026-09-21T02:53:00.132Z",
-  "last_run_finished_at": "2026-09-21T08:13:43.545Z",
+  "last_product_id": "gid://shopify/Product/9074789122276",
+  "last_product_title": "Sapphire DBEWS26CL547 Andaaz 2026",
+  "last_run_started_at": "2026-09-21T08:18:21.549Z",
+  "last_run_finished_at": "2026-09-21T13:39:46.640Z",
   "status": "paused_time_budget",
   "estimated_days_left": 8
 }
