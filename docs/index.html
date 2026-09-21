@@ -1,130 +1,339 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Shopify Cloth AI — Dashboard</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.1/tailwind.min.js"></script>
-<script>
-  tailwind.config = {
-    darkMode: 'class',
-    theme: {
-      extend: {
-        colors: {
-          brand: { DEFAULT: '#4F46E5', dark: '#4338CA' },
-          success: '#10B981',
-          warning: '#F59E0B',
-        }
-      }
-    }
-  }
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Shopify Cloth AI — Catalog Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-  .terminal { font-family: 'SF Mono', 'Fira Code', Menlo, Consolas, monospace; }
-  ::-webkit-scrollbar { width: 8px; height: 8px; }
-  ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 4px; }
+  :root {
+    --bg: #16121c;
+    --surface: #201a2b;
+    --surface-2: #2a2236;
+    --border: #382e47;
+    --border-soft: #2c2438;
+
+    --text: #f3eee6;
+    --text-muted: #a99cb0;
+    --text-faint: #776b85;
+
+    --gold: #d9a441;
+    --gold-soft: #e8c98a;
+    --rose: #c24b5c;
+    --rose-soft: #e79aa4;
+    --jade: #4fa88f;
+    --jade-soft: #8ecdba;
+
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 8px;
+
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse 600px 300px at 15% -10%, rgba(217, 164, 65, 0.10), transparent),
+      radial-gradient(ellipse 500px 260px at 100% 0%, rgba(194, 75, 92, 0.08), transparent);
+    color: var(--text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 24px);
+  }
+
+  a { color: var(--gold-soft); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 18px; }
+
+  header.top {
+    padding: 18px 0 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-soft);
+    margin-bottom: 26px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-mark {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: linear-gradient(150deg, var(--gold) 0%, #b5762c 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 600; font-size: 17px; color: #1a1409;
+    flex-shrink: 0;
+  }
+  .brand-text { line-height: 1.2; }
+  .brand-text .name { font-weight: 600; font-size: 14.5px; }
+  .brand-text .tag { font-size: 12px; color: var(--text-faint); }
+
+  .live-pill {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 12px; color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text-faint); flex-shrink: 0; }
+  .dot.ok { background: var(--jade); box-shadow: 0 0 0 3px rgba(79,168,143,0.18); }
+  .dot.warn { background: var(--gold); box-shadow: 0 0 0 3px rgba(217,164,65,0.18); }
+  .dot.bad { background: var(--rose); box-shadow: 0 0 0 3px rgba(194,75,92,0.18); }
+
+  .hero { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 6px 0 22px; }
+  .ring-wrap { position: relative; width: 168px; height: 168px; margin-bottom: 18px; }
+  .ring-wrap svg { transform: rotate(-90deg); }
+  .ring-track { fill: none; stroke: var(--surface-2); stroke-width: 10; }
+  .ring-fill { fill: none; stroke: url(#ringGrad); stroke-width: 10; stroke-linecap: round; transition: stroke-dashoffset 0.6s ease; }
+  .ring-center {
+    position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .ring-number { font-family: var(--font-display); font-size: 34px; font-weight: 500; letter-spacing: -0.01em; line-height: 1; }
+  .ring-pct { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; font-family: var(--font-mono); }
+
+  .hero-caption { font-size: 14px; color: var(--text-muted); }
+  .hero-caption strong { color: var(--text); font-weight: 600; font-family: var(--font-mono); }
+
+  .banner {
+    display: none;
+    margin-top: 16px;
+    padding: 12px 15px;
+    border-radius: var(--radius-md);
+    background: rgba(217, 164, 65, 0.12);
+    border: 1px solid rgba(217, 164, 65, 0.35);
+    font-size: 13.5px;
+    color: var(--gold-soft);
+    text-align: left;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .banner.show { display: flex; }
+  .banner .emoji { font-size: 17px; line-height: 1.3; }
+  .banner b { color: var(--text); }
+
+  .stat-row {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--border-soft); border-radius: var(--radius-md);
+    overflow: hidden; margin-bottom: 22px;
+  }
+  .stat {
+    padding: 13px 10px; text-align: center; background: var(--surface);
+    border-right: 1px solid var(--border-soft);
+  }
+  .stat:last-child { border-right: none; }
+  .stat .label { font-size: 11px; color: var(--text-faint); margin-bottom: 5px; }
+  .stat .value { font-family: var(--font-mono); font-size: 15px; font-weight: 600; }
+  .stat .value.warn { color: var(--gold-soft); }
+  .stat .value.ok { color: var(--jade-soft); }
+  .stat .value.bad { color: var(--rose-soft); }
+
+  section { margin-bottom: 26px; }
+  .section-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .section-head h2 {
+    font-family: var(--font-display); font-size: 18px; font-weight: 500; margin: 0;
+  }
+  .section-head .meta { font-size: 12px; color: var(--text-faint); font-family: var(--font-mono); }
+
+  .collection-list { display: flex; flex-direction: column; gap: 9px; }
+  .collection-row {
+    display: flex; align-items: center; gap: 11px;
+    padding: 11px 13px; background: var(--surface); border: 1px solid var(--border-soft);
+    border-radius: var(--radius-sm);
+  }
+  .swatch { width: 9px; height: 30px; border-radius: 3px; flex-shrink: 0; }
+  .collection-info { flex: 1; min-width: 0; }
+  .collection-name-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+  .collection-name { font-size: 13.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .collection-count { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+  .collection-bar-track { height: 5px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+  .collection-bar-fill { height: 100%; border-radius: 3px; }
+  .empty-note { font-size: 13px; color: var(--text-faint); padding: 4px 2px; }
+
+  .chart-card {
+    background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md);
+    padding: 16px 14px 12px;
+  }
+  .chart-bars { display: flex; align-items: flex-end; gap: 3px; height: 90px; }
+  .chart-bar { flex: 1; background: linear-gradient(180deg, var(--gold) 0%, #a8712b 100%); border-radius: 3px 3px 1px 1px; min-height: 2px; }
+  .chart-labels { display: flex; justify-content: space-between; margin-top: 8px; font-size: 10.5px; color: var(--text-faint); font-family: var(--font-mono); }
+
+  .action-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 9px 14px; border-radius: 999px;
+    font-size: 12.5px; font-weight: 600; font-family: var(--font-body);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .btn.primary { background: var(--gold); border-color: var(--gold); color: #1a1409; }
+  .btn:hover { border-color: var(--gold); text-decoration: none; }
+  .action-note { font-size: 11.5px; color: var(--text-faint); margin-top: 2px; }
+
+  .terminal {
+    background: #0f0c15; border: 1px solid var(--border-soft); border-radius: var(--radius-md);
+    padding: 13px 14px; height: 230px; overflow-y: auto;
+    font-family: var(--font-mono); font-size: 11.5px; line-height: 1.65;
+  }
+  .terminal .line { color: #8fd6b8; white-space: pre-wrap; word-break: break-word; }
+  .terminal .line.warn { color: var(--gold-soft); }
+  .terminal .line.fail { color: var(--rose-soft); }
+  .terminal .empty { color: var(--text-faint); }
+
+  .failed-list { display: flex; flex-direction: column; gap: 7px; }
+  .failed-row {
+    padding: 9px 12px; background: var(--surface); border: 1px solid rgba(194,75,92,0.25);
+    border-left: 3px solid var(--rose); border-radius: var(--radius-sm);
+    font-size: 12.5px;
+  }
+  .failed-row .title { font-weight: 600; margin-bottom: 2px; }
+  .failed-row .err { color: var(--rose-soft); font-size: 11.5px; }
+  .all-clear { font-size: 13px; color: var(--jade-soft); padding: 6px 2px; }
+
+  footer.foot {
+    text-align: center; font-size: 11px; color: var(--text-faint);
+    padding-top: 10px; font-family: var(--font-mono);
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 </style>
 </head>
-<body class="bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors">
+<body>
 
-  <!-- EDIT THIS: point the Start/Pause/Retry buttons at your repo's Actions page -->
-  <script>
-    const GITHUB_REPO = "your-username/shopify-cloth-ai"; // <-- change this
-    const ACTIONS_URL = `https://github.com/${GITHUB_REPO}/actions/workflows/auto-process.yml`;
-    const REFRESH_MS = 30000;
-  </script>
+<script>
+  const GITHUB_REPO = "shaazad007/AutogenSeo";
+  const ACTIONS_URL = `https://github.com/${GITHUB_REPO}/actions/workflows/auto-process.yml`;
+  const FAILED_URL = `https://github.com/${GITHUB_REPO}/blob/main/docs/failed.csv`;
+  const REFRESH_MS = 30000;
+</script>
 
-  <!-- Top nav -->
-  <header class="border-b border-gray-200 dark:border-gray-800 sticky top-0 bg-white/80 dark:bg-gray-950/80 backdrop-blur z-10">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center gap-2">
-        <span class="text-xl">🛍️</span>
-        <div>
-          <h1 class="font-semibold text-sm sm:text-base">Shopify Cloth AI Automation</h1>
-          <p class="text-xs text-gray-500 dark:text-gray-400">Catalog SEO refresh — v1.0</p>
-        </div>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <div class="brand-mark">S</div>
+      <div class="brand-text">
+        <div class="name">Shopify Cloth AI</div>
+        <div class="tag">Catalog SEO automation</div>
       </div>
-      <div class="flex items-center gap-3">
-        <span id="conn-dot" class="w-2.5 h-2.5 rounded-full bg-gray-400"></span>
-        <span id="conn-label" class="text-xs text-gray-500 dark:text-gray-400 hidden sm:inline">checking...</span>
-        <button onclick="toggleTheme()" class="text-xs px-2 py-1 rounded border border-gray-300 dark:border-gray-700">🌓</button>
-      </div>
+    </div>
+    <div class="live-pill">
+      <span class="dot" id="conn-dot"></span>
+      <span id="conn-label">connecting</span>
     </div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-6 space-y-6">
+  <div class="hero">
+    <div class="ring-wrap">
+      <svg width="168" height="168" viewBox="0 0 168 168">
+        <defs>
+          <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e8c98a" />
+            <stop offset="100%" stop-color="#d9a441" />
+          </linearGradient>
+        </defs>
+        <circle class="ring-track" cx="84" cy="84" r="74" />
+        <circle class="ring-fill" id="ring-fill" cx="84" cy="84" r="74" stroke-dasharray="465" stroke-dashoffset="465" />
+      </svg>
+      <div class="ring-center">
+        <div class="ring-number" id="hero-number">–</div>
+        <div class="ring-pct" id="hero-pct">loading…</div>
+      </div>
+    </div>
+    <div class="hero-caption">of <strong id="hero-total">–</strong> products in your catalog now have AI-written SEO content</div>
 
-    <!-- Metric cards -->
-    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-      <div class="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-        <p class="text-xs text-gray-500 dark:text-gray-400">Total Catalog Progress</p>
-        <p class="text-xl font-semibold mt-1"><span id="total-done">–</span> / <span id="total-count">–</span></p>
-        <p class="text-xs text-brand mt-1" id="total-pct">0% complete</p>
-      </div>
-      <div class="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-        <p class="text-xs text-gray-500 dark:text-gray-400">Today's Batch</p>
-        <p class="text-xl font-semibold mt-1"><span id="today-done">–</span> / <span id="today-cap">–</span></p>
-        <p class="text-xs text-success mt-1" id="today-pct">0% done</p>
-      </div>
-      <div class="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-        <p class="text-xs text-gray-500 dark:text-gray-400">Estimated Completion</p>
-        <p class="text-xl font-semibold mt-1"><span id="eta-days">–</span> days left</p>
-      </div>
-      <div class="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-        <p class="text-xs text-gray-500 dark:text-gray-400">System Status</p>
-        <p class="text-xl font-semibold mt-1" id="system-status">–</p>
-      </div>
-    </section>
+    <div class="banner" id="new-products-banner">
+      <span class="emoji">🆕</span>
+      <span><b><span id="new-products-count">0</span> new product<span id="new-products-plural">s</span></b> appeared in your store since the last run — they'll be picked up automatically, no action needed.</span>
+    </div>
+  </div>
 
-    <!-- Progress bars + controls -->
-    <section class="bg-white dark:bg-gray-900 rounded-xl p-5 border border-gray-200 dark:border-gray-800 space-y-4">
-      <div>
-        <div class="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
-          <span>Total catalog</span><span id="total-bar-label">0 / 0</span>
-        </div>
-        <div class="w-full h-3 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
-          <div id="total-bar" class="h-full bg-brand transition-all" style="width:0%"></div>
-        </div>
-      </div>
-      <div>
-        <div class="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
-          <span>Today's cap</span><span id="today-bar-label">0 / 0</span>
-        </div>
-        <div class="w-full h-3 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
-          <div id="today-bar" class="h-full bg-success transition-all" style="width:0%"></div>
-        </div>
-      </div>
-      <div class="flex flex-wrap gap-2 pt-2">
-        <a id="btn-start" href="#" target="_blank" class="text-xs sm:text-sm px-4 py-2 rounded-lg bg-brand hover:bg-brand-dark text-white font-medium">▶️ Start / Run Workflow</a>
-        <a id="btn-pause" href="#" target="_blank" class="text-xs sm:text-sm px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700">⏸️ Pause (cancel run on GitHub)</a>
-        <a href="failed.csv" target="_blank" class="text-xs sm:text-sm px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700">🔄 View / Retry Failed</a>
-      </div>
-      <p class="text-xs text-gray-400">These buttons open GitHub Actions — for security, workflows can't be triggered directly from a public page.</p>
-    </section>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="label">Today</div>
+      <div class="value" id="stat-today">–</div>
+    </div>
+    <div class="stat">
+      <div class="label">Est. finish</div>
+      <div class="value" id="stat-eta">–</div>
+    </div>
+    <div class="stat">
+      <div class="label">Status</div>
+      <div class="value" id="stat-status">–</div>
+    </div>
+  </div>
 
-    <!-- Live log + failed items -->
-    <section class="grid lg:grid-cols-2 gap-4">
-      <div class="bg-black rounded-xl p-4 border border-gray-800">
-        <p class="text-xs text-gray-400 mb-2">Last Run — Activity Log</p>
-        <div id="log-box" class="terminal text-xs text-green-400 h-64 overflow-y-auto space-y-0.5"></div>
-      </div>
-      <div class="bg-white dark:bg-gray-900 rounded-xl p-4 border border-gray-200 dark:border-gray-800">
-        <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">Failed Items</p>
-        <div id="failed-box" class="text-xs h-64 overflow-y-auto space-y-1"></div>
-      </div>
-    </section>
+  <section id="collections-section" style="display:none">
+    <div class="section-head">
+      <h2>Collections</h2>
+      <span class="meta" id="collections-meta"></span>
+    </div>
+    <div class="collection-list" id="collection-list"></div>
+  </section>
 
-    <p class="text-center text-xs text-gray-400 pt-4">Auto-refreshes every 30s · Data read from progress.json / last-run-log.json / failed.csv in this repo</p>
-  </main>
+  <section id="chart-section" style="display:none">
+    <div class="section-head">
+      <h2>Recent runs</h2>
+      <span class="meta">products processed</span>
+    </div>
+    <div class="chart-card">
+      <div class="chart-bars" id="chart-bars"></div>
+      <div class="chart-labels" id="chart-labels"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><h2>Controls</h2></div>
+    <div class="action-row">
+      <a class="btn primary" id="btn-start" href="#" target="_blank">▶ Run workflow</a>
+      <a class="btn" id="btn-pause" href="#" target="_blank">⏸ Cancel a run</a>
+      <a class="btn" id="btn-failed" href="#" target="_blank">↻ View failed items</a>
+    </div>
+    <div class="action-note">These open GitHub Actions — for security, runs can't be triggered directly from a public page.</div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Activity log</h2>
+      <span class="meta" id="log-meta"></span>
+    </div>
+    <div class="terminal" id="log-box"><div class="empty">Waiting for the first run…</div></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Failed items</h2>
+      <span class="meta" id="failed-meta"></span>
+    </div>
+    <div class="failed-list" id="failed-box"></div>
+  </section>
+
+  <footer class="foot">Auto-refreshes every 30s · reads progress.json, history.json, last-run-log.json, failed.csv from this repo</footer>
+
+</div>
 
 <script>
-function toggleTheme() {
-  document.documentElement.classList.toggle('dark');
-}
-
 document.getElementById('btn-start').href = ACTIONS_URL;
 document.getElementById('btn-pause').href = ACTIONS_URL;
+document.getElementById('btn-failed').href = FAILED_URL;
+
+const RING_CIRCUMFERENCE = 2 * Math.PI * 74;
 
 async function loadJson(file) {
   try {
@@ -144,61 +353,155 @@ async function loadText(file) {
 
 function pct(a, b) {
   if (!b) return 0;
-  return Math.min(100, Math.round((a / b) * 100));
+  return Math.min(100, Math.max(0, (a / b) * 100));
+}
+
+const SWATCHES = ['#d9a441', '#c24b5c', '#4fa88f', '#8e7bc9', '#4a90c9', '#c98a4a'];
+function swatchColor(key) {
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return SWATCHES[h % SWATCHES.length];
+}
+
+function statusLabel(status) {
+  const map = {
+    running: 'running',
+    idle: 'idle',
+    completed_for_today: 'done for now',
+    paused_time_budget: 'paused (time budget)',
+    paused_daily_quota: 'paused (AI quota)',
+  };
+  return map[status] || (status || 'unknown').replace(/_/g, ' ');
+}
+
+function statusDotClass(status) {
+  if (status === 'running') return 'warn';
+  if (status === 'completed_for_today') return 'ok';
+  if (status && status.startsWith('paused')) return 'warn';
+  return '';
 }
 
 async function refresh() {
-  const progress = await loadJson('progress.json');
-  const runLog = await loadJson('last-run-log.json');
-  const failedCsv = await loadText('failed.csv');
+  const [progress, runLog, failedCsv, history] = await Promise.all([
+    loadJson('progress.json'),
+    loadJson('last-run-log.json'),
+    loadText('failed.csv'),
+    loadJson('history.json'),
+  ]);
+
+  const connDot = document.getElementById('conn-dot');
+  const connLabel = document.getElementById('conn-label');
 
   if (progress) {
-    document.getElementById('conn-dot').className = 'w-2.5 h-2.5 rounded-full bg-success';
-    document.getElementById('conn-label').textContent = 'data loaded';
+    connDot.className = 'dot ok';
+    connLabel.textContent = 'connected';
 
-    document.getElementById('total-done').textContent = progress.total_done ?? '–';
-    document.getElementById('total-count').textContent = progress.total_products ?? '–';
-    const totalPct = pct(progress.total_done, progress.total_products);
-    document.getElementById('total-pct').textContent = totalPct + '% complete';
-    document.getElementById('total-bar').style.width = totalPct + '%';
-    document.getElementById('total-bar-label').textContent = `${progress.total_done ?? 0} / ${progress.total_products ?? 0}`;
+    const totalDone = progress.total_done || 0;
+    const totalProducts = progress.total_products || 0;
+    const p = pct(totalDone, totalProducts);
 
-    const cap = 1000;
-    document.getElementById('today-done').textContent = progress.today_done ?? 0;
-    document.getElementById('today-cap').textContent = cap;
-    const todayPct = pct(progress.today_done, cap);
-    document.getElementById('today-pct').textContent = todayPct + '% done';
-    document.getElementById('today-bar').style.width = todayPct + '%';
-    document.getElementById('today-bar-label').textContent = `${progress.today_done ?? 0} / ${cap}`;
+    document.getElementById('hero-number').textContent = totalDone.toLocaleString();
+    document.getElementById('hero-total').textContent = totalProducts.toLocaleString();
+    document.getElementById('hero-pct').textContent = Math.round(p) + '% complete';
 
-    document.getElementById('eta-days').textContent = progress.estimated_days_left ?? '–';
+    const offset = RING_CIRCUMFERENCE - (p / 100) * RING_CIRCUMFERENCE;
+    document.getElementById('ring-fill').style.strokeDasharray = RING_CIRCUMFERENCE;
+    document.getElementById('ring-fill').style.strokeDashoffset = offset;
 
-    const statusEl = document.getElementById('system-status');
-    const statusColors = { running: 'text-brand', idle: 'text-gray-400', completed_for_today: 'text-success' };
-    statusEl.textContent = (progress.status || 'idle').replace(/_/g, ' ');
-    statusEl.className = 'text-xl font-semibold mt-1 ' + (statusColors[progress.status] || 'text-gray-400');
+    const newCount = progress.new_products_detected_last_run || 0;
+    const banner = document.getElementById('new-products-banner');
+    if (newCount > 0) {
+      banner.classList.add('show');
+      document.getElementById('new-products-count').textContent = newCount;
+      document.getElementById('new-products-plural').textContent = newCount === 1 ? '' : 's';
+    } else {
+      banner.classList.remove('show');
+    }
+
+    document.getElementById('stat-today').textContent = `${progress.today_done || 0}`;
+    document.getElementById('stat-eta').textContent = progress.estimated_days_left != null ? `${progress.estimated_days_left}d` : '–';
+
+    const statusEl = document.getElementById('stat-status');
+    statusEl.textContent = statusLabel(progress.status);
+    statusEl.className = 'value ' + (statusDotClass(progress.status) === 'ok' ? 'ok' : statusDotClass(progress.status) === 'warn' ? 'warn' : '');
+
+    const collections = progress.collections || {};
+    const handles = Object.keys(collections);
+    const collSection = document.getElementById('collections-section');
+    const collList = document.getElementById('collection-list');
+    if (handles.length > 0) {
+      collSection.style.display = '';
+      const doneCollections = handles.filter(h => collections[h].total > 0 && collections[h].done >= collections[h].total).length;
+      document.getElementById('collections-meta').textContent = `${doneCollections}/${handles.length} complete`;
+      collList.innerHTML = handles.map(h => {
+        const c = collections[h];
+        const cp = pct(c.done, c.total);
+        const color = swatchColor(h);
+        return `<div class="collection-row">
+          <div class="swatch" style="background:${color}"></div>
+          <div class="collection-info">
+            <div class="collection-name-row">
+              <span class="collection-name">${c.name || h}</span>
+              <span class="collection-count">${c.done}/${c.total}</span>
+            </div>
+            <div class="collection-bar-track"><div class="collection-bar-fill" style="width:${cp}%;background:${color}"></div></div>
+          </div>
+        </div>`;
+      }).join('');
+    } else {
+      collSection.style.display = 'none';
+    }
   } else {
-    document.getElementById('conn-dot').className = 'w-2.5 h-2.5 rounded-full bg-warning';
-    document.getElementById('conn-label').textContent = 'progress.json not found yet';
+    connDot.className = 'dot warn';
+    connLabel.textContent = 'no data yet';
+  }
+
+  const chartSection = document.getElementById('chart-section');
+  if (history && Array.isArray(history) && history.length > 0) {
+    const recent = history.slice(-14);
+    const max = Math.max(1, ...recent.map(h => h.processed_this_run || 0));
+    chartSection.style.display = '';
+    document.getElementById('chart-bars').innerHTML = recent.map(h => {
+      const heightPct = Math.max(4, ((h.processed_this_run || 0) / max) * 100);
+      return `<div class="chart-bar" style="height:${heightPct}%" title="${h.processed_this_run || 0} products"></div>`;
+    }).join('');
+    const first = recent[0], last = recent[recent.length - 1];
+    const fmt = (iso) => iso ? new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : '';
+    document.getElementById('chart-labels').innerHTML = `<span>${fmt(first.at)}</span><span>${fmt(last.at)}</span>`;
+  } else {
+    chartSection.style.display = 'none';
   }
 
   const logBox = document.getElementById('log-box');
-  if (runLog && runLog.lines) {
-    logBox.innerHTML = runLog.lines.map(l => `<div>${l.replace(/</g,'&lt;')}</div>`).join('');
+  const logMeta = document.getElementById('log-meta');
+  if (runLog && runLog.lines && runLog.lines.length) {
+    logMeta.textContent = runLog.finished_at ? new Date(runLog.finished_at).toLocaleString() : '';
+    logBox.innerHTML = runLog.lines.map(l => {
+      const esc = l.replace(/</g, '&lt;');
+      let cls = 'line';
+      if (/fail/i.test(l)) cls += ' fail';
+      else if (/quota|time budget|switching to groq|new product/i.test(l)) cls += ' warn';
+      return `<div class="${cls}">${esc}</div>`;
+    }).join('');
     logBox.scrollTop = logBox.scrollHeight;
   } else {
-    logBox.innerHTML = '<div class="text-gray-600">No run log yet — trigger a workflow run to see activity here.</div>';
+    logMeta.textContent = '';
+    logBox.innerHTML = '<div class="empty">Waiting for the first run…</div>';
   }
 
   const failedBox = document.getElementById('failed-box');
+  const failedMeta = document.getElementById('failed-meta');
   if (failedCsv) {
-    const rows = failedCsv.trim().split('\\n').slice(1).filter(Boolean);
+    const rows = failedCsv.trim().split('\n').slice(1).filter(Boolean);
+    failedMeta.textContent = rows.length ? `${rows.length} total` : '';
     if (rows.length === 0) {
-      failedBox.innerHTML = '<p class="text-gray-400">No failed items 🎉</p>';
+      failedBox.innerHTML = '<div class="all-clear">No failed items — everything is processing cleanly.</div>';
     } else {
-      failedBox.innerHTML = rows.slice(-50).reverse().map(r => {
+      failedBox.innerHTML = rows.slice(-30).reverse().map(r => {
         const cols = r.split(',');
-        return `<div class="border-b border-gray-100 dark:border-gray-800 py-1"><span class="font-medium">${cols[1] || cols[0]}</span> — <span class="text-red-500">${cols[3] || ''}</span></div>`;
+        const title = (cols[1] || cols[0] || '').replace(/^"|"$/g, '');
+        const err = (cols[3] || '').replace(/^"|"$/g, '');
+        return `<div class="failed-row"><div class="title">${title}</div><div class="err">${err}</div></div>`;
       }).join('');
     }
   }
