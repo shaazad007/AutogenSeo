@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 520,
-  "today_date": "2026-09-21",
-  "last_product_id": "gid://shopify/Product/8966152552676",
-  "last_product_title": "Sapphire 3SFS26WMV106 Eid Dinner Looks 2026",
-  "last_run_started_at": "2026-09-21T15:44:29.396Z",
-  "last_run_finished_at": "2026-09-21T21:04:40.517Z",
-  "status": "paused_time_budget",
+  "today_done": 3,
+  "today_date": "2026-09-22",
+  "last_product_id": "gid://shopify/Product/8966155665636",
+  "last_product_title": "Sapphire RS26CASTV722 Rtw The Silk Edit 2026",
+  "last_run_started_at": "2026-09-22T02:25:26.793Z",
+  "last_run_finished_at": "2026-09-22T02:28:39.047Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -15,7 +15,8 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 1002
+      "done": 1021,
+      "new_since_last_check": 0
     }
   }
 }
