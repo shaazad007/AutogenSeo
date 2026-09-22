@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 516,
+  "today_done": 523,
   "today_date": "2026-09-22",
-  "last_product_id": "gid://shopify/Product/8715222712548",
-  "last_product_title": "Sapphire 0U3PESG25V65 Intermix Signature Collection 0",
-  "last_run_started_at": "2026-09-22T13:56:43.916Z",
-  "last_run_finished_at": "2026-09-22T13:59:51.744Z",
+  "last_product_id": "gid://shopify/Product/8715222089956",
+  "last_product_title": "Sapphire 0U3PEST25V61 Intermix Signature Collection 0",
+  "last_run_started_at": "2026-09-22T18:28:26.751Z",
+  "last_run_finished_at": "2026-09-22T18:35:37.997Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 1534,
+      "done": 1541,
       "new_since_last_check": 0
     }
   }
