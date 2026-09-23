@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 363,
+  "today_done": 453,
   "today_date": "2026-09-23",
-  "last_product_id": "gid://shopify/Product/8614363660516",
-  "last_product_title": "Sapphire Embroidered Dobby Shirt 03PCLRXW257S Eid 1 RTW 2025",
-  "last_run_started_at": "2026-09-23T08:03:36.113Z",
-  "last_run_finished_at": "2026-09-23T13:23:57.217Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/8614355992804",
+  "last_product_title": "Sapphire 3 Piece - Embellished Silk Suit T3PSLS25V320 Eid 1 RTW 2025",
+  "last_run_started_at": "2026-09-23T14:07:35.847Z",
+  "last_run_finished_at": "2026-09-23T16:49:46.188Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 1911,
+      "done": 2001,
       "new_since_last_check": 0
     }
   }
