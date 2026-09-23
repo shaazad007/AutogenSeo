@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 455,
+  "today_done": 464,
   "today_date": "2026-09-23",
-  "last_product_id": "gid://shopify/Product/8614361071844",
-  "last_product_title": "Sapphire Printed Arabic Lawn Shirt 2PBDF25V33ST Eid 1 RTW 2025",
-  "last_run_started_at": "2026-09-23T18:48:26.199Z",
-  "last_run_finished_at": "2026-09-23T18:56:47.467Z",
+  "last_product_id": "gid://shopify/Product/8614355501284",
+  "last_product_title": "Sapphire Striped Oversized T-Shirt WTOPS25V2056 West RTW 2025",
+  "last_run_started_at": "2026-09-23T23:23:15.307Z",
+  "last_run_finished_at": "2026-09-23T23:31:28.414Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 2003,
+      "done": 2012,
       "new_since_last_check": 0
     }
   }
