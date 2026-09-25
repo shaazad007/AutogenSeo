@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 533,
+  "today_done": 539,
   "today_date": "2026-09-25",
-  "last_product_id": "gid://shopify/Product/8156099641572",
-  "last_product_title": "Sapphire U2D-DY24V0-5 Winter Collection",
-  "last_run_started_at": "2026-09-25T19:06:34.288Z",
-  "last_run_finished_at": "2026-09-25T19:12:52.904Z",
+  "last_product_id": "gid://shopify/Product/8156099150052",
+  "last_product_title": "Sapphire U1T-DY24V0-2 Winter Collection",
+  "last_run_started_at": "2026-09-25T23:44:38.179Z",
+  "last_run_finished_at": "2026-09-25T23:50:55.743Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 3013,
+      "done": 3019,
       "new_since_last_check": 0
     }
   }
