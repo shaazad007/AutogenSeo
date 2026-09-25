@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 468,
-  "today_date": "2026-09-24",
-  "last_product_id": "gid://shopify/Product/8527789621476",
-  "last_product_title": "Sapphire U3PESG24V816 Signature Fall Winter 2024",
-  "last_run_started_at": "2026-09-24T23:42:30.145Z",
-  "last_run_finished_at": "2026-09-24T23:48:26.681Z",
+  "today_done": 524,
+  "today_date": "2026-09-25",
+  "last_product_id": "gid://shopify/Product/8156100329700",
+  "last_product_title": "Sapphire U3PE-DY24V0-17 Winter Collection",
+  "last_run_started_at": "2026-09-25T08:16:16.509Z",
+  "last_run_finished_at": "2026-09-25T13:31:24.502Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 2480,
+      "done": 3004,
       "new_since_last_check": 0
     }
   }
