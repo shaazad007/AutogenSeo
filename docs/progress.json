@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 505,
+  "today_done": 508,
   "today_date": "2026-09-26",
-  "last_product_id": "gid://shopify/Product/7849928818916",
-  "last_product_title": "Sapphire U2E CL22V8 12 1 S 2 Piece - Embroidered Khaddar Suit Winter Vol 1 2022",
-  "last_run_started_at": "2026-09-26T08:04:14.390Z",
-  "last_run_finished_at": "2026-09-26T13:11:24.613Z",
+  "last_product_id": "gid://shopify/Product/7849928425700",
+  "last_product_title": "Sapphire U2E CL22V8 10 1 S 2 Piece - Embroidered Karandi Suit Winter Vol 1 2022",
+  "last_run_started_at": "2026-09-26T13:39:33.099Z",
+  "last_run_finished_at": "2026-09-26T13:43:43.096Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 3524,
+      "done": 3527,
       "new_since_last_check": 0
     }
   }
