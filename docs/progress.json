@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 499,
+  "today_done": 511,
   "today_date": "2026-09-27",
-  "last_product_id": "gid://shopify/Product/7695396700388",
-  "last_product_title": "Sapphire PEE LUX22V6 1 1 Eid Formal Prets 2022",
-  "last_run_started_at": "2026-09-27T14:36:18.191Z",
-  "last_run_finished_at": "2026-09-27T14:56:31.983Z",
+  "last_product_id": "gid://shopify/Product/7695395061988",
+  "last_product_title": "Sapphire 2SE SIG22V6 3S 1 Eid Formal Prets 2022",
+  "last_run_started_at": "2026-09-27T18:52:50.406Z",
+  "last_run_finished_at": "2026-09-27T19:03:10.526Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4043,
+      "done": 4055,
       "new_since_last_check": 0
     }
   }
