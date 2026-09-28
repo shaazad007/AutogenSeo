@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 303,
+  "today_done": 308,
   "today_date": "2026-09-28",
-  "last_product_id": "gid://shopify/Product/7528543420644",
-  "last_product_title": "Saapphire Dinah 2de-cls22v0-6 Intermix 2022",
-  "last_run_started_at": "2026-09-28T09:03:20.382Z",
-  "last_run_finished_at": "2026-09-28T14:23:48.725Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/7564616204516",
+  "last_product_title": "Sapphire Anju 03pday22v112 Lawn Vol 1 2022",
+  "last_run_started_at": "2026-09-28T17:27:23.339Z",
+  "last_run_finished_at": "2026-09-28T17:35:32.696Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4365,
+      "done": 4370,
       "new_since_last_check": 0
     }
   }
