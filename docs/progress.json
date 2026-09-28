@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 308,
+  "today_done": 313,
   "today_date": "2026-09-28",
-  "last_product_id": "gid://shopify/Product/7564616204516",
-  "last_product_title": "Sapphire Anju 03pday22v112 Lawn Vol 1 2022",
-  "last_run_started_at": "2026-09-28T17:27:23.339Z",
-  "last_run_finished_at": "2026-09-28T17:35:32.696Z",
+  "last_product_id": "gid://shopify/Product/7528547877092",
+  "last_product_title": "Saapphire Proserpine 1s-day22v0-2 Intermix 2022",
+  "last_run_started_at": "2026-09-28T21:02:42.713Z",
+  "last_run_finished_at": "2026-09-28T21:08:12.438Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4370,
+      "done": 4375,
       "new_since_last_check": 0
     }
   }
