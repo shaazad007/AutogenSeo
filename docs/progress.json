@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 518,
+  "today_done": 529,
   "today_date": "2026-09-29",
-  "last_product_id": "gid://shopify/Product/6741745762463",
-  "last_product_title": "Sapphire Fruity Yellow Eid Ready To Wear 2021",
-  "last_run_started_at": "2026-09-29T15:28:26.385Z",
-  "last_run_finished_at": "2026-09-29T15:35:57.488Z",
+  "last_product_id": "gid://shopify/Product/6741744746655",
+  "last_product_title": "Sapphire Teal Torrent Eid Ready To Wear 2021",
+  "last_run_started_at": "2026-09-29T19:45:57.028Z",
+  "last_run_finished_at": "2026-09-29T19:54:37.342Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4893,
+      "done": 4904,
       "new_since_last_check": 0
     }
   }
