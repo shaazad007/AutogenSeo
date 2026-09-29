@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 9,
+  "today_done": 510,
   "today_date": "2026-09-29",
-  "last_product_id": "gid://shopify/Product/7528547156196",
-  "last_product_title": "Saapphire Frida 1s-day22v0-5 Intermix 2022",
-  "last_run_started_at": "2026-09-29T00:46:26.677Z",
-  "last_run_finished_at": "2026-09-29T00:54:00.868Z",
+  "last_product_id": "gid://shopify/Product/6741746548895",
+  "last_product_title": "Sapphire Mustard Flow Eid Ready To Wear 2021",
+  "last_run_started_at": "2026-09-29T09:12:22.110Z",
+  "last_run_finished_at": "2026-09-29T14:17:49.108Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4384,
+      "done": 4885,
       "new_since_last_check": 0
     }
   }
