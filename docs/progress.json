@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 529,
-  "today_date": "2026-09-29",
-  "last_product_id": "gid://shopify/Product/6741744746655",
-  "last_product_title": "Sapphire Teal Torrent Eid Ready To Wear 2021",
-  "last_run_started_at": "2026-09-29T19:45:57.028Z",
-  "last_run_finished_at": "2026-09-29T19:54:37.342Z",
+  "today_done": 10,
+  "today_date": "2026-09-30",
+  "last_product_id": "gid://shopify/Product/6741743927455",
+  "last_product_title": "Sapphire Nile Lily Trouser Eid Ready To Wear 2021",
+  "last_run_started_at": "2026-09-30T00:01:06.072Z",
+  "last_run_finished_at": "2026-09-30T00:09:19.112Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 4904,
+      "done": 4914,
       "new_since_last_check": 0
     }
   }
