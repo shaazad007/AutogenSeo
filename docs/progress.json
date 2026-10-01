@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 531,
-  "today_date": "2026-09-30",
-  "last_product_id": "gid://shopify/Product/6560921485471",
-  "last_product_title": "Sapphire Pinstriped Summer Ready to Wear 2021",
-  "last_run_started_at": "2026-09-30T19:47:13.942Z",
-  "last_run_finished_at": "2026-09-30T19:55:30.216Z",
+  "today_done": 9,
+  "today_date": "2026-10-01",
+  "last_product_id": "gid://shopify/Product/6560920699039",
+  "last_product_title": "Sapphire Mirror Shimmer Summer Ready to Wear 2021",
+  "last_run_started_at": "2026-10-01T00:18:17.200Z",
+  "last_run_finished_at": "2026-10-01T00:25:34.728Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,7 +15,7 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5536,
-      "done": 5435,
+      "done": 5444,
       "new_since_last_check": 0
     }
   }
