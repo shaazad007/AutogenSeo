@@ -1,14 +1,14 @@
 {
   "mode": "live",
-  "finished_at": "2026-10-02T00:27:03.397Z",
+  "finished_at": "2026-10-02T09:09:14.660Z",
   "processed": 0,
   "failed": 2,
   "stopReason": null,
   "lines": [
-    "[00:24:48] Starting collection: sapphire",
-    "[00:24:49] FAILED: 'Sapphire PBS26SCH6173 Pre Fall Collection RTW 2026' — Product has no images to analyze.",
-    "[00:24:49] Waiting 30s for rate-limit guard...",
-    "[00:25:24] FAILED: 'Sapphire DW3E296CDE Andaaz Embroidered Collection 2026' — Product has no images to analyze.",
-    "[00:25:24] Waiting 30s for rate-limit guard..."
+    "[09:07:02] Starting collection: sapphire",
+    "[09:07:03] FAILED: 'Sapphire PBS26SCH6173 Pre Fall Collection RTW 2026' — Product has no images to analyze.",
+    "[09:07:03] Waiting 30s for rate-limit guard...",
+    "[09:07:37] FAILED: 'Sapphire DW3E296CDE Andaaz Embroidered Collection 2026' — Product has no images to analyze.",
+    "[09:07:37] Waiting 30s for rate-limit guard..."
   ]
 }
