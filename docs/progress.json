@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 8,
+  "today_done": 504,
   "today_date": "2026-10-03",
-  "last_product_id": "gid://shopify/Product/15334732988644",
-  "last_product_title": "Sapphire PEW26SWMV109 Cotton Pre Fall Luxury Pret RTW 2026",
-  "last_run_started_at": "2026-10-03T00:05:39.426Z",
-  "last_run_finished_at": "2026-10-03T00:10:32.834Z",
+  "last_product_id": "gid://shopify/Product/8504053432548",
+  "last_product_title": "J22109 Yellow Khaadi Online Spring Summer 2022",
+  "last_run_started_at": "2026-10-03T08:40:13.268Z",
+  "last_run_finished_at": "2026-10-03T13:38:29.584Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -15,15 +15,15 @@
       "handle": "sapphire",
       "name": "Sapphire",
       "total": 5552,
-      "done": 5542,
-      "new_since_last_check": 16
+      "done": 5550,
+      "new_since_last_check": 0
     },
     "khaadi": {
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 462,
-      "new_since_last_check": 8
+      "done": 950,
+      "new_since_last_check": 0
     }
   }
 }
