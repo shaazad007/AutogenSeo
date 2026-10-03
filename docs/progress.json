@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 511,
+  "today_done": 522,
   "today_date": "2026-10-03",
-  "last_product_id": "gid://shopify/Product/8504053203172",
-  "last_product_title": "Md22103 Green Khaadi Online Spring Summer 2022",
-  "last_run_started_at": "2026-10-03T14:10:46.345Z",
-  "last_run_finished_at": "2026-10-03T14:19:58.066Z",
+  "last_product_id": "gid://shopify/Product/8483520839908",
+  "last_product_title": "Khaadi Dupatta EES24593A Olive In my bag: Chunri 2024",
+  "last_run_started_at": "2026-10-03T18:30:50.268Z",
+  "last_run_finished_at": "2026-10-03T18:41:53.290Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -22,7 +22,7 @@
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 957,
+      "done": 968,
       "new_since_last_check": 0
     }
   }
