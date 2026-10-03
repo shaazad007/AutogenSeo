@@ -1,29 +1,29 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 337,
-  "today_date": "2026-10-02",
-  "last_product_id": "gid://shopify/Product/8987576631524",
-  "last_product_title": "Khaadi A22-26-120FJ1 Lawn Collection 2026",
-  "last_run_started_at": "2026-10-02T15:30:12.299Z",
-  "last_run_finished_at": "2026-10-02T20:50:59.678Z",
-  "status": "paused_time_budget",
+  "today_done": 8,
+  "today_date": "2026-10-03",
+  "last_product_id": "gid://shopify/Product/15334732988644",
+  "last_product_title": "Sapphire PEW26SWMV109 Cotton Pre Fall Luxury Pret RTW 2026",
+  "last_run_started_at": "2026-10-03T00:05:39.426Z",
+  "last_run_finished_at": "2026-10-03T00:10:32.834Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
     "sapphire": {
       "handle": "sapphire",
       "name": "Sapphire",
-      "total": 5536,
-      "done": 5534,
-      "new_since_last_check": 0
+      "total": 5552,
+      "done": 5542,
+      "new_since_last_check": 16
     },
     "khaadi": {
       "handle": "khaadi",
       "name": "Khaadi",
-      "total": 3444,
-      "done": 337,
-      "new_since_last_check": 0
+      "total": 3452,
+      "done": 462,
+      "new_since_last_check": 8
     }
   }
 }
