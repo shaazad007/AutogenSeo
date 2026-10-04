@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 491,
+  "today_done": 502,
   "today_date": "2026-10-04",
-  "last_product_id": "gid://shopify/Product/7739314602212",
-  "last_product_title": "Khaadi A C ACA22312 Yellow Cambric Lawn 2022",
-  "last_run_started_at": "2026-10-04T14:41:11.482Z",
-  "last_run_finished_at": "2026-10-04T14:59:47.409Z",
+  "last_product_id": "gid://shopify/Product/7739313651940",
+  "last_product_title": "Khaadi A L ALA22305 Black Cambric Lawn 2022",
+  "last_run_started_at": "2026-10-04T18:30:45.725Z",
+  "last_run_finished_at": "2026-10-04T18:43:00.378Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -22,7 +22,7 @@
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 1464,
+      "done": 1475,
       "new_since_last_check": 0
     }
   }
