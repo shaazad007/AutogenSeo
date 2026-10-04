@@ -398,5 +398,13 @@
     "today_done": 470,
     "processed_this_run": 470,
     "failed_this_run": 2
+  },
+  {
+    "at": "2026-10-04T14:59:47.409Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 491,
+    "processed_this_run": 21,
+    "failed_this_run": 2
   }
 ]
