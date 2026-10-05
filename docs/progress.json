@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 501,
+  "today_done": 515,
   "today_date": "2026-10-05",
-  "last_product_id": "gid://shopify/Product/7563209375972",
-  "last_product_title": "Khaadi J22102 Blue Spring Summer 2022",
-  "last_run_started_at": "2026-10-05T09:44:37.342Z",
-  "last_run_finished_at": "2026-10-05T15:05:33.533Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/7563207803108",
+  "last_product_title": "Khaadi L22110 Orange Spring Summer 2022",
+  "last_run_started_at": "2026-10-05T18:05:04.153Z",
+  "last_run_finished_at": "2026-10-05T18:19:11.184Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -22,7 +22,7 @@
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 1983,
+      "done": 1997,
       "new_since_last_check": 0
     }
   }
