@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 405,
+  "today_done": 507,
   "today_date": "2026-10-07",
-  "last_product_id": "gid://shopify/Product/6560788676767",
-  "last_product_title": "Khaadi CTP20203A PINK  Lawn Pret 2021",
-  "last_run_started_at": "2026-10-07T09:28:20.103Z",
-  "last_run_finished_at": "2026-10-07T14:49:12.115Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/6560501563551",
+  "last_product_title": "Khaadi L21141 Pink Lawn Collection 2021",
+  "last_run_started_at": "2026-10-07T16:10:05.235Z",
+  "last_run_finished_at": "2026-10-07T17:14:26.753Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -22,7 +22,7 @@
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 2936,
+      "done": 3038,
       "new_since_last_check": 0
     }
   }
