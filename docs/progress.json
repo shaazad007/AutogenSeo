@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 530,
-  "today_date": "2026-10-06",
-  "last_product_id": "gid://shopify/Product/6953939206303",
-  "last_product_title": "Wscjap21302 Black Khaadi Western 2021",
-  "last_run_started_at": "2026-10-06T19:57:24.500Z",
-  "last_run_finished_at": "2026-10-06T20:05:34.490Z",
+  "today_done": 9,
+  "today_date": "2026-10-07",
+  "last_product_id": "gid://shopify/Product/6953938452639",
+  "last_product_title": "Wtp21502 Black Khaadi Western 2021",
+  "last_run_started_at": "2026-10-07T00:18:09.184Z",
+  "last_run_finished_at": "2026-10-07T00:26:13.539Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -22,7 +22,7 @@
       "handle": "khaadi",
       "name": "Khaadi",
       "total": 3452,
-      "done": 2531,
+      "done": 2540,
       "new_since_last_check": 0
     }
   }
