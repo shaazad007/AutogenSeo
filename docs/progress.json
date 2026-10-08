@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 405,
+  "today_done": 510,
   "today_date": "2026-10-08",
-  "last_product_id": "gid://shopify/Product/6560178372767",
-  "last_product_title": "Khaadi I20206 Yellow Summer Collection 2020",
-  "last_run_started_at": "2026-10-08T16:11:44.601Z",
-  "last_run_finished_at": "2026-10-08T16:14:57.187Z",
-  "status": "completed_for_today",
+  "last_product_id": "gid://shopify/Product/9230790230244",
+  "last_product_title": "Nishat Linen 3 Piece Printed Suit ST3P-PRET26WV1-6 Cross Season RTW 2026",
+  "last_run_started_at": "2026-10-08T20:28:33.732Z",
+  "last_run_finished_at": "2026-10-08T21:36:12.771Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -23,6 +23,13 @@
       "name": "Khaadi",
       "total": 3452,
       "done": 3452,
+      "new_since_last_check": 0
+    },
+    "nishat-linen": {
+      "handle": "nishat-linen",
+      "name": "Nishat Linen",
+      "total": 7332,
+      "done": 105,
       "new_since_last_check": 0
     }
   }
