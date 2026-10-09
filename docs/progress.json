@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 510,
-  "today_date": "2026-10-08",
-  "last_product_id": "gid://shopify/Product/9230790230244",
-  "last_product_title": "Nishat Linen 3 Piece Printed Suit ST3P-PRET26WV1-6 Cross Season RTW 2026",
-  "last_run_started_at": "2026-10-08T20:28:33.732Z",
-  "last_run_finished_at": "2026-10-08T21:36:12.771Z",
+  "today_done": 7,
+  "today_date": "2026-10-09",
+  "last_product_id": "gid://shopify/Product/9230789673188",
+  "last_product_title": "Nishat Linen Printed Shirt ST1S-AURA26WV2-3 Cross Season RTW 2026",
+  "last_run_started_at": "2026-10-09T00:55:05.940Z",
+  "last_run_finished_at": "2026-10-09T00:59:33.024Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 105,
+      "done": 112,
       "new_since_last_check": 0
     }
   }

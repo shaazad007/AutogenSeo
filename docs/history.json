@@ -542,5 +542,13 @@
     "today_done": 510,
     "processed_this_run": 105,
     "failed_this_run": 0
+  },
+  {
+    "at": "2026-10-09T00:59:33.025Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 7,
+    "processed_this_run": 7,
+    "failed_this_run": 0
   }
 ]
