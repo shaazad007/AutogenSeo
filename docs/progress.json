@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 7,
+  "today_done": 520,
   "today_date": "2026-10-09",
-  "last_product_id": "gid://shopify/Product/9230789673188",
-  "last_product_title": "Nishat Linen Printed Shirt ST1S-AURA26WV2-3 Cross Season RTW 2026",
-  "last_run_started_at": "2026-10-09T00:55:05.940Z",
-  "last_run_finished_at": "2026-10-09T00:59:33.024Z",
+  "last_product_id": "gid://shopify/Product/9160265597156",
+  "last_product_title": "Nishat Linen 42602020 Whimsy Embroidered Edition 2026",
+  "last_run_started_at": "2026-10-09T09:45:24.860Z",
+  "last_run_finished_at": "2026-10-09T14:52:57.278Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 112,
+      "done": 625,
       "new_since_last_check": 0
     }
   }
