@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 504,
+  "today_done": 513,
   "today_date": "2026-10-10",
-  "last_product_id": "gid://shopify/Product/8967495221476",
-  "last_product_title": "Nishat Linen KFE26-47 Eid Luxe Pret 2026",
-  "last_run_started_at": "2026-10-10T09:10:32.357Z",
-  "last_run_finished_at": "2026-10-10T14:31:17.276Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/8967494697188",
+  "last_product_title": "Nishat Linen KFE26-63 Eid Luxe Pret 2026",
+  "last_run_started_at": "2026-10-10T15:06:11.087Z",
+  "last_run_finished_at": "2026-10-10T15:14:43.235Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 1142,
+      "done": 1151,
       "new_since_last_check": 0
     }
   }
