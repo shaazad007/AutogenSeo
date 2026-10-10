@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 533,
-  "today_date": "2026-10-09",
-  "last_product_id": "gid://shopify/Product/9160264483044",
-  "last_product_title": "Nishat Linen 42602433 Printed Whimsy Edit FTB 2026",
-  "last_run_started_at": "2026-10-09T19:58:48.211Z",
-  "last_run_finished_at": "2026-10-09T20:04:18.131Z",
+  "today_done": 8,
+  "today_date": "2026-10-10",
+  "last_product_id": "gid://shopify/Product/9160263827684",
+  "last_product_title": "Nishat Linen 42602537 Printed Whimsy Edit FTB 2026",
+  "last_run_started_at": "2026-10-10T00:25:08.586Z",
+  "last_run_finished_at": "2026-10-10T00:30:04.996Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 638,
+      "done": 646,
       "new_since_last_check": 0
     }
   }
