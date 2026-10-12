@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 517,
-  "today_date": "2026-10-11",
-  "last_product_id": "gid://shopify/Product/8645617582308",
-  "last_product_title": "Nishat Linen 3 Piece - Digital Printed Embroidered Suit - 42501479 Embroidered Eid Lawn Collection 0",
-  "last_run_started_at": "2026-10-11T19:18:56.604Z",
-  "last_run_finished_at": "2026-10-11T19:23:20.571Z",
+  "today_done": 7,
+  "today_date": "2026-10-12",
+  "last_product_id": "gid://shopify/Product/8645617123556",
+  "last_product_title": "Nishat Linen 3 Piece - Printed Embroidered Suit - 42501502 Embroidered Eid Lawn Collection 0",
+  "last_run_started_at": "2026-10-12T00:08:08.906Z",
+  "last_run_finished_at": "2026-10-12T00:13:22.760Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 1674,
+      "done": 1681,
       "new_since_last_check": 0
     }
   }
