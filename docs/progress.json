@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 316,
+  "today_done": 385,
   "today_date": "2026-10-13",
-  "last_product_id": "gid://shopify/Product/8583173406948",
-  "last_product_title": "Nishat Linen 3 Piece - Printed Embroidered Suit - 42501082 Spring Summer Prints 2025",
-  "last_run_started_at": "2026-10-13T09:49:59.832Z",
-  "last_run_finished_at": "2026-10-13T15:11:02.526Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/8583165804772",
+  "last_product_title": "Nishat Linen 3 Piece - Dyed Embroidered Suit - 42501102 Spring Summer Prints 2025",
+  "last_run_started_at": "2026-10-13T16:46:46.041Z",
+  "last_run_finished_at": "2026-10-13T18:32:06.858Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 2520,
+      "done": 2589,
       "new_since_last_check": 0
     }
   }
