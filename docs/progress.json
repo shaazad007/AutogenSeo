@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 528,
+  "today_done": 537,
   "today_date": "2026-10-14",
-  "last_product_id": "gid://shopify/Product/8483563340004",
-  "last_product_title": "Nishat Linen 3 Piece - Printed Loose Fabric - 42403022 Freedom To Buy 2024",
-  "last_run_started_at": "2026-10-14T19:09:23.693Z",
-  "last_run_finished_at": "2026-10-14T19:15:59.979Z",
+  "last_product_id": "gid://shopify/Product/8483562160356",
+  "last_product_title": "Nishat Linen 3 Piece - Digital Printed Loose Fabric - 42403 Freedom To Buy 2024",
+  "last_run_started_at": "2026-10-14T23:35:19.183Z",
+  "last_run_finished_at": "2026-10-14T23:41:28.030Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 3128,
+      "done": 3137,
       "new_since_last_check": 0
     }
   }
