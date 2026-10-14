@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 10,
+  "today_done": 511,
   "today_date": "2026-10-14",
-  "last_product_id": "gid://shopify/Product/8583163052260",
-  "last_product_title": "Nishat Linen 2 Piece - Printed Suit - 42501014 Spring Summer Prints 2025",
-  "last_run_started_at": "2026-10-14T00:03:55.237Z",
-  "last_run_finished_at": "2026-10-14T00:10:24.866Z",
+  "last_product_id": "gid://shopify/Product/8483565306084",
+  "last_product_title": "Nishat Linen 3 Piece - Printed Loose Fabric - 42403129 Freedom To Buy 2024",
+  "last_run_started_at": "2026-10-14T08:06:36.057Z",
+  "last_run_finished_at": "2026-10-14T13:15:15.582Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 2610,
+      "done": 3111,
       "new_since_last_check": 0
     }
   }
