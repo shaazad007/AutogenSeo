@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 530,
-  "today_date": "2026-10-15",
-  "last_product_id": "gid://shopify/Product/8351901778148",
-  "last_product_title": "Nishat Linen 2 piece - Digital Printed Embroidered Suit - 42401738 Eid Ul Adha Collection 2024",
-  "last_run_started_at": "2026-10-15T23:29:47.556Z",
-  "last_run_finished_at": "2026-10-15T23:35:22.617Z",
+  "today_done": 423,
+  "today_date": "2026-10-16",
+  "last_product_id": "gid://shopify/Product/8156139618532",
+  "last_product_title": "Nishat Linen 3 Piece Embroidered Suit 42401077 Freedom To Buy",
+  "last_run_started_at": "2026-10-16T07:36:18.058Z",
+  "last_run_finished_at": "2026-10-16T12:42:19.407Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 3667,
+      "done": 4090,
       "new_since_last_check": 0
     }
   }
