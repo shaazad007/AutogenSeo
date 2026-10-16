@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 423,
+  "today_done": 425,
   "today_date": "2026-10-16",
-  "last_product_id": "gid://shopify/Product/8156139618532",
-  "last_product_title": "Nishat Linen 3 Piece Embroidered Suit 42401077 Freedom To Buy",
-  "last_run_started_at": "2026-10-16T07:36:18.058Z",
-  "last_run_finished_at": "2026-10-16T12:42:19.407Z",
+  "last_product_id": "gid://shopify/Product/8156139487460",
+  "last_product_title": "Nishat Linen 3 Piece Embroidered Suit 42401079 Freedom To Buy",
+  "last_run_started_at": "2026-10-16T13:48:11.868Z",
+  "last_run_finished_at": "2026-10-16T13:50:43.241Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 4090,
+      "done": 4092,
       "new_since_last_check": 0
     }
   }
