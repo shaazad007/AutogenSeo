@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 447,
-  "today_date": "2026-10-16",
-  "last_product_id": "gid://shopify/Product/8156137947364",
-  "last_product_title": "Nishat Linen 2 Piece Digital Printed Embroidered Suit 42401105 Freedom To Buy",
-  "last_run_started_at": "2026-10-16T23:11:49.678Z",
-  "last_run_finished_at": "2026-10-16T23:18:51.636Z",
+  "today_done": 519,
+  "today_date": "2026-10-17",
+  "last_product_id": "gid://shopify/Product/8058864074980",
+  "last_product_title": "Nishat Linen Printed Suit 42303201 Winter 3 Pcs Collection",
+  "last_run_started_at": "2026-10-17T07:15:43.190Z",
+  "last_run_finished_at": "2026-10-17T12:19:41.781Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 4114,
+      "done": 4633,
       "new_since_last_check": 0
     }
   }
