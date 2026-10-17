@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 528,
+  "today_done": 536,
   "today_date": "2026-10-17",
-  "last_product_id": "gid://shopify/Product/8058863485156",
-  "last_product_title": "Nishat Linen Jacquard Embroidered Suit 42303409 Winter 3 Pcs Collection",
-  "last_run_started_at": "2026-10-17T17:44:25.562Z",
-  "last_run_finished_at": "2026-10-17T17:50:43.295Z",
+  "last_product_id": "gid://shopify/Product/8058862895332",
+  "last_product_title": "Nishat Linen Printed Suit 42303164 Winter 3 Pcs Collection",
+  "last_run_started_at": "2026-10-17T22:48:38.089Z",
+  "last_run_finished_at": "2026-10-17T22:55:00.342Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 4642,
+      "done": 4650,
       "new_since_last_check": 0
     }
   }
