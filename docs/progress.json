@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 514,
+  "today_done": 522,
   "today_date": "2026-10-19",
-  "last_product_id": "gid://shopify/Product/7962883817700",
-  "last_product_title": "Nishat Linen 42301151 Summer Lawn",
-  "last_run_started_at": "2026-10-19T08:12:30.877Z",
-  "last_run_finished_at": "2026-10-19T13:27:46.632Z",
+  "last_product_id": "gid://shopify/Product/7962883490020",
+  "last_product_title": "Nishat Linen 42301246 Summer Lawn",
+  "last_run_started_at": "2026-10-19T16:17:32.491Z",
+  "last_run_finished_at": "2026-10-19T16:24:40.601Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 5698,
+      "done": 5706,
       "new_since_last_check": 0
     }
   }
