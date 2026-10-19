@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 534,
-  "today_date": "2026-10-18",
-  "last_product_id": "gid://shopify/Product/7963299348708",
-  "last_product_title": "Nishat Linen 42302278 Freedom To Buy",
-  "last_run_started_at": "2026-10-18T22:42:09.266Z",
-  "last_run_finished_at": "2026-10-18T22:49:00.057Z",
+  "today_done": 514,
+  "today_date": "2026-10-19",
+  "last_product_id": "gid://shopify/Product/7962883817700",
+  "last_product_title": "Nishat Linen 42301151 Summer Lawn",
+  "last_run_started_at": "2026-10-19T08:12:30.877Z",
+  "last_run_finished_at": "2026-10-19T13:27:46.632Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 5184,
+      "done": 5698,
       "new_since_last_check": 0
     }
   }
