@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 497,
+  "today_done": 507,
   "today_date": "2026-10-22",
-  "last_product_id": "gid://shopify/Product/6981679382687",
-  "last_product_title": "42101533 Nishat Linen Dawat E Eid 2021",
-  "last_run_started_at": "2026-10-22T14:24:33.933Z",
-  "last_run_finished_at": "2026-10-22T14:43:00.771Z",
+  "last_product_id": "gid://shopify/Product/6862037647519",
+  "last_product_title": "Ps21 48 Embroidered Printed Shirt Nishat Linen Ready To Wear Summer Vol 2 2021",
+  "last_run_started_at": "2026-10-22T19:02:02.581Z",
+  "last_run_finished_at": "2026-10-22T19:11:33.972Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 7257,
+      "done": 7267,
       "new_since_last_check": 0
     }
   }
