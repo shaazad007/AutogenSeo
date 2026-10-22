@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 514,
-  "today_date": "2026-10-21",
-  "last_product_id": "gid://shopify/Product/7641371574500",
-  "last_product_title": "Nishat Linen 42201302 Eid Collection 2022",
-  "last_run_started_at": "2026-10-21T23:51:38.245Z",
-  "last_run_finished_at": "2026-10-21T23:59:01.074Z",
-  "status": "paused_daily_quota",
+  "today_done": 472,
+  "today_date": "2026-10-22",
+  "last_product_id": "gid://shopify/Product/6981681578143",
+  "last_product_title": "42101522 Nishat Linen Dawat E Eid 2021",
+  "last_run_started_at": "2026-10-22T08:02:55.886Z",
+  "last_run_finished_at": "2026-10-22T13:23:22.461Z",
+  "status": "paused_time_budget",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -29,7 +29,7 @@
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
-      "done": 6760,
+      "done": 7232,
       "new_since_last_check": 0
     }
   }
