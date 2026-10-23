@@ -1,19 +1,19 @@
 {
   "mode": "live",
-  "finished_at": "2026-10-23T14:12:15.976Z",
+  "finished_at": "2026-10-23T18:57:34.491Z",
   "processed": 0,
   "failed": 3,
   "stopReason": null,
   "lines": [
-    "[14:06:58] Starting collection: nishat-linen",
-    "[14:07:53] Analyzing + writing (Gemini, 1 combined call) for: Nishat Linen 3 Piece Printed Suit 42401176 Summer Lawn Collection",
-    "[14:07:55] FAILED: 'Nishat Linen 3 Piece Printed Suit 42401176 Summer Lawn Collection' — Gemini returned no content (possibly blocked by safety filters).",
-    "[14:07:55] Waiting 30s for rate-limit guard...",
-    "[14:08:56] Starting collection: sapphire",
-    "[14:08:57] FAILED: 'Sapphire PBS26SCH6173 Pre Fall Collection RTW 2026' — Product has no images to analyze.",
-    "[14:08:57] Waiting 30s for rate-limit guard...",
-    "[14:09:32] FAILED: 'Sapphire DW3E296CDE Andaaz Embroidered Collection 2026' — Product has no images to analyze.",
-    "[14:09:32] Waiting 30s for rate-limit guard...",
-    "[14:11:05] Starting collection: khaadi"
+    "[18:52:22] Starting collection: nishat-linen",
+    "[18:53:16] Analyzing + writing (Gemini, 1 combined call) for: Nishat Linen 3 Piece Printed Suit 42401176 Summer Lawn Collection",
+    "[18:53:18] FAILED: 'Nishat Linen 3 Piece Printed Suit 42401176 Summer Lawn Collection' — Gemini returned no content (possibly blocked by safety filters).",
+    "[18:53:18] Waiting 30s for rate-limit guard...",
+    "[18:54:19] Starting collection: sapphire",
+    "[18:54:20] FAILED: 'Sapphire PBS26SCH6173 Pre Fall Collection RTW 2026' — Product has no images to analyze.",
+    "[18:54:20] Waiting 30s for rate-limit guard...",
+    "[18:54:53] FAILED: 'Sapphire DW3E296CDE Andaaz Embroidered Collection 2026' — Product has no images to analyze.",
+    "[18:54:53] Waiting 30s for rate-limit guard...",
+    "[18:56:28] Starting collection: khaadi"
   ]
 }
