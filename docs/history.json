@@ -1,13 +1,5 @@
 [
   {
-    "at": "2026-10-07T17:14:26.754Z",
-    "total_done": 0,
-    "total_products": 10000,
-    "today_done": 507,
-    "processed_this_run": 102,
-    "failed_this_run": 2
-  },
-  {
     "at": "2026-10-07T20:32:02.630Z",
     "total_done": 0,
     "total_products": 10000,
@@ -716,6 +708,14 @@
     "total_done": 0,
     "total_products": 10000,
     "today_done": 511,
+    "processed_this_run": 8,
+    "failed_this_run": 0
+  },
+  {
+    "at": "2026-10-30T00:36:40.761Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 8,
     "processed_this_run": 8,
     "failed_this_run": 0
   }
