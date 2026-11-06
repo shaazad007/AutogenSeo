@@ -1,28 +1,12 @@
 {
-  "mode": "live",
-  "finished_at": "2026-11-06T20:43:47.134Z",
-  "processed": 5,
+  "mode": "preview",
+  "finished_at": "2026-11-06T21:23:32.817Z",
+  "processed": 1,
   "failed": 0,
-  "stopReason": "daily_quota",
+  "stopReason": null,
   "lines": [
-    "[20:40:57] Analyzing + writing (Gemini, 1 combined call) for: Gull Ahmed MJ-12068 Cambric Midsummer 2021",
-    "[20:41:03] Success! Updated Shopify product: 'Gull Ahmed MJ-12068 Cambric Midsummer 2021'",
-    "[20:41:03] Waiting 30s for rate-limit guard...",
-    "[20:41:33] Analyzing + writing (Gemini, 1 combined call) for: Gull Ahmed BM-12007 Cambric Midsummer 2021",
-    "[20:41:37] Success! Updated Shopify product: 'Gull Ahmed BM-12007 Cambric Midsummer 2021'",
-    "[20:41:37] Waiting 30s for rate-limit guard...",
-    "[20:42:07] Analyzing + writing (Gemini, 1 combined call) for: Edenrobe EWU21V5-21142 Sage Soul Collection 2021",
-    "[20:42:07] Gemini's daily quota is used up for now — switching to Groq for the rest of this run (and it'll keep using Groq until Gemini's quota resets). (Daily quota exhausted: Gemini request failed (429): {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 11h17m52.412652726s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.5-flash-lite\"},\"quotaValue\":\"500\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"40672s\"}]}})",
-    "[20:42:07] Analyzing + writing (Groq fallback, 1 combined call) for: Edenrobe EWU21V5-21142 Sage Soul Collection 2021",
-    "[20:42:10] Success! Updated Shopify product: 'Edenrobe EWU21V5-21142 Sage Soul Collection 2021'",
-    "[20:42:10] Waiting 30s for rate-limit guard...",
-    "[20:42:40] Analyzing + writing (Groq fallback, 1 combined call) for: Edenrobe EWU21V5-21145 Light Grey Soul Collection 2021",
-    "[20:42:43] Success! Updated Shopify product: 'Edenrobe EWU21V5-21145 Light Grey Soul Collection 2021'",
-    "[20:42:43] Waiting 30s for rate-limit guard...",
-    "[20:43:13] Analyzing + writing (Groq fallback, 1 combined call) for: Edenrobe EWU21V5-21146 Mint Green Soul Collection 2021",
-    "[20:43:16] Success! Updated Shopify product: 'Edenrobe EWU21V5-21146 Mint Green Soul Collection 2021'",
-    "[20:43:16] Waiting 30s for rate-limit guard...",
-    "[20:43:47] Analyzing + writing (Groq fallback, 1 combined call) for: Edenrobe EWU21V5-21136 Maroon Soul Collection 2021",
-    "[20:43:47] Groq's daily quota is also used up for now. Stopping this run cleanly — it will resume automatically on the next scheduled run. (Daily quota exhausted: Groq request failed (429): {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m2zn3xgwe1zrdvce2jd6r1bx` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197093, Requested 3380. Please try again in 3m24.335999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}})"
+    "[21:22:58] Analyzing + writing (Gemini, 1 combined call) for: Edenrobe EWU21V5-21136 Maroon Soul Collection 2021",
+    "[21:23:02] Preview written for: Edenrobe EWU21V5-21136 Maroon Soul Collection 2021",
+    "[21:23:02] Waiting 30s for rate-limit guard..."
   ]
 }
