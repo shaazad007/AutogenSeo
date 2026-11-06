@@ -99,6 +99,10 @@ jobs:
           git config user.name "shopify-cloth-ai-bot"
           git config user.email "actions@github.com"
           git add docs/progress.json docs/failed.csv docs/last-run-log.json docs/history.json preview/ || true
-          git diff --cached --quiet || git commit -m "chore: update progress [skip ci]"
-          git pull --rebase || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update progress [skip ci]"
+          fi
+          # Never hide a rebase conflict: a detached HEAD cannot push and can
+          # silently strand this run's progress and preview files.
+          git pull --rebase
           git push
