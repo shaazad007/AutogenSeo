@@ -61,34 +61,71 @@ async function main() {
   if (mode === "collections") {
     const previous = JSON.parse(fs.readFileSync(config.paths.progress, "utf8"));
     const previousCollections = previous.collections || {};
+    const isResume = previous.collections_refresh_status === "in_progress";
+    const skipHandles = new Set(isResume
+      ? Object.entries(previousCollections)
+        .filter(([, item]) => item && item.last_checked_at)
+        .map(([handle]) => handle)
+      : []);
+    const refreshStartedAt = isResume && previous.collections_refresh_started_at
+      ? previous.collections_refresh_started_at
+      : new Date().toISOString();
+    let collectionCount = 0;
+    let completedCount = skipHandles.size;
     const [total, remaining, stats] = await Promise.all([
       shopify.countTotalProducts(),
       shopify.countUnprocessedProducts(),
-      shopify.getAllCollectionStats(),
+      shopify.getAllCollectionStats({
+        skipHandles,
+        onStart: async (listedCollections) => {
+          collectionCount = listedCollections.length;
+          const listedHandles = new Set(listedCollections.map((item) => item.handle));
+          for (const handle of skipHandles) {
+            if (!listedHandles.has(handle)) skipHandles.delete(handle);
+          }
+          for (const handle of Object.keys(previousCollections)) {
+            if (!listedHandles.has(handle)) delete previousCollections[handle];
+          }
+          completedCount = skipHandles.size;
+          previous.collections = previousCollections;
+          previous.collections_refresh_status = "in_progress";
+          previous.collections_refresh_started_at = refreshStartedAt;
+          previous.collections_refresh_completed_count = skipHandles.size;
+          previous.collections_refresh_total_count = collectionCount;
+          fs.writeFileSync(config.paths.progress, JSON.stringify(previous, null, 2));
+        },
+        onCollection: async (item, completedIndex, totalCount) => {
+          const oldTotal = previousCollections[item.handle]?.total;
+          previousCollections[item.handle] = {
+            ...item,
+            remaining: Math.max(0, item.total - item.done),
+            new_since_last_check: Number.isInteger(oldTotal) ? Math.max(0, item.total - oldTotal) : 0,
+            status: item.done >= item.total ? "complete" : item.done > 0 ? "in_progress" : "pending",
+            last_checked_at: new Date().toISOString(),
+          };
+          previous.collections = previousCollections;
+          completedCount += 1;
+          previous.collections_refresh_completed_count = completedCount;
+          previous.collections_refresh_total_count = totalCount;
+          fs.writeFileSync(config.paths.progress, JSON.stringify(previous, null, 2));
+        },
+      }),
     ]);
     const refreshedAt = new Date().toISOString();
-    const collections = Object.fromEntries(stats.map((item) => {
-      const oldTotal = previousCollections[item.handle]?.total;
-      return [item.handle, {
-        ...item,
-        remaining: Math.max(0, item.total - item.done),
-        new_since_last_check: Number.isInteger(oldTotal) ? Math.max(0, item.total - oldTotal) : 0,
-        status: item.done >= item.total ? "complete" : item.done > 0 ? "in_progress" : "pending",
-        last_checked_at: refreshedAt,
-      }];
-    }));
     previous.total_products = total;
     previous.total_done = total - remaining;
-    previous.collections = collections;
+    previous.collections = previousCollections;
     previous.collections_last_refreshed_at = refreshedAt;
     previous.collections_refresh_status = "complete";
+    previous.collections_refresh_completed_count = collectionCount;
+    previous.collections_refresh_total_count = collectionCount;
     fs.writeFileSync(config.paths.progress, JSON.stringify(previous, null, 2));
     fs.writeFileSync(config.paths.runLog, JSON.stringify({
       mode, finished_at: refreshedAt, processed: 0, failed: 0,
-      stopReason: null, collection_count: stats.length,
-      lines: [`Refreshed ${stats.length} Shopify collections; no products were changed.`],
+      stopReason: null, collection_count: collectionCount,
+      lines: [`Refreshed ${collectionCount} Shopify collections; no products were changed.`],
     }, null, 2));
-    log(`Refreshed ${stats.length} Shopify collections. No products were changed.`);
+    log(`Refreshed ${collectionCount} Shopify collections. No products were changed.`);
     return;
   }
 
