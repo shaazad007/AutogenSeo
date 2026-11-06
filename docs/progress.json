@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 442,
+  "today_done": 444,
   "today_date": "2026-11-06",
-  "last_product_id": "gid://shopify/Product/7029302853791",
-  "last_product_title": "Gull Ahmed MJ-12066 Cambric Midsummer 2021",
-  "last_run_started_at": "2026-11-06T10:02:20.027Z",
+  "last_product_id": "gid://shopify/Product/7029302919327",
+  "last_product_title": "Gull Ahmed MJ-12074 Cambric Midsummer 2021",
+  "last_run_started_at": "2026-11-06T16:38:21.809Z",
   "last_run_finished_at": "2026-11-06T14:20:47.790Z",
-  "status": "paused_daily_quota",
+  "status": "running",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
