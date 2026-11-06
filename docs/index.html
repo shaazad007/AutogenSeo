@@ -450,13 +450,15 @@ async function refresh() {
         const cp = pct(c.done, c.total);
         const color = swatchColor(h);
         const newCount = c.new_since_last_check || 0;
+        const remaining = Number.isFinite(c.remaining) ? c.remaining : Math.max(0, c.total - c.done);
+        const collectionStatus = c.status || (remaining === 0 ? 'complete' : c.done > 0 ? 'in progress' : 'pending');
         const badge = newCount > 0 ? `<span class="new-badge">+${newCount} new</span>` : '';
         return `<div class="collection-row">
           <div class="swatch" style="background:${color}"></div>
           <div class="collection-info">
             <div class="collection-name-row">
               <span class="collection-name">${c.name || h}</span>
-              <span style="display:flex;align-items:center;gap:7px">${badge}<span class="collection-count">${c.done}/${c.total}</span></span>
+              <span style="display:flex;align-items:center;gap:7px">${badge}<span class="collection-count">${c.done}/${c.total} done · ${remaining} remaining · ${collectionStatus}</span></span>
             </div>
             <div class="collection-bar-track"><div class="collection-bar-fill" style="width:${cp}%;background:${color}"></div></div>
           </div>

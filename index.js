@@ -5,6 +5,8 @@
  *
  * Usage:
  *   node index.js --mode=preview --limit=10   (safe: writes to /preview only, touches nothing on Shopify)
+ *   node index.js --mode=preview --collection-handle=new-arrivals --limit=10
+ *   node index.js --mode=collections         (read-only collection inventory refresh)
  *   node index.js --mode=live                 (writes to Shopify, up to config.json's daily_cap per day)
  *   node index.js --mode=live --limit=50       (override the per-run limit, e.g. for a smaller manual test)
  *
@@ -19,20 +21,27 @@ const { runBatch } = require("./lib/processor");
 const { log } = require("./lib/util");
 
 function parseArgs() {
-  const args = { mode: "preview", limit: 10 };
+  const args = { mode: "preview", limit: 10, collectionHandle: "" };
   for (const arg of process.argv.slice(2)) {
     const [key, value] = arg.replace(/^--/, "").split("=");
     if (key === "mode") args.mode = value;
     if (key === "limit") args.limit = parseInt(value, 10);
+    if (key === "collection-handle") args.collectionHandle = value || "";
   }
   return args;
 }
 
 async function main() {
-  const { mode, limit } = parseArgs();
+  const { mode, limit, collectionHandle } = parseArgs();
 
-  if (!["preview", "live"].includes(mode)) {
-    throw new Error(`Unknown --mode "${mode}". Use "preview" or "live".`);
+  if (!["preview", "live", "collections"].includes(mode)) {
+    throw new Error(`Unknown --mode "${mode}". Use "preview", "live", or "collections".`);
+  }
+  if (!Number.isInteger(limit) || limit < 1 || limit > 100000) {
+    throw new Error("--limit must be an integer from 1 to 100000.");
+  }
+  if (collectionHandle && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(collectionHandle)) {
+    throw new Error("--collection-handle must be a lowercase Shopify handle.");
   }
 
   // Stay safely under GitHub Actions' hard 6-hour (360-minute) job limit.
@@ -48,6 +57,42 @@ async function main() {
     clientId: config.env.SHOPIFY_CLIENT_ID,
     clientSecret: config.env.SHOPIFY_CLIENT_SECRET,
   });
+
+  if (mode === "collections") {
+    const previous = JSON.parse(fs.readFileSync(config.paths.progress, "utf8"));
+    const previousCollections = previous.collections || {};
+    const [total, remaining, stats] = await Promise.all([
+      shopify.countTotalProducts(),
+      shopify.countUnprocessedProducts(),
+      shopify.getAllCollectionStats(),
+    ]);
+    const refreshedAt = new Date().toISOString();
+    const collections = Object.fromEntries(stats.map((item) => {
+      const oldTotal = previousCollections[item.handle]?.total;
+      return [item.handle, {
+        ...item,
+        remaining: Math.max(0, item.total - item.done),
+        new_since_last_check: Number.isInteger(oldTotal) ? Math.max(0, item.total - oldTotal) : 0,
+        status: item.done >= item.total ? "complete" : item.done > 0 ? "in_progress" : "pending",
+        last_checked_at: refreshedAt,
+      }];
+    }));
+    previous.total_products = total;
+    previous.total_done = total - remaining;
+    previous.collections = collections;
+    previous.collections_last_refreshed_at = refreshedAt;
+    previous.collections_refresh_status = "complete";
+    fs.writeFileSync(config.paths.progress, JSON.stringify(previous, null, 2));
+    fs.writeFileSync(config.paths.runLog, JSON.stringify({
+      mode, finished_at: refreshedAt, processed: 0, failed: 0,
+      stopReason: null, collection_count: stats.length,
+      lines: [`Refreshed ${stats.length} Shopify collections; no products were changed.`],
+    }, null, 2));
+    log(`Refreshed ${stats.length} Shopify collections. No products were changed.`);
+    return;
+  }
+
+  if (collectionHandle) config.promptConfig.collection_filter = [collectionHandle];
 
   const runLog = [];
   const { processed, failed, stopReason, usedGroqCount } = await runBatch({ shopify, config, mode, limit, runLog, deadlineMs });

@@ -1,21 +1,26 @@
 name: Auto Process Products
 
 on:
-  # Manual run from the Actions tab — you choose preview or live, and how many products.
+  # Manual run from the app or Actions UI — preview/live a collection or refresh the read-only collection inventory.
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview (safe, writes nothing to Shopify) or live"
+        description: "preview (safe), live, or collections (read-only inventory refresh)"
         required: true
         default: "preview"
         type: choice
         options:
           - preview
           - live
+          - collections
       limit:
         description: "How many products to process in this run"
         required: true
         default: "10"
+      collection_handle:
+        description: "Optional Shopify collection handle to prioritize for this run"
+        required: false
+        default: ""
 
   # Automatic runs — live mode. Runs 4x/day (roughly every 6 hours) instead of
   # once, because at the current delay_seconds in config.json, one 6-hour
@@ -34,6 +39,7 @@ permissions:
 concurrency:
   group: shopify-cloth-ai-run
   cancel-in-progress: false
+  queue: max
 
 jobs:
   run:
@@ -60,7 +66,10 @@ jobs:
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # optional — leave the secret unset if you don't want the Groq fallback
-        run: node index.js --mode=${{ inputs.mode }} --limit=${{ inputs.limit }}
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+          INPUT_COLLECTION_HANDLE: ${{ inputs.collection_handle }}
+        run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 
       # No need to hand-calculate a "safe" number anymore — index.js has its
       # own internal time budget (job_time_budget_minutes in config.json,
