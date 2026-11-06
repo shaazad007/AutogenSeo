@@ -11,26 +11,3497 @@
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
-    "sapphire": {
-      "handle": "sapphire",
-      "name": "Sapphire",
-      "total": 5552,
-      "done": 5550,
-      "new_since_last_check": 0
+    "aabyaan": {
+      "handle": "aabyaan",
+      "name": "Aabyaan",
+      "total": 47,
+      "done": 0,
+      "remaining": 47,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "aabyaan-luxury-winter-and-eid-collection-feed": {
+      "handle": "aabyaan-luxury-winter-and-eid-collection-feed",
+      "name": "Aabyaan Luxury Winter and Eid Collection Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "adans-libas": {
+      "handle": "adans-libas",
+      "name": "Adans Libas",
+      "total": 893,
+      "done": 105,
+      "remaining": 788,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "adans-libas-feed": {
+      "handle": "adans-libas-feed",
+      "name": "Adans Libas Feed",
+      "total": 893,
+      "done": 105,
+      "remaining": 788,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "afrozeh-1": {
+      "handle": "afrozeh-1",
+      "name": "Afrozeh",
+      "total": 722,
+      "done": 65,
+      "remaining": 657,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "afrozeh-feed": {
+      "handle": "afrozeh-feed",
+      "name": "Afrozeh Feed",
+      "total": 721,
+      "done": 65,
+      "remaining": 656,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "afsaneh-tabeer": {
+      "handle": "afsaneh-tabeer",
+      "name": "Afsaneh Tabeer",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "afsaneh-tabeer-feeds": {
+      "handle": "afsaneh-tabeer-feeds",
+      "name": "Afsaneh Tabeer Feeds",
+      "total": 20,
+      "done": 20,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "aik-atelier": {
+      "handle": "aik-atelier",
+      "name": "AIK Atelier",
+      "total": 430,
+      "done": 8,
+      "remaining": 422,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "aik-atelier-lawn-mystrio-and-wedding-feed": {
+      "handle": "aik-atelier-lawn-mystrio-and-wedding-feed",
+      "name": "AIK Atelier Lawn Mystrio and Wedding Feed",
+      "total": 430,
+      "done": 8,
+      "remaining": 422,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "akbar-aslam": {
+      "handle": "akbar-aslam",
+      "name": "Akbar Aslam",
+      "total": 320,
+      "done": 46,
+      "remaining": 274,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "akbar-aslam-feed": {
+      "handle": "akbar-aslam-feed",
+      "name": "Akbar Aslam Feed",
+      "total": 320,
+      "done": 46,
+      "remaining": 274,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "al-zohaib": {
+      "handle": "al-zohaib",
+      "name": "Al Zohaib",
+      "total": 1077,
+      "done": 191,
+      "remaining": 886,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "al-zohaib-feed": {
+      "handle": "al-zohaib-feed",
+      "name": "Al Zohaib Feed",
+      "total": 573,
+      "done": 180,
+      "remaining": 393,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "alex-evenings": {
+      "handle": "alex-evenings",
+      "name": "Alex Evenings",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "alizeh-fashion": {
+      "handle": "alizeh-fashion",
+      "name": "Alizeh",
+      "total": 356,
+      "done": 29,
+      "remaining": 327,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "alizeh-fashion-feeds": {
+      "handle": "alizeh-fashion-feeds",
+      "name": "Alizeh Fashion Feeds",
+      "total": 356,
+      "done": 29,
+      "remaining": 327,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "alkaram": {
+      "handle": "alkaram",
+      "name": "AlKaram",
+      "total": 2636,
+      "done": 214,
+      "remaining": 2422,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "alkaram-2021-feed": {
+      "handle": "alkaram-2021-feed",
+      "name": "Alkaram 2021 Feed",
+      "total": 2725,
+      "done": 303,
+      "remaining": 2422,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "all-collections": {
+      "handle": "all-collections",
+      "name": "All Collections",
+      "total": 40536,
+      "done": 14057,
+      "remaining": 26479,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "almirah": {
+      "handle": "almirah",
+      "name": "Almirah",
+      "total": 237,
+      "done": 103,
+      "remaining": 134,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "almirah-feed": {
+      "handle": "almirah-feed",
+      "name": "Almirah Feed",
+      "total": 237,
+      "done": 103,
+      "remaining": 134,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "anaya": {
+      "handle": "anaya",
+      "name": "Anaya",
+      "total": 202,
+      "done": 47,
+      "remaining": 155,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "anaya-feed": {
+      "handle": "anaya-feed",
+      "name": "Anaya Feed",
+      "total": 217,
+      "done": 62,
+      "remaining": 155,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ankle-jeans": {
+      "handle": "ankle-jeans",
+      "name": "Ankle Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ankle-jeans-feed": {
+      "handle": "ankle-jeans-feed",
+      "name": "Ankle Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ansab-jahangir": {
+      "handle": "ansab-jahangir",
+      "name": "Ansab Jahangir",
+      "total": 184,
+      "done": 12,
+      "remaining": 172,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ansab-jahangir-feed": {
+      "handle": "ansab-jahangir-feed",
+      "name": "Ansab Jahangir Feed",
+      "total": 184,
+      "done": 12,
+      "remaining": 172,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "asfia-nabeel-feed": {
+      "handle": "asfia-nabeel-feed",
+      "name": "Asfia & Nabeel Feed",
+      "total": 416,
+      "done": 22,
+      "remaining": 394,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "asifa-and-nabeel": {
+      "handle": "asifa-and-nabeel",
+      "name": "Asifa and Nabeel",
+      "total": 416,
+      "done": 22,
+      "remaining": 394,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "asim-jofa": {
+      "handle": "asim-jofa",
+      "name": "Asim Jofa",
+      "total": 2165,
+      "done": 81,
+      "remaining": 2084,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "asim-jofa-feed": {
+      "handle": "asim-jofa-feed",
+      "name": "Asim Jofa Feed",
+      "total": 2165,
+      "done": 81,
+      "remaining": 2084,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "auj": {
+      "handle": "auj",
+      "name": "Auj",
+      "total": 15,
+      "done": 15,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "auj-feeds": {
+      "handle": "auj-feeds",
+      "name": "Auj Feeds",
+      "total": 15,
+      "done": 15,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "azalea": {
+      "handle": "azalea",
+      "name": "Azalea",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "azalea-feeds": {
+      "handle": "azalea-feeds",
+      "name": "Azalea Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "azure-1": {
+      "handle": "azure-1",
+      "name": "Azure",
+      "total": 752,
+      "done": 32,
+      "remaining": 720,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "azure-feeds": {
+      "handle": "azure-feeds",
+      "name": "Azure Feeds",
+      "total": 752,
+      "done": 32,
+      "remaining": 720,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "baby": {
+      "handle": "baby",
+      "name": "Baby",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "baby-clothes": {
+      "handle": "baby-clothes",
+      "name": "Baby Clothes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "baby-clothes-feed": {
+      "handle": "baby-clothes-feed",
+      "name": "Baby Clothes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bareeze": {
+      "handle": "bareeze",
+      "name": "Bareeze",
+      "total": 2865,
+      "done": 1464,
+      "remaining": 1401,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bareeze-feeds": {
+      "handle": "bareeze-feeds",
+      "name": "Bareeze Feeds",
+      "total": 2865,
+      "done": 1464,
+      "remaining": 1401,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "baroque": {
+      "handle": "baroque",
+      "name": "Baroque",
+      "total": 761,
+      "done": 33,
+      "remaining": 728,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "baroque-feeds": {
+      "handle": "baroque-feeds",
+      "name": "Baroque Feeds",
+      "total": 761,
+      "done": 33,
+      "remaining": 728,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bbonlinedress": {
+      "handle": "bbonlinedress",
+      "name": "Bbonlinedress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "beechtree": {
+      "handle": "beechtree",
+      "name": "BeechTree",
+      "total": 475,
+      "done": 32,
+      "remaining": 443,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "beechtree-feeds": {
+      "handle": "beechtree-feeds",
+      "name": "Beechtree Feeds",
+      "total": 546,
+      "done": 32,
+      "remaining": 514,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "berydress": {
+      "handle": "berydress",
+      "name": "Berydress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bonanza-satrangi": {
+      "handle": "bonanza-satrangi",
+      "name": "Bonanza Satrangi",
+      "total": 1769,
+      "done": 427,
+      "remaining": 1342,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bonanza-satrangi-feed": {
+      "handle": "bonanza-satrangi-feed",
+      "name": "Bonanza Satrangi Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bonanza-satrangi-winter-collection-2021-feed": {
+      "handle": "bonanza-satrangi-winter-collection-2021-feed",
+      "name": "Bonanza Satrangi Winter Collection 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bootcut-jeans": {
+      "handle": "bootcut-jeans",
+      "name": "Bootcut Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bootcut-jeans-feed": {
+      "handle": "bootcut-jeans-feed",
+      "name": "Bootcut Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "bracelets-bangles": {
+      "handle": "bracelets-bangles",
+      "name": "Bracelets Bangles",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cap-cuff-beanie": {
+      "handle": "cap-cuff-beanie",
+      "name": "Cap Cuff Beanie",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cap-cuff-beanie-feeds": {
+      "handle": "cap-cuff-beanie-feeds",
+      "name": "Cap Cuff Beanie Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "casual": {
+      "handle": "casual",
+      "name": "Casual",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "casual-feeds": {
+      "handle": "casual-feeds",
+      "name": "Casual Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "charizma": {
+      "handle": "charizma",
+      "name": "Charizma",
+      "total": 3235,
+      "done": 225,
+      "remaining": 3010,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "charizma-collection-2021-feed": {
+      "handle": "charizma-collection-2021-feed",
+      "name": "Charizma Collection 2021 Feed",
+      "total": 431,
+      "done": 225,
+      "remaining": 206,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "charizma-slub-linen-2021-feed": {
+      "handle": "charizma-slub-linen-2021-feed",
+      "name": "Charizma Slub Linen 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "charizma-viscose-karandi-v1-2021-feed": {
+      "handle": "charizma-viscose-karandi-v1-2021-feed",
+      "name": "Charizma Viscose Karandi V1 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "chiffon": {
+      "handle": "chiffon",
+      "name": "Chiffon",
+      "total": 2975,
+      "done": 217,
+      "remaining": 2758,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "chiffon-1": {
+      "handle": "chiffon-1",
+      "name": "Chiffon",
+      "total": 2975,
+      "done": 217,
+      "remaining": 2758,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-decorations": {
+      "handle": "christmas-decorations",
+      "name": "Christmas Decorations",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-decorations-feeds": {
+      "handle": "christmas-decorations-feeds",
+      "name": "Christmas Decorations Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-pajamas-for-family": {
+      "handle": "christmas-pajamas-for-family",
+      "name": "Christmas Pajamas for Family",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-pajamas-for-family-feeds": {
+      "handle": "christmas-pajamas-for-family-feeds",
+      "name": "Christmas Pajamas for Family Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-trees": {
+      "handle": "christmas-trees",
+      "name": "Christmas Trees",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "christmas-trees-feeds": {
+      "handle": "christmas-trees-feeds",
+      "name": "Christmas Trees Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "clothing-set": {
+      "handle": "clothing-set",
+      "name": "Clothing Set",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cocktail-feeds": {
+      "handle": "cocktail-feeds",
+      "name": "Cocktail Feeds",
+      "total": 1,
+      "done": 1,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cotton-net": {
+      "handle": "cotton-net",
+      "name": "Cotton",
+      "total": 713,
+      "done": 283,
+      "remaining": 430,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "crimson": {
+      "handle": "crimson",
+      "name": "Crimson",
+      "total": 180,
+      "done": 27,
+      "remaining": 153,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "crimson-feed": {
+      "handle": "crimson-feed",
+      "name": "Crimson Feed",
+      "total": 180,
+      "done": 27,
+      "remaining": 153,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cropped-jeans": {
+      "handle": "cropped-jeans",
+      "name": "Cropped Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cropped-jeans-feed": {
+      "handle": "cropped-jeans-feed",
+      "name": "Cropped Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cross-stitch": {
+      "handle": "cross-stitch",
+      "name": "Cross Stitch",
+      "total": 1436,
+      "done": 164,
+      "remaining": 1272,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cross-stitch-feeds": {
+      "handle": "cross-stitch-feeds",
+      "name": "Cross Stitch Feeds",
+      "total": 1436,
+      "done": 164,
+      "remaining": 1272,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "daily-ritual": {
+      "handle": "daily-ritual",
+      "name": "Daily Ritual",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "denim-jackets": {
+      "handle": "denim-jackets",
+      "name": "Denim Jackets",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "denim-jackets-feed": {
+      "handle": "denim-jackets-feed",
+      "name": "Denim Jackets Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "diners": {
+      "handle": "diners",
+      "name": "Diners",
+      "total": 70,
+      "done": 70,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "diners-feeds": {
+      "handle": "diners-feeds",
+      "name": "Diners Feeds",
+      "total": 70,
+      "done": 70,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "dokotoo": {
+      "handle": "dokotoo",
+      "name": "Dokotoo",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "doubcq": {
+      "handle": "doubcq",
+      "name": "DouBCQ",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "down-jackets-parkas": {
+      "handle": "down-jackets-parkas",
+      "name": "Down Jackets & Parkas",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "down-jackets-parkas-feed": {
+      "handle": "down-jackets-parkas-feed",
+      "name": "Down Jackets & Parkas Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "dressystar": {
+      "handle": "dressystar",
+      "name": "Dressystar",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "earrings": {
+      "handle": "earrings",
+      "name": "Earrings",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "edenrobe": {
+      "handle": "edenrobe",
+      "name": "Edenrobe",
+      "total": 341,
+      "done": 0,
+      "remaining": 341,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "edenrobe-feeds": {
+      "handle": "edenrobe-feeds",
+      "name": "Edenrobe Feeds",
+      "total": 341,
+      "done": 0,
+      "remaining": 341,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elaf": {
+      "handle": "elaf",
+      "name": "Elaf",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elaf-feed": {
+      "handle": "elaf-feed",
+      "name": "Elaf Feed",
+      "total": 426,
+      "done": 12,
+      "remaining": 414,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elan": {
+      "handle": "elan",
+      "name": "Elan",
+      "total": 422,
+      "done": 117,
+      "remaining": 305,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elan-feed": {
+      "handle": "elan-feed",
+      "name": "Elan Feed",
+      "total": 422,
+      "done": 117,
+      "remaining": 305,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elegance": {
+      "handle": "elegance",
+      "name": "Elegance",
+      "total": 22,
+      "done": 12,
+      "remaining": 10,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "elegance-feeds": {
+      "handle": "elegance-feeds",
+      "name": "Elegance Feeds",
+      "total": 22,
+      "done": 12,
+      "remaining": 10,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "emaan-adeel": {
+      "handle": "emaan-adeel",
+      "name": "Emaan Adeel",
+      "total": 629,
+      "done": 16,
+      "remaining": 613,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "emaan-adeel-feeds": {
+      "handle": "emaan-adeel-feeds",
+      "name": "Emaan Adeel Feeds",
+      "total": 629,
+      "done": 16,
+      "remaining": 613,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "erum-khan": {
+      "handle": "erum-khan",
+      "name": "Erum Khan",
+      "total": 39,
+      "done": 0,
+      "remaining": 39,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "erum-khan-feeds": {
+      "handle": "erum-khan-feeds",
+      "name": "Erum Khan Feeds",
+      "total": 39,
+      "done": 0,
+      "remaining": 39,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ethnic": {
+      "handle": "ethnic",
+      "name": "Ethnic",
+      "total": 511,
+      "done": 43,
+      "remaining": 468,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ethnic-feeds": {
+      "handle": "ethnic-feeds",
+      "name": "Ethnic Feeds",
+      "total": 511,
+      "done": 43,
+      "remaining": 468,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "evening-dress": {
+      "handle": "evening-dress",
+      "name": "Evening Dress",
+      "total": 3,
+      "done": 3,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ever-pretty": {
+      "handle": "ever-pretty",
+      "name": "Ever Pretty",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "exlura": {
+      "handle": "exlura",
+      "name": "Exlura",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fahad-hussayn": {
+      "handle": "fahad-hussayn",
+      "name": "Fahad Hussayn",
+      "total": 12,
+      "done": 12,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fahad-hussayn-feeds": {
+      "handle": "fahad-hussayn-feeds",
+      "name": "Fahad Hussayn Feeds",
+      "total": 12,
+      "done": 12,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "faixa-faixal": {
+      "handle": "faixa-faixal",
+      "name": "Faixa Faixal",
+      "total": 51,
+      "done": 39,
+      "remaining": 12,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "faixa-faixal-feeds": {
+      "handle": "faixa-faixal-feeds",
+      "name": "Faixa Faixal Feeds",
+      "total": 51,
+      "done": 39,
+      "remaining": 12,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "falak-fabric": {
+      "handle": "falak-fabric",
+      "name": "Falak Fabric",
+      "total": 24,
+      "done": 0,
+      "remaining": 24,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "falak-fabric-feeds": {
+      "handle": "falak-fabric-feeds",
+      "name": "Falak Fabric Feeds",
+      "total": 24,
+      "done": 0,
+      "remaining": 24,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "farah-talib-aziz": {
+      "handle": "farah-talib-aziz",
+      "name": "Farah Talib Aziz",
+      "total": 400,
+      "done": 38,
+      "remaining": 362,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "farah-talib-aziz-feed": {
+      "handle": "farah-talib-aziz-feed",
+      "name": "Farah Talib Aziz Feed",
+      "total": 38,
+      "done": 38,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "farasha": {
+      "handle": "farasha",
+      "name": "Farasha",
+      "total": 399,
+      "done": 0,
+      "remaining": 399,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "farasha-feeds": {
+      "handle": "farasha-feeds",
+      "name": "Farasha Feeds",
+      "total": 399,
+      "done": 0,
+      "remaining": 399,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fit-flare": {
+      "handle": "fit-flare",
+      "name": "Fit & Flare",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "flared-jeans": {
+      "handle": "flared-jeans",
+      "name": "Flared Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "flared-jeans-feed": {
+      "handle": "flared-jeans-feed",
+      "name": "Flared Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fleece-jackets-coats": {
+      "handle": "fleece-jackets-coats",
+      "name": "Fleece Jackets & Coats",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fleece-jackets-coats-feed": {
+      "handle": "fleece-jackets-coats-feed",
+      "name": "Fleece Jackets & Coats Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "floerns": {
+      "handle": "floerns",
+      "name": "Floerns",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "florent": {
+      "handle": "florent",
+      "name": "Florent",
+      "total": 434,
+      "done": 19,
+      "remaining": 415,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "florent-feed": {
+      "handle": "florent-feed",
+      "name": "Florent Feed",
+      "total": 434,
+      "done": 19,
+      "remaining": 415,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "flossie": {
+      "handle": "flossie",
+      "name": "Flossie",
+      "total": 285,
+      "done": 11,
+      "remaining": 274,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "flossie-feeds": {
+      "handle": "flossie-feeds",
+      "name": "Flossie Feeds",
+      "total": 285,
+      "done": 11,
+      "remaining": 274,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "footwear": {
+      "handle": "footwear",
+      "name": "Footwear",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "formal-dresses-feed": {
+      "handle": "formal-dresses-feed",
+      "name": "Formal Dresses Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fur-faux-fur": {
+      "handle": "fur-faux-fur",
+      "name": "Fur & Faux Fur",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fur-faux-fur-feed": {
+      "handle": "fur-faux-fur-feed",
+      "name": "Fur & Faux Fur Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls": {
+      "handle": "girls",
+      "name": "Girls",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-bathrobes": {
+      "handle": "girls-bathrobes",
+      "name": "Girls Bathrobes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-bathrobes-feed": {
+      "handle": "girls-bathrobes-feed",
+      "name": "Girls Bathrobes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-clothing-set-feed": {
+      "handle": "girls-clothing-set-feed",
+      "name": "Girls Clothing Set Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-jackets-and-coats": {
+      "handle": "girls-jackets-and-coats",
+      "name": "Girls Jackets and Coats",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-nightgowns": {
+      "handle": "girls-nightgowns",
+      "name": "Girls Nightgowns",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-nightgowns-feed": {
+      "handle": "girls-nightgowns-feed",
+      "name": "Girls Nightgowns Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-occasion-dresses": {
+      "handle": "girls-occasion-dresses",
+      "name": "Girls Occasion Dresses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-occasion-dresses-feeds": {
+      "handle": "girls-occasion-dresses-feeds",
+      "name": "Girls Occasion Dresses Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-pajama-sets": {
+      "handle": "girls-pajama-sets",
+      "name": "Girls Pajama Sets",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-pajama-sets-feed": {
+      "handle": "girls-pajama-sets-feed",
+      "name": "Girls Pajama Sets Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-shoes": {
+      "handle": "girls-shoes",
+      "name": "Girls Shoes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-shoes-feed": {
+      "handle": "girls-shoes-feed",
+      "name": "Girls Shoes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-summer-clothes": {
+      "handle": "girls-summer-clothes",
+      "name": "Girls Summer Clothes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "girls-summer-clothes-feed": {
+      "handle": "girls-summer-clothes-feed",
+      "name": "Girls Summer Clothes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "grace-karin": {
+      "handle": "grace-karin",
+      "name": "Grace Karin",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "gradenwed": {
+      "handle": "gradenwed",
+      "name": "Gradenwed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "gul-ahmed": {
+      "handle": "gul-ahmed",
+      "name": "Gul Ahmed",
+      "total": 4351,
+      "done": 422,
+      "remaining": 3929,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "gul-ahmed-feed": {
+      "handle": "gul-ahmed-feed",
+      "name": "Gul Ahmed Feed",
+      "total": 4351,
+      "done": 422,
+      "remaining": 3929,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "gulaal": {
+      "handle": "gulaal",
+      "name": "Gulaal",
+      "total": 588,
+      "done": 7,
+      "remaining": 581,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "gulaal-feeds": {
+      "handle": "gulaal-feeds",
+      "name": "Gulaal Feeds",
+      "total": 588,
+      "done": 7,
+      "remaining": 581,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "halloween-dresses": {
+      "handle": "halloween-dresses",
+      "name": "Halloween Dresses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "halloween-dresses-feed": {
+      "handle": "halloween-dresses-feed",
+      "name": "Halloween Dresses Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "hussain-rehar": {
+      "handle": "hussain-rehar",
+      "name": "Hussain Rehar",
+      "total": 348,
+      "done": 0,
+      "remaining": 348,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "hussain-rehar-rumli-festive-karadi-2021-feed": {
+      "handle": "hussain-rehar-rumli-festive-karadi-2021-feed",
+      "name": "Hussain Rehar Rumli Festive Karadi 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ilaha": {
+      "handle": "ilaha",
+      "name": "Ilaha",
+      "total": 14,
+      "done": 7,
+      "remaining": 7,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ilaha-feeds": {
+      "handle": "ilaha-feeds",
+      "name": "Ilaha Feeds",
+      "total": 14,
+      "done": 7,
+      "remaining": 7,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "image": {
+      "handle": "image",
+      "name": "Image",
+      "total": 217,
+      "done": 22,
+      "remaining": 195,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "image-feeds": {
+      "handle": "image-feeds",
+      "name": "Image Feeds",
+      "total": 217,
+      "done": 22,
+      "remaining": 195,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "imrozia": {
+      "handle": "imrozia",
+      "name": "Imrozia",
+      "total": 691,
+      "done": 0,
+      "remaining": 691,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "imrozia-feed": {
+      "handle": "imrozia-feed",
+      "name": "Imrozia Feed",
+      "total": 691,
+      "done": 0,
+      "remaining": 691,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "indian-fashion": {
+      "handle": "indian-fashion",
+      "name": "Indian Fashion",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "indian-kurtas-designs": {
+      "handle": "indian-kurtas-designs",
+      "name": "Indian Kurtas Designs",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "indian-saree": {
+      "handle": "indian-saree",
+      "name": "Indian Saree",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "indian-saree-feed": {
+      "handle": "indian-saree-feed",
+      "name": "Indian Saree Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ittehad": {
+      "handle": "ittehad",
+      "name": "Ittehad",
+      "total": 550,
+      "done": 171,
+      "remaining": 379,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ittehad-fall-collection-2021-feed": {
+      "handle": "ittehad-fall-collection-2021-feed",
+      "name": "Ittehad Fall Collection 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ittehad-feed": {
+      "handle": "ittehad-feed",
+      "name": "Ittehad Feed",
+      "total": 546,
+      "done": 167,
+      "remaining": 379,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ittehad-pret-fall-and-preimum-fall-2021-feed": {
+      "handle": "ittehad-pret-fall-and-preimum-fall-2021-feed",
+      "name": "Ittehad Pret Fall and Preimum Fall 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "iznik": {
+      "handle": "iznik",
+      "name": "Iznik",
+      "total": 751,
+      "done": 18,
+      "remaining": 733,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "iznik-collection-2021-feed": {
+      "handle": "iznik-collection-2021-feed",
+      "name": "Iznik Collection 2021 Feed",
+      "total": 751,
+      "done": 18,
+      "remaining": 733,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jahanara": {
+      "handle": "jahanara",
+      "name": "Jahanara",
+      "total": 89,
+      "done": 10,
+      "remaining": 79,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jahanara-feeds": {
+      "handle": "jahanara-feeds",
+      "name": "Jahanara Feeds",
+      "total": 89,
+      "done": 10,
+      "remaining": 79,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "janique": {
+      "handle": "janique",
+      "name": "Janique",
+      "total": 19,
+      "done": 10,
+      "remaining": 9,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "janique-feeds": {
+      "handle": "janique-feeds",
+      "name": "Janique Feeds",
+      "total": 19,
+      "done": 10,
+      "remaining": 9,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jasambac": {
+      "handle": "jasambac",
+      "name": "Jasambac",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jazmin": {
+      "handle": "jazmin",
+      "name": "Jazmin",
+      "total": 1023,
+      "done": 77,
+      "remaining": 946,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jazmin-feed": {
+      "handle": "jazmin-feed",
+      "name": "Jazmin Feed",
+      "total": 979,
+      "done": 77,
+      "remaining": 902,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jewelry": {
+      "handle": "jewelry",
+      "name": "Jewelry",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "jumpsuit": {
+      "handle": "jumpsuit",
+      "name": "Jumpsuit",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "junaid-jamshed": {
+      "handle": "junaid-jamshed",
+      "name": "Junaid Jamshed",
+      "total": 938,
+      "done": 281,
+      "remaining": 657,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "junaid-jamshed-feeds": {
+      "handle": "junaid-jamshed-feeds",
+      "name": "Junaid Jamshed Feeds",
+      "total": 938,
+      "done": 281,
+      "remaining": 657,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kanwal-malik": {
+      "handle": "kanwal-malik",
+      "name": "Kanwal Malik",
+      "total": 245,
+      "done": 7,
+      "remaining": 238,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kanwal-malik-feeds": {
+      "handle": "kanwal-malik-feeds",
+      "name": "Kanwal Malik Feeds",
+      "total": 245,
+      "done": 7,
+      "remaining": 238,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
     },
     "khaadi": {
       "handle": "khaadi",
       "name": "Khaadi",
-      "total": 3452,
+      "total": 3465,
       "done": 3452,
-      "new_since_last_check": 0
+      "remaining": 13,
+      "new_since_last_check": 13,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "khaadi-autumn-collection-2021-feed": {
+      "handle": "khaadi-autumn-collection-2021-feed",
+      "name": "Khaadi Autumn Collection 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "khaadi-feeds": {
+      "handle": "khaadi-feeds",
+      "name": "Khaadi Feed",
+      "total": 3465,
+      "done": 3452,
+      "remaining": 13,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "khaddar": {
+      "handle": "khaddar",
+      "name": "Khaddar",
+      "total": 1882,
+      "done": 562,
+      "remaining": 1320,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kids-toys": {
+      "handle": "kids-toys",
+      "name": "Kid's Toys",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kids-toys-feeds": {
+      "handle": "kids-toys-feeds",
+      "name": "Kid's Toys Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kids-babies-clothes": {
+      "handle": "kids-babies-clothes",
+      "name": "Kids & Babies Clothes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kids-and-babies-clothes-feed": {
+      "handle": "kids-and-babies-clothes-feed",
+      "name": "Kids and Babies Clothes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "kiyonna": {
+      "handle": "kiyonna",
+      "name": "Kiyonna",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "knitee": {
+      "handle": "knitee",
+      "name": "Knitee",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "lawn": {
+      "handle": "lawn",
+      "name": "Lawn",
+      "total": 18811,
+      "done": 5414,
+      "remaining": 13397,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "leather-faux-leather": {
+      "handle": "leather-faux-leather",
+      "name": "Leather & Faux Leather",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "leather-faux-leather-feed": {
+      "handle": "leather-faux-leather-feed",
+      "name": "Leather & Faux Leather Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "leggings": {
+      "handle": "leggings",
+      "name": "Leggings",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "leggings-feed": {
+      "handle": "leggings-feed",
+      "name": "Leggings Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "limelight": {
+      "handle": "limelight",
+      "name": "LimeLight",
+      "total": 1264,
+      "done": 106,
+      "remaining": 1158,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "limelight-cambric-collection-2021-feed": {
+      "handle": "limelight-cambric-collection-2021-feed",
+      "name": "Limelight Cambric Collection 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "limelight-summer-collection-2021": {
+      "handle": "limelight-summer-collection-2021",
+      "name": "Limelight Summer Collection 2021",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "linen": {
+      "handle": "linen",
+      "name": "Linen",
+      "total": 8262,
+      "done": 7458,
+      "remaining": 804,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "locket-set": {
+      "handle": "locket-set",
+      "name": "Locket Set",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "lsm": {
+      "handle": "lsm",
+      "name": "LSM",
+      "total": 653,
+      "done": 7,
+      "remaining": 646,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "lsm-feed": {
+      "handle": "lsm-feed",
+      "name": "LSM Feed",
+      "total": 397,
+      "done": 7,
+      "remaining": 390,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "luxury-lawn": {
+      "handle": "luxury-lawn",
+      "name": "Luxury Lawn",
+      "total": 2312,
+      "done": 228,
+      "remaining": 2084,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "manara": {
+      "handle": "manara",
+      "name": "Manara",
+      "total": 26,
+      "done": 12,
+      "remaining": 14,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maria-b": {
+      "handle": "maria-b",
+      "name": "Maria B",
+      "total": 3431,
+      "done": 376,
+      "remaining": 3055,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maria-b-feeds": {
+      "handle": "maria-b-feeds",
+      "name": "Maria B Feeds",
+      "total": 3431,
+      "done": 376,
+      "remaining": 3055,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maria-b-mprint-2024": {
+      "handle": "maria-b-mprint-2024",
+      "name": "Maria B MPrint 2024",
+      "total": 20,
+      "done": 0,
+      "remaining": 20,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maryum-hussain": {
+      "handle": "maryum-hussain",
+      "name": "Maryam Hussain",
+      "total": 164,
+      "done": 53,
+      "remaining": 111,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maryum-hussain-feed": {
+      "handle": "maryum-hussain-feed",
+      "name": "Maryum Hussain Feed",
+      "total": 119,
+      "done": 53,
+      "remaining": 66,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maryum-n-maria": {
+      "handle": "maryum-n-maria",
+      "name": "Maryum N Maria",
+      "total": 1235,
+      "done": 25,
+      "remaining": 1210,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maxi-dresses": {
+      "handle": "maxi-dresses",
+      "name": "Maxi Dresses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "maxi-dresses-feed": {
+      "handle": "maxi-dresses-feed",
+      "name": "Maxi Dresses Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "mermaid-dress": {
+      "handle": "mermaid-dress",
+      "name": "Mermaid Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "merokeety": {
+      "handle": "merokeety",
+      "name": "MEROKEETY",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "midsummer": {
+      "handle": "midsummer",
+      "name": "Midsummer",
+      "total": 1106,
+      "done": 310,
+      "remaining": 796,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "miusol": {
+      "handle": "miusol",
+      "name": "Miusol",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "motifz": {
+      "handle": "motifz",
+      "name": "Motifz",
+      "total": 586,
+      "done": 110,
+      "remaining": 476,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "mslg": {
+      "handle": "mslg",
+      "name": "MSLG",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "mushq": {
+      "handle": "mushq",
+      "name": "Mushq",
+      "total": 1243,
+      "done": 101,
+      "remaining": 1142,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "mushq-feed": {
+      "handle": "mushq-feed",
+      "name": "Mushq Feed",
+      "total": 1217,
+      "done": 91,
+      "remaining": 1126,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "mushq-tissue-de-luxe-2021-feed": {
+      "handle": "mushq-tissue-de-luxe-2021-feed",
+      "name": "Mushq Tissue De Luxe 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "muxxn": {
+      "handle": "muxxn",
+      "name": "MUXXN",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "neckless": {
+      "handle": "neckless",
+      "name": "Neckless",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
     },
     "nishat-linen": {
       "handle": "nishat-linen",
       "name": "Nishat Linen",
       "total": 7332,
       "done": 7331,
-      "new_since_last_check": 0
+      "remaining": 1,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "nishat-linen-feed": {
+      "handle": "nishat-linen-feed",
+      "name": "Nishat Linen Feed",
+      "total": 7332,
+      "done": 7331,
+      "remaining": 1,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "nishat-linen-tasawur-2021-feed": {
+      "handle": "nishat-linen-tasawur-2021-feed",
+      "name": "Nishat Linen Tasawur 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "noor-saadia-asad-feeds": {
+      "handle": "noor-saadia-asad-feeds",
+      "name": "Noor Saadia Asad Feeds",
+      "total": 271,
+      "done": 36,
+      "remaining": 235,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "nureh": {
+      "handle": "nureh",
+      "name": "Nureh",
+      "total": 2160,
+      "done": 9,
+      "remaining": 2151,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "nureh-feed": {
+      "handle": "nureh-feed",
+      "name": "Nureh Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "orient": {
+      "handle": "orient",
+      "name": "Orient",
+      "total": 1019,
+      "done": 106,
+      "remaining": 913,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "orient-rustaye-cambric-2021": {
+      "handle": "orient-rustaye-cambric-2021",
+      "name": "Orient Rustaye Cambric 2021",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "panache": {
+      "handle": "panache",
+      "name": "Panache",
+      "total": 136,
+      "done": 19,
+      "remaining": 117,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "party-dress": {
+      "handle": "party-dress",
+      "name": "Party Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "pashmina": {
+      "handle": "pashmina",
+      "name": "Pashmina",
+      "total": 219,
+      "done": 10,
+      "remaining": 209,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "plus-size": {
+      "handle": "plus-size",
+      "name": "Plus Size",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "prettygarden": {
+      "handle": "prettygarden",
+      "name": "Prettygarden",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "prom-dress": {
+      "handle": "prom-dress",
+      "name": "Prom Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "qalamkar": {
+      "handle": "qalamkar",
+      "name": "Qalamkar",
+      "total": 722,
+      "done": 9,
+      "remaining": 713,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "qalamkar-feed": {
+      "handle": "qalamkar-feed",
+      "name": "Qalamkar Feed",
+      "total": 722,
+      "done": 9,
+      "remaining": 713,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "quilted-lightweight-jackets": {
+      "handle": "quilted-lightweight-jackets",
+      "name": "Quilted Lightweight Jackets",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "quilted-lightweight-jackets-feed": {
+      "handle": "quilted-lightweight-jackets-feed",
+      "name": "Quilted Lightweight Jackets Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "r-m-richard": {
+      "handle": "r-m-richard",
+      "name": "R&M Richard",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rajbari": {
+      "handle": "rajbari",
+      "name": "Rajbari",
+      "total": 257,
+      "done": 12,
+      "remaining": 245,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ramsha": {
+      "handle": "ramsha",
+      "name": "Ramsha",
+      "total": 513,
+      "done": 12,
+      "remaining": 501,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rang-rasiya": {
+      "handle": "rang-rasiya",
+      "name": "Rang Rasiya",
+      "total": 693,
+      "done": 88,
+      "remaining": 605,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rang-rasiya-feed": {
+      "handle": "rang-rasiya-feed",
+      "name": "Rang Rasiya Feed",
+      "total": 693,
+      "done": 88,
+      "remaining": 605,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "reign": {
+      "handle": "reign",
+      "name": "Reign",
+      "total": 62,
+      "done": 25,
+      "remaining": 37,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "reign-feed": {
+      "handle": "reign-feed",
+      "name": "Reign Feed",
+      "total": 62,
+      "done": 25,
+      "remaining": 37,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "relipop": {
+      "handle": "relipop",
+      "name": "Relipop",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "republic-womens-wear": {
+      "handle": "republic-womens-wear",
+      "name": "Republic Womens Wear",
+      "total": 115,
+      "done": 24,
+      "remaining": 91,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "republic-womens-wear-feed": {
+      "handle": "republic-womens-wear-feed",
+      "name": "Republic Womens Wear Feed",
+      "total": 115,
+      "done": 24,
+      "remaining": 91,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "resham-ghar": {
+      "handle": "resham-ghar",
+      "name": "Resham Ghar",
+      "total": 36,
+      "done": 22,
+      "remaining": 14,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "resham-ghar-1": {
+      "handle": "resham-ghar-1",
+      "name": "Resham Ghar",
+      "total": 36,
+      "done": 22,
+      "remaining": 14,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "riazarts": {
+      "handle": "riazarts",
+      "name": "Riaz Arts",
+      "total": 8,
+      "done": 8,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rings": {
+      "handle": "rings",
+      "name": "Rings",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rom-we": {
+      "handle": "rom-we",
+      "name": "Rom We",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "rungrez": {
+      "handle": "rungrez",
+      "name": "Rungrez",
+      "total": 24,
+      "done": 14,
+      "remaining": 10,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "saira-rizwan": {
+      "handle": "saira-rizwan",
+      "name": "Saira Rizwan",
+      "total": 248,
+      "done": 26,
+      "remaining": 222,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "salitex": {
+      "handle": "salitex",
+      "name": "Salitex",
+      "total": 733,
+      "done": 22,
+      "remaining": 711,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sana-abbas": {
+      "handle": "sana-abbas",
+      "name": "Sana Abbas",
+      "total": 26,
+      "done": 12,
+      "remaining": 14,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sana-safinaz": {
+      "handle": "sana-safinaz",
+      "name": "Sana Safinaz",
+      "total": 2260,
+      "done": 147,
+      "remaining": 2113,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sana-safinaz-feed": {
+      "handle": "sana-safinaz-feed",
+      "name": "Sana Safinaz Feed",
+      "total": 2260,
+      "done": 147,
+      "remaining": 2113,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sapphire": {
+      "handle": "sapphire",
+      "name": "Sapphire",
+      "total": 5658,
+      "done": 5550,
+      "remaining": 108,
+      "new_since_last_check": 106,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sapphire-feeds": {
+      "handle": "sapphire-feeds",
+      "name": "Sapphire Feeds",
+      "total": 5658,
+      "done": 5550,
+      "remaining": 108,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sapphire-festive-fall-2021-feed": {
+      "handle": "sapphire-festive-fall-2021-feed",
+      "name": "Sapphire Festive Fall 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sarin-mathews": {
+      "handle": "sarin-mathews",
+      "name": "Sarin Mathews",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "saya": {
+      "handle": "saya",
+      "name": "Saya",
+      "total": 172,
+      "done": 105,
+      "remaining": 67,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "shiza-hassan": {
+      "handle": "shiza-hassan",
+      "name": "Shiza Hassan",
+      "total": 38,
+      "done": 26,
+      "remaining": 12,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "silk": {
+      "handle": "silk",
+      "name": "Silk",
+      "total": 1863,
+      "done": 184,
+      "remaining": 1679,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "simple-flavor": {
+      "handle": "simple-flavor",
+      "name": "Simple Flavor",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "skinny-jeans": {
+      "handle": "skinny-jeans",
+      "name": "Skinny Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "skinny-jeans-feed": {
+      "handle": "skinny-jeans-feed",
+      "name": "Skinny Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sleepwear-and-robes": {
+      "handle": "sleepwear-and-robes",
+      "name": "Sleepwear and Robes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sleepwear-and-robes-feed": {
+      "handle": "sleepwear-and-robes-feed",
+      "name": "Sleepwear and Robes Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sobia-nazir": {
+      "handle": "sobia-nazir",
+      "name": "Sobia Nazir",
+      "total": 657,
+      "done": 38,
+      "remaining": 619,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sobia-nazir-collection-2021-feed": {
+      "handle": "sobia-nazir-collection-2021-feed",
+      "name": "Sobia Nazir Collection 2021 Feed",
+      "total": 657,
+      "done": 38,
+      "remaining": 619,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "sobia-nazir-pre-fall-2021-feed": {
+      "handle": "sobia-nazir-pre-fall-2021-feed",
+      "name": "Sobia Nazir Pre Fall 2021 Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "fall-summer": {
+      "handle": "fall-summer",
+      "name": "Spring",
+      "total": 3565,
+      "done": 1326,
+      "remaining": 2239,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "straight-jeans": {
+      "handle": "straight-jeans",
+      "name": "Straight Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "straight-jeans-feed": {
+      "handle": "straight-jeans-feed",
+      "name": "Straight Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "suffuse": {
+      "handle": "suffuse",
+      "name": "Suffuse",
+      "total": 182,
+      "done": 13,
+      "remaining": 169,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "summer": {
+      "handle": "summer",
+      "name": "Summer",
+      "total": 41,
+      "done": 0,
+      "remaining": 41,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tahra": {
+      "handle": "tahra",
+      "name": "Tahra",
+      "total": 20,
+      "done": 20,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tahra-feed": {
+      "handle": "tahra-feed",
+      "name": "Tahra Feed",
+      "total": 20,
+      "done": 20,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tapered-jeans": {
+      "handle": "tapered-jeans",
+      "name": "Tapered Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tapered-jeans-feed": {
+      "handle": "tapered-jeans-feed",
+      "name": "Tapered Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tees-and-blouses": {
+      "handle": "tees-and-blouses",
+      "name": "Tees and Blouses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tena-durrani": {
+      "handle": "tena-durrani",
+      "name": "Tena Durrani",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tena-durrani-feed": {
+      "handle": "tena-durrani-feed",
+      "name": "Tena Durrani Feed",
+      "total": 24,
+      "done": 24,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tops-and-blouses": {
+      "handle": "tops-and-blouses",
+      "name": "Tops and Blouses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tops-and-blouses-feeds": {
+      "handle": "tops-and-blouses-feeds",
+      "name": "Tops and Blouses Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tops-tees-and-blouses": {
+      "handle": "tops-tees-and-blouses",
+      "name": "Tops, Tees and Blouses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "tops-tees-and-blouses-feed": {
+      "handle": "tops-tees-and-blouses-feed",
+      "name": "Tops, Tees and Blouses Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "vanya": {
+      "handle": "vanya",
+      "name": "Vanya",
+      "total": 27,
+      "done": 15,
+      "remaining": 12,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "vanya-feed": {
+      "handle": "vanya-feed",
+      "name": "Vanya Feed",
+      "total": 5,
+      "done": 5,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "velvet": {
+      "handle": "velvet",
+      "name": "Velvet",
+      "total": 1247,
+      "done": 30,
+      "remaining": 1217,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "vests": {
+      "handle": "vests",
+      "name": "Vests",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "vests-feed": {
+      "handle": "vests-feed",
+      "name": "Vests Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "vfshow": {
+      "handle": "vfshow",
+      "name": "Vfshow",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "viscose": {
+      "handle": "viscose",
+      "name": "Viscose",
+      "total": 329,
+      "done": 35,
+      "remaining": 294,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wedding-dress": {
+      "handle": "wedding-dress",
+      "name": "Wedding Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wedding-dress-1": {
+      "handle": "wedding-dress-1",
+      "name": "Wedding Dress",
+      "total": 5,
+      "done": 5,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wedding-outfit": {
+      "handle": "wedding-outfit",
+      "name": "Wedding Outfit",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wedding-outfit-feed": {
+      "handle": "wedding-outfit-feed",
+      "name": "Wedding Outfit Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wide-jeans": {
+      "handle": "wide-jeans",
+      "name": "Wide Jeans",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wide-jeans-feed": {
+      "handle": "wide-jeans-feed",
+      "name": "Wide Jeans Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "winter": {
+      "handle": "winter",
+      "name": "Winter",
+      "total": 10038,
+      "done": 2032,
+      "remaining": 8006,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "winter-cheap-clothes": {
+      "handle": "winter-cheap-clothes",
+      "name": "Winter Cheap Clothes",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "winter-cheap-clothes-feeds": {
+      "handle": "winter-cheap-clothes-feeds",
+      "name": "Winter Cheap Clothes Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "women-romper-jumpersuit-feed": {
+      "handle": "women-romper-jumpersuit-feed",
+      "name": "Women Romper and Jumpersuit Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "cocktail-dresses": {
+      "handle": "cocktail-dresses",
+      "name": "Womens Cocktail Dress",
+      "total": 1,
+      "done": 1,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-fit-flare-dress": {
+      "handle": "womens-fit-flare-dress",
+      "name": "Womens Fit & Flare Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-fit-flare-dress-feeds": {
+      "handle": "womens-fit-flare-dress-feeds",
+      "name": "Womens Fit & Flare Dress Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-gown": {
+      "handle": "womens-gown",
+      "name": "Womens Gown Dress",
+      "total": 1,
+      "done": 1,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-gown-dress-feeds": {
+      "handle": "womens-gown-dress-feeds",
+      "name": "Womens Gown Dress Feeds",
+      "total": 1,
+      "done": 1,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-maxi": {
+      "handle": "womens-maxi",
+      "name": "Womens Maxi Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-maxi-dress-feeds": {
+      "handle": "womens-maxi-dress-feeds",
+      "name": "Womens Maxi Dress Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-straight-dress": {
+      "handle": "womens-straight-dress",
+      "name": "Womens Straight Dress",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-straight-dress-feeds": {
+      "handle": "womens-straight-dress-feeds",
+      "name": "Womens Straight Dress Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-work-dresses": {
+      "handle": "womens-work-dresses",
+      "name": "Womens Work Dresses",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "womens-work-dresses-feeds": {
+      "handle": "womens-work-dresses-feeds",
+      "name": "Womens Work Dresses Feeds",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wool-pea-coats": {
+      "handle": "wool-pea-coats",
+      "name": "Wool & Pea Coats",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "wool-pea-coats-feed": {
+      "handle": "wool-pea-coats-feed",
+      "name": "Wool & Pea Coats Feed",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "woosea": {
+      "handle": "woosea",
+      "name": "Woosea",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "xenia": {
+      "handle": "xenia",
+      "name": "Xenia",
+      "total": 542,
+      "done": 40,
+      "remaining": 502,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "xenia-feed": {
+      "handle": "xenia-feed",
+      "name": "Xenia Feed",
+      "total": 542,
+      "done": 40,
+      "remaining": 502,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "ymduch": {
+      "handle": "ymduch",
+      "name": "Ymduch",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "yobecho": {
+      "handle": "yobecho",
+      "name": "Yobecho",
+      "total": 0,
+      "done": 0,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zaaviay": {
+      "handle": "zaaviay",
+      "name": "Zaaviay",
+      "total": 184,
+      "done": 133,
+      "remaining": 51,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zaaviay-feed": {
+      "handle": "zaaviay-feed",
+      "name": "Zaaviay Feed",
+      "total": 140,
+      "done": 89,
+      "remaining": 51,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zaha": {
+      "handle": "zaha",
+      "name": "Zaha",
+      "total": 380,
+      "done": 35,
+      "remaining": 345,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zahra-ahmed": {
+      "handle": "zahra-ahmed",
+      "name": "Zahra Ahmed",
+      "total": 65,
+      "done": 65,
+      "remaining": 0,
+      "new_since_last_check": 0,
+      "status": "complete",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zainab-chottani": {
+      "handle": "zainab-chottani",
+      "name": "Zainab Chottani",
+      "total": 968,
+      "done": 407,
+      "remaining": 561,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zainab-chottani-feed": {
+      "handle": "zainab-chottani-feed",
+      "name": "Zainab Chottani Feed",
+      "total": 1039,
+      "done": 453,
+      "remaining": 586,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zara-shahjahan": {
+      "handle": "zara-shahjahan",
+      "name": "Zara Shahjahan",
+      "total": 1036,
+      "done": 110,
+      "remaining": 926,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zara-shahjahan-feed": {
+      "handle": "zara-shahjahan-feed",
+      "name": "Zara Shahjahan Feed",
+      "total": 1016,
+      "done": 110,
+      "remaining": 906,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zarif": {
+      "handle": "zarif",
+      "name": "Zarif",
+      "total": 489,
+      "done": 12,
+      "remaining": 477,
+      "new_since_last_check": 0,
+      "status": "in_progress",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zeen-feed": {
+      "handle": "zeen-feed",
+      "name": "Zeen Feed",
+      "total": 618,
+      "done": 0,
+      "remaining": 618,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zeen-women": {
+      "handle": "zeen-women",
+      "name": "Zeen Women",
+      "total": 618,
+      "done": 0,
+      "remaining": 618,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zellbury": {
+      "handle": "zellbury",
+      "name": "Zellbury",
+      "total": 1334,
+      "done": 0,
+      "remaining": 1334,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zellbury-feed": {
+      "handle": "zellbury-feed",
+      "name": "Zellbury Feed",
+      "total": 1334,
+      "done": 0,
+      "remaining": 1334,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zullbury": {
+      "handle": "zullbury",
+      "name": "Zullbury",
+      "total": 1557,
+      "done": 0,
+      "remaining": 1557,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
+    },
+    "zullbury-cambric-intermix-2021-feed": {
+      "handle": "zullbury-cambric-intermix-2021-feed",
+      "name": "Zullbury Cambric Intermix 2021 Feed",
+      "total": 1576,
+      "done": 0,
+      "remaining": 1576,
+      "new_since_last_check": 0,
+      "status": "pending",
+      "last_checked_at": "2026-11-06T16:43:42.955Z"
     }
-  }
+  },
+  "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
+  "collections_refresh_status": "complete"
 }
