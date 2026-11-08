@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node index.js --mode=live",
     "preview": "node index.js --mode=preview",
-    "test-connection": "node scripts/test-connection.js"
+    "test-connection": "node scripts/test-connection.js",
+    "test": "node --test"
   },
   "dependencies": {},
   "license": "UNLICENSED",
