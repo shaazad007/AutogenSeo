@@ -52,7 +52,7 @@ ke liye — koi embedded app, koi public OAuth login screen nahi.
 
 ### C.5) Groq (optional — daily throughput badhane ke liye)
 
-Gemini ki daily quota khatam hone par system khud-ba-khud **Groq** (ek alag, free company) par switch ho jata hai — agar aap yeh key add karein:
+Gemini ki daily quota/rate limit par system **Groq** par switch kar sakta hai — agar aap yeh key add karein:
 
 1. [console.groq.com](https://console.groq.com) par free account banayein (credit card nahi chahiye)
 2. **API Keys** section se ek key banayein
@@ -60,7 +60,19 @@ Gemini ki daily quota khatam hone par system khud-ba-khud **Groq** (ek alag, fre
    - Name: `GROQ_API_KEY`
    - Value: (Groq se mili key)
 
-**Agar yeh secret nahi banate**, koi masla nahi — system sirf Gemini par hi chalta rahega jaisa pehle chal raha tha (bas Gemini ki quota khatam hone par us din ki run wahi ruk jayegi, agli baar continue hogi).
+**Agar yeh secret nahi banate**, Groq skip hoga. Gemini ke baad Cloudflare configured ho to woh fallback karega; dono optional providers na hon to run quota limit par cleanly ruk jayegi aur agli scheduled run se continue hogi.
+
+### C.6) Cloudflare Workers AI (optional — teesra image fallback)
+
+Gemini aur Groq ki daily quota/rate limit lagne par configured Cloudflare provider current product ko continue karta hai. Cloudflare use karne ke liye:
+
+1. Cloudflare dashboard mein Workers AI enable karein aur apna Account ID lein.
+2. Workers AI ke liye API token banayein.
+3. GitHub repo → **Settings → Secrets and variables → Actions** mein yeh secrets add karein:
+   - `CLOUDFLARE_ACCOUNT_ID` — Cloudflare Account ID
+   - `CLOUDFLARE_API_TOKEN` — Workers AI API token
+
+Router Gemini → Groq → Cloudflare order mein chalta hai. Dono Cloudflare secrets hon tabhi provider enable hota hai; secrets na hon to existing providers kaam karte rahenge. Default vision model `@cf/qwen/qwen3.8-27b` hai. Cloudflare ki daily free allocation khatam hone par fallback ruk sakta hai; paid plan par allocation se zyada usage bill ho sakti hai.
 
 ### D) Pehla Test
 

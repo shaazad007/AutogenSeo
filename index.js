@@ -132,16 +132,19 @@ async function main() {
   if (collectionHandle) config.promptConfig.collection_filter = [collectionHandle];
 
   const runLog = [];
-  const { processed, failed, stopReason, usedGroqCount } = await runBatch({ shopify, config, mode, limit, runLog, deadlineMs });
+  const { processed, failed, stopReason, usedGroqCount, usedCloudflareCount } = await runBatch({ shopify, config, mode, limit, runLog, deadlineMs });
 
   const reasonNote =
     stopReason === "time_budget"
       ? " (stopped early: time budget reached — will resume next scheduled run)"
       : stopReason === "daily_quota"
-      ? " (stopped early: Gemini daily quota exhausted — will resume next scheduled run)"
+      ? " (stopped early: all configured image providers exhausted their daily quotas — will resume next scheduled run)"
+      : stopReason === "provider_limits"
+      ? " (stopped early: all configured image providers are rate limited — will resume next scheduled run)"
       : "";
   const groqNote = usedGroqCount ? ` (${usedGroqCount} of those via Groq fallback)` : "";
-  log(`Run finished. Processed: ${processed}, Failed: ${failed}.${reasonNote}${groqNote}`);
+  const cloudflareNote = usedCloudflareCount ? ` (${usedCloudflareCount} of those via Cloudflare fallback)` : "";
+  log(`Run finished. Processed: ${processed}, Failed: ${failed}.${reasonNote}${groqNote}${cloudflareNote}`);
 
   // Write a small log file the dashboard (docs/index.html) can fetch and display.
   const logPayload = {
