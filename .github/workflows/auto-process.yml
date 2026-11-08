@@ -21,6 +21,10 @@ on:
         description: "Optional Shopify collection handle to prioritize for this run"
         required: false
         default: ""
+      logical_job_id:
+        description: "App-generated ID that remains stable across a workflow rerun"
+        required: false
+        default: ""
 
   # Automatic runs — live mode. Runs 4x/day (roughly every 6 hours) instead of
   # once, because at the current delay_seconds in config.json, one 6-hour
@@ -71,6 +75,7 @@ jobs:
           INPUT_MODE: ${{ inputs.mode }}
           INPUT_LIMIT: ${{ inputs.limit }}
           INPUT_COLLECTION_HANDLE: ${{ inputs.collection_handle }}
+          INPUT_LOGICAL_JOB_ID: ${{ inputs.logical_job_id }}
         run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 
       # No need to hand-calculate a "safe" number anymore — index.js has its

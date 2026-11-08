@@ -132,7 +132,15 @@ async function main() {
   if (collectionHandle) config.promptConfig.collection_filter = [collectionHandle];
 
   const runLog = [];
-  const { processed, failed, stopReason, usedGroqCount, usedCloudflareCount } = await runBatch({ shopify, config, mode, limit, runLog, deadlineMs });
+  const { processed, failed, stopReason, usedGroqCount, usedCloudflareCount } = await runBatch({
+    shopify,
+    config,
+    mode,
+    limit,
+    runLog,
+    logicalJobId: process.env.INPUT_LOGICAL_JOB_ID || "",
+    deadlineMs,
+  });
 
   const reasonNote =
     stopReason === "time_budget"
