@@ -1,23 +1,14 @@
 {
-  "mode": "preview",
-  "finished_at": "2026-11-08T16:34:15.556Z",
-  "processed": 3,
+  "mode": "live",
+  "finished_at": "2026-11-08T16:45:26.741Z",
+  "processed": 0,
   "failed": 0,
   "stopReason": "daily_quota",
   "lines": [
-    "[16:32:30] Starting collection: azure-1",
-    "[16:32:30] Analyzing + writing (Gemini, 1 combined call) for: Azure Vibrant Ruby Luxe Formals 2022",
-    "[16:32:34] Preview written for: Azure Vibrant Ruby Luxe Formals 2022",
-    "[16:32:34] Waiting 30s for rate-limit guard...",
-    "[16:33:04] Analyzing + writing (Gemini, 1 combined call) for: Azure 07 Vintage Forest Velvet Prets 2021",
-    "[16:33:06] Preview written for: Azure 07 Vintage Forest Velvet Prets 2021",
-    "[16:33:06] Waiting 30s for rate-limit guard...",
-    "[16:33:36] Analyzing + writing (Gemini, 1 combined call) for: Azure Pastel Mint Luxury Prets",
-    "[16:33:41] Gemini's daily quota is used up for now — switching to Groq for the rest of this run (and it'll keep using Groq until Gemini's quota resets). (Daily quota exhausted: Gemini request failed (429): {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 15h26m18.062174687s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.5-flash-lite\"},\"quotaValue\":\"500\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"55578s\"}]}})",
-    "[16:33:41] Analyzing + writing (Groq fallback, 1 combined call) for: Azure Pastel Mint Luxury Prets",
-    "[16:33:44] Preview written for: Azure Pastel Mint Luxury Prets",
-    "[16:33:44] Waiting 30s for rate-limit guard...",
-    "[16:34:14] Analyzing + writing (Groq fallback, 1 combined call) for: Azure Misty Glow Luxe Formals 2022",
-    "[16:34:14] Groq's daily quota is also used up for now. Stopping this run cleanly — it will resume automatically on the next scheduled run. (Daily quota exhausted: Groq request failed (429): {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m2zn3xgwe1zrdvce2jd6r1bx` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199929, Requested 3218. Please try again in 22m39.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}})"
+    "[16:45:24] Starting collection: azure-1",
+    "[16:45:24] Analyzing + writing (Gemini, 1 combined call) for: Azure Vibrant Ruby Luxe Formals 2022",
+    "[16:45:25] Gemini's daily quota is used up for now — switching to Groq for the rest of this run (and it'll keep using Groq until Gemini's quota resets). (Daily quota exhausted: Gemini request failed (429): {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 15h14m34.694581872s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.5-flash-lite\"},\"quotaValue\":\"500\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"54874s\"}]}})",
+    "[16:45:25] Analyzing + writing (Groq fallback, 1 combined call) for: Azure Vibrant Ruby Luxe Formals 2022",
+    "[16:45:25] Groq's daily quota is also used up for now. Stopping this run cleanly — it will resume automatically on the next scheduled run. (Daily quota exhausted: Groq request failed (429): {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m2zn3xgwe1zrdvce2jd6r1bx` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198376, Requested 3331. Please try again in 12m17.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}})"
   ]
 }
