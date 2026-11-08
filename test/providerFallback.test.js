@@ -3,6 +3,7 @@
 const assert = require("node:assert/strict");
 const test = require("node:test");
 const { runProviderFallback } = require("../lib/providerFallback");
+const { markGroqProviderLimit } = require("../lib/groq");
 
 function limited(daily = true) {
   const error = new Error("quota limited");
@@ -54,6 +55,24 @@ test("Cloudflare runs only after Gemini and Groq are quota-limited", async () =>
     provider("Groq", calls, { error: limited(false) }),
     provider("Cloudflare Workers AI", calls, { value: "cloudflare-result" }),
   ]);
+  assert.equal(result, "cloudflare-result");
+  assert.equal(providerName, "Cloudflare Workers AI");
+  assert.deepEqual(calls, ["Gemini", "Groq", "Cloudflare Workers AI"]);
+});
+
+test("Groq 413 rate_limit_exceeded falls through to Cloudflare", async () => {
+  const calls = [];
+  const groqLimit = markGroqProviderLimit(
+    Object.assign(new Error("Groq request failed (413)"), { status: 413 }),
+    { error: { code: "rate_limit_exceeded" } },
+  );
+  const { result, providerName } = await runProviderFallback([
+    provider("Gemini", calls, { error: limited() }),
+    provider("Groq", calls, { error: groqLimit }),
+    provider("Cloudflare Workers AI", calls, { value: "cloudflare-result" }),
+  ]);
+  assert.equal(groqLimit.providerLimitReached, true);
+  assert.equal(groqLimit.providerCode, "rate_limit_exceeded");
   assert.equal(result, "cloudflare-result");
   assert.equal(providerName, "Cloudflare Workers AI");
   assert.deepEqual(calls, ["Gemini", "Groq", "Cloudflare Workers AI"]);
