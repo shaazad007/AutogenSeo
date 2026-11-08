@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 515,
+  "today_done": 517,
   "today_date": "2026-11-08",
-  "last_product_id": "gid://shopify/Product/7446435528932",
-  "last_product_title": "Azure 07 Vintage Forest Velvet Prets 2021",
-  "last_run_started_at": "2026-11-08T17:31:27.167Z",
-  "last_run_finished_at": "2026-11-08T17:32:03.891Z",
-  "status": "paused_daily_quota",
+  "last_product_id": "gid://shopify/Product/15432140488932",
+  "last_product_title": "Mushq Palace Muse Velvet Dynasty Edition 2026",
+  "last_run_started_at": "2026-11-08T18:24:49.214Z",
+  "last_run_finished_at": "2026-11-08T18:30:22.066Z",
+  "status": "completed_for_today",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -2252,11 +2252,8 @@
       "handle": "mushq",
       "name": "Mushq",
       "total": 1243,
-      "done": 101,
-      "remaining": 1142,
-      "new_since_last_check": 0,
-      "status": "in_progress",
-      "last_checked_at": "2026-11-06T16:43:42.955Z"
+      "done": 105,
+      "new_since_last_check": 0
     },
     "mushq-feed": {
       "handle": "mushq-feed",
