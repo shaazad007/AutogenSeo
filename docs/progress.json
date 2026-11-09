@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 488,
+  "today_done": 526,
   "today_date": "2026-11-09",
-  "last_product_id": "gid://shopify/Product/7118204928159",
-  "last_product_title": "Bareeze Ch3609 Sea Green Winter Karandi",
-  "last_run_started_at": "2026-11-09T10:32:02.360Z",
-  "last_run_finished_at": "2026-11-09T15:13:19.574Z",
+  "last_product_id": "gid://shopify/Product/7118207352991",
+  "last_product_title": "Bareeze Ch3684 Black Winter Karandi",
+  "last_run_started_at": "2026-11-09T19:36:06.205Z",
+  "last_run_finished_at": "2026-11-09T20:10:43.058Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_42601521885",
-    "workflow_run_id": 42601521885,
+    "logical_job_id": "ghjob_42684883690",
+    "workflow_run_id": 42684883690,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 481,
-    "total_products": 1392,
-    "completed_products": 480,
-    "failed_products": 1,
+    "processed_products": 38,
+    "total_products": 912,
+    "completed_products": 38,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-09T15:13:19.574Z"
+    "updated_at": "2026-11-09T20:10:43.058Z"
   }
 }
