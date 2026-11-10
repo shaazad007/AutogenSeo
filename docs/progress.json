@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 394,
+  "today_done": 435,
   "today_date": "2026-11-10",
-  "last_product_id": "gid://shopify/Product/7141316591775",
-  "last_product_title": "Mushq Potpourri Broadway Winter",
-  "last_run_started_at": "2026-11-10T16:51:16.987Z",
-  "last_run_finished_at": "2026-11-10T16:56:02.222Z",
+  "last_product_id": "gid://shopify/Product/7141318230175",
+  "last_product_title": "Cross Stitch Dewkist Mint Luxury Collection 2021",
+  "last_run_started_at": "2026-11-10T21:10:45.153Z",
+  "last_run_finished_at": "2026-11-10T21:54:05.328Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_42858782655",
-    "workflow_run_id": 42858782655,
+    "logical_job_id": "ghjob_42902438709",
+    "workflow_run_id": 42902438709,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 8,
-    "total_products": 1013,
-    "completed_products": 7,
-    "failed_products": 1,
+    "processed_products": 41,
+    "total_products": 1006,
+    "completed_products": 41,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-10T16:56:02.222Z"
+    "updated_at": "2026-11-10T21:54:05.328Z"
   }
 }
