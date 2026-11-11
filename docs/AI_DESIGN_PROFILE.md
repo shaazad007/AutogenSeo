@@ -30,12 +30,19 @@ Gemini, Groq, and Cloudflare use the same response contract. A missing or
 invalid profile is reported in the preview/log while valid SEO output continues.
 No second paid image-analysis request is added.
 
+Already `ai-done` products are excluded from normal runs. An explicit manual
+`profile-backfill` run selects only `ai-done` products missing
+`custom.ai_design`, generates and writes the profile, and leaves SEO fields,
+images, tags, and the normal daily SEO count untouched. The manual workflow
+limit and existing collection filter still apply. Scheduled runs never use
+backfill mode.
+
 Live profile generation and writes require
 `AI_DESIGN_PROFILE_ENABLED=true`. The default is false. The current GitHub
-Actions workflow does not pass this flag, so scheduled live runs remain on the
-legacy SEO-only path. Enabling this behavior in Actions requires a separately
-approved workflow/configuration change and a controlled owner test; this pull
-request does not enable it or run against a live store.
+Actions schedule leaves this flag unset, so scheduled live runs remain on the
+legacy SEO-only path. The manual `profile-backfill` dispatch opts in for that
+single run; it does not enable profile writes for scheduled runs. No live store
+was used for these tests.
 
 When enabled, the engine reads the `custom.ai_design` product metafield
 definition. It reuses a compatible PRODUCT/JSON definition, creates the

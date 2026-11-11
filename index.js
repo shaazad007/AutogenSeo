@@ -9,6 +9,7 @@
  *   node index.js --mode=collections         (read-only collection inventory refresh)
  *   node index.js --mode=live                 (writes to Shopify, up to config.json's daily_cap per day)
  *   node index.js --mode=live --limit=50       (override the per-run limit, e.g. for a smaller manual test)
+ *   node index.js --mode=profile-backfill --limit=10 (writes profiles only for eligible ai-done products)
  *
  * This is what .github/workflows/auto-process.yml runs every night.
  */
@@ -34,8 +35,8 @@ function parseArgs() {
 async function main() {
   const { mode, limit, collectionHandle } = parseArgs();
 
-  if (!["preview", "live", "collections"].includes(mode)) {
-    throw new Error(`Unknown --mode "${mode}". Use "preview", "live", or "collections".`);
+  if (!["preview", "live", "profile-backfill", "collections"].includes(mode)) {
+    throw new Error(`Unknown --mode "${mode}". Use "preview", "live", "profile-backfill", or "collections".`);
   }
   if (!Number.isInteger(limit) || limit < 1 || limit > 100000) {
     throw new Error("--limit must be an integer from 1 to 100000.");

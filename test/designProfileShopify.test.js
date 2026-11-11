@@ -81,6 +81,49 @@ test("creates compatible product JSON definition, writes profile, verifies readb
   assert.deepEqual(JSON.parse(stored).metadata.image_fingerprint, "a".repeat(64));
 });
 
+test("profile backfill fetch selects only ai-done products missing custom.ai_design", async () => {
+  const client = mockClient(async (query, variables = {}) => {
+    assert.match(query, /metafield\(namespace: "custom", key: "ai_design"\)/);
+    assert.equal(variables.query, "tag:ai-done");
+    return { products: {
+      nodes: [
+        { id: "missing", tags: ["ai-done"], designProfile: null },
+        { id: "present", tags: ["ai-done"], designProfile: { value: "{}" } },
+        { id: "pending", tags: [], designProfile: null },
+      ],
+      pageInfo: { hasNextPage: true, endCursor: "next-page" },
+    } };
+  });
+
+  const page = await client.fetchProfileBackfillProducts({ first: 3 });
+  assert.deepEqual(page, {
+    products: [{ id: "missing", tags: ["ai-done"], designProfile: null }],
+    hasNextPage: true,
+    endCursor: "next-page",
+  });
+});
+
+test("profile backfill honors the selected collection", async () => {
+  const client = mockClient(async (query, variables = {}) => {
+    if (query.includes("CollectionByHandle")) {
+      assert.equal(variables.handle, "spring-edit");
+      return { collectionByHandle: { id: "gid://shopify/Collection/7", title: "Spring Edit" } };
+    }
+    assert.match(query, /CollectionProfileBackfill/);
+    assert.equal(variables.id, "gid://shopify/Collection/7");
+    return { collection: { products: {
+      nodes: [{ id: "in-collection", tags: ["ai-done"], designProfile: null }],
+      pageInfo: { hasNextPage: false, endCursor: null },
+    } } };
+  });
+
+  const page = await client.fetchProfileBackfillProducts({
+    first: 5,
+    collectionHandles: ["spring-edit"],
+  });
+  assert.deepEqual(page.products.map((product) => product.id), ["in-collection"]);
+});
+
 test("refuses incompatible existing definitions without overwriting them", async () => {
   let mutationCalled = false;
   const client = mockClient(async (query) => {

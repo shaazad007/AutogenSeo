@@ -5,13 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview (safe), live, or collections (read-only inventory refresh)"
+        description: "preview (safe), live, profile-backfill (profile only), or collections (read-only inventory refresh)"
         required: true
         default: "preview"
         type: choice
         options:
           - preview
           - live
+          - profile-backfill
           - collections
       limit:
         description: "How many products to process in this run"
@@ -76,6 +77,7 @@ jobs:
           INPUT_LIMIT: ${{ inputs.limit }}
           INPUT_COLLECTION_HANDLE: ${{ inputs.collection_handle }}
           INPUT_LOGICAL_JOB_ID: ${{ inputs.logical_job_id }}
+          AI_DESIGN_PROFILE_ENABLED: ${{ inputs.mode == 'profile-backfill' }}
         run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 
       # No need to hand-calculate a "safe" number anymore — index.js has its

@@ -92,14 +92,14 @@ function installMockFetch(t) {
   return () => generationRequests;
 }
 
-function fakeShopify({ failProfileWrites = 0 } = {}) {
+function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
   const counters = { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 };
   const products = [{
     id: "gid://shopify/Product/42",
     title: "Green Organza Suit",
     handle: "green-organza-suit",
     vendor: "Sara Clothes",
-    tags: [],
+    tags: aiDone ? ["ai-done"] : [],
     descriptionHtml: "<p>Organza fabric</p>",
     media: { nodes: [{ id: "gid://shopify/MediaImage/1", image: { url: "https://cdn.example.test/product.png" } }] },
   }];
@@ -109,6 +109,10 @@ function fakeShopify({ failProfileWrites = 0 } = {}) {
     async countTotalProducts() { return 1; },
     async countUnprocessedProducts() { return 1; },
     async fetchUnprocessedProducts() {
+      const rows = products.splice(0, products.length);
+      return { products: rows, hasNextPage: false, endCursor: null };
+    },
+    async fetchProfileBackfillProducts() {
       const rows = products.splice(0, products.length);
       return { products: rows, hasNextPage: false, endCursor: null };
     },
@@ -146,6 +150,78 @@ test("Preview includes the Design Profile and performs no Shopify writes", async
   assert.match(preview, /AI DESIGN PROFILE:/);
   assert.match(preview, /"schema_version": 1/);
   assert.equal(generationRequests(), 1);
+  assert.deepEqual(shopify.counters, { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 });
+});
+
+test("profile backfill writes only the profile for ai-done products", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-backfill-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, true);
+  const shopify = fakeShopify({ aiDone: true });
+  const generationRequests = installMockFetch(t);
+
+  const result = await runBatch({
+    shopify,
+    config,
+    mode: "profile-backfill",
+    limit: 1,
+    runLog: [],
+  });
+
+  const progress = JSON.parse(fs.readFileSync(config.paths.progress, "utf8"));
+  assert.equal(result.processed, 1);
+  assert.equal(generationRequests(), 1);
+  assert.equal(shopify.counters.profileWrites, 1);
+  assert.equal(shopify.counters.backups, 0);
+  assert.equal(shopify.counters.updates, 0);
+  assert.equal(shopify.counters.altUpdates, 0);
+  assert.equal(progress.today_done, 0);
+});
+
+test("profile backfill retries a saved profile without another AI request", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-backfill-retry-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, true);
+  const progress = JSON.parse(fs.readFileSync(config.paths.progress, "utf8"));
+  progress.design_profile_retries = [{
+    product_id: "gid://shopify/Product/42",
+    title: "Green Organza Suit",
+    profile: response.design_profile,
+    attempts: 1,
+  }];
+  fs.writeFileSync(config.paths.progress, JSON.stringify(progress));
+  const shopify = fakeShopify({ aiDone: true });
+  const generationRequests = installMockFetch(t);
+
+  const result = await runBatch({
+    shopify,
+    config,
+    mode: "profile-backfill",
+    limit: 1,
+    runLog: [],
+  });
+
+  const completed = JSON.parse(fs.readFileSync(config.paths.progress, "utf8"));
+  assert.equal(result.processed, 1);
+  assert.equal(generationRequests(), 0);
+  assert.equal(shopify.counters.profileWrites, 1);
+  assert.equal(shopify.counters.updates, 0);
+  assert.deepEqual(completed.design_profile_retries, []);
+});
+
+test("profile backfill refuses to run unless explicitly enabled", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-backfill-disabled-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, false);
+  const shopify = fakeShopify({ aiDone: true });
+
+  await assert.rejects(runBatch({
+    shopify,
+    config,
+    mode: "profile-backfill",
+    limit: 1,
+    runLog: [],
+  }), /requires AI_DESIGN_PROFILE_ENABLED=true/);
   assert.deepEqual(shopify.counters, { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 });
 });
 
