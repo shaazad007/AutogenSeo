@@ -217,6 +217,7 @@ test("malformed profile preserves successfully generated SEO fields", () => {
   });
 
   assert.match(result.description_html, /Grounded product description/);
+  assert.doesNotMatch(result.description_html, /Sara Clothes|example\.test/);
   assert.ok(result.meta_description.length > 0);
   assert.equal(result.design_profile, null);
   assert.match(result.design_profile_error, /JSON object/);
