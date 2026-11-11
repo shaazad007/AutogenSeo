@@ -1,12 +1,28 @@
 {
   "mode": "profile-backfill",
-  "finished_at": "2026-11-11T19:29:10.631Z",
-  "processed": 1,
+  "finished_at": "2026-11-11T22:35:21.389Z",
+  "processed": 4,
   "failed": 0,
-  "stopReason": null,
+  "stopReason": "daily_quota",
   "lines": [
-    "[19:28:31] Analyzing + writing (Gemini) for: Kayseria E1998 LAWN EMBROIDERED",
-    "[19:28:40] Design Profile backfilled without changing SEO for: Kayseria E1998 LAWN EMBROIDERED",
-    "[19:28:40] Waiting 30s for rate-limit guard..."
+    "[22:32:56] Analyzing + writing (Gemini) for: Kanwal Malik Formal Luxury Sable Dress",
+    "[22:33:02] Design Profile backfilled without changing SEO for: Kanwal Malik Formal Luxury Sable Dress",
+    "[22:33:02] Waiting 30s for rate-limit guard...",
+    "[22:33:32] Analyzing + writing (Gemini) for: Cross Stitch DESERT ROSE DSC08678-refined Collection",
+    "[22:33:37] Design Profile backfilled without changing SEO for: Cross Stitch DESERT ROSE DSC08678-refined Collection",
+    "[22:33:37] Waiting 30s for rate-limit guard...",
+    "[22:34:07] Analyzing + writing (Gemini) for: Cross Stitch MOCCA MIST DSC08645-refined Collection",
+    "[22:34:13] Design Profile backfilled without changing SEO for: Cross Stitch MOCCA MIST DSC08645-refined Collection",
+    "[22:34:13] Waiting 30s for rate-limit guard...",
+    "[22:34:43] Analyzing + writing (Gemini) for: Cross Stitch HERITAGE WRAP DSC08860 Collection",
+    "[22:34:44] Gemini daily quota exhausted; trying the next configured provider. (Daily quota exhausted: Gemini request failed (429): {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 9h25m15.790530999s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://aistudio.google.com/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"description\":\"Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\",\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.5-flash-lite\",\"location\":\"global\"},\"quotaValue\":\"500\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"33915s\"}]}})",
+    "[22:34:44] Analyzing + writing (Groq) for: Cross Stitch HERITAGE WRAP DSC08860 Collection",
+    "[22:34:49] Design Profile backfilled without changing SEO for: Cross Stitch HERITAGE WRAP DSC08860 Collection",
+    "[22:34:49] Waiting 30s for rate-limit guard...",
+    "[22:35:20] Analyzing + writing (Groq) for: Cross Stitch SOFT CARAMEL DSC08658-refined Collection",
+    "[22:35:21] Groq daily quota exhausted; trying the next configured provider. (Daily quota exhausted: Groq request failed (429): {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m2zn3xgwe1zrdvce2jd6r1bx` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198792, Requested 4714. Please try again in 25m14.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}})",
+    "[22:35:21] Analyzing + writing (Cloudflare Workers AI) for: Cross Stitch SOFT CARAMEL DSC08658-refined Collection",
+    "[22:35:21] Cloudflare Workers AI daily quota exhausted; trying the next configured provider. (Daily quota exhausted: Cloudflare Workers AI request failed (429): {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (2dabcd41-effe-475e-a540-9965d5e5c3d8)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]})",
+    "[22:35:21] All configured image providers are limited. Stopping cleanly; the unprocessed product will resume on the next run. (All configured image providers have exhausted their quota or rate limit.)"
   ]
 }
