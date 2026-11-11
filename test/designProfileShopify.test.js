@@ -134,7 +134,10 @@ test("refuses incompatible existing definitions without overwriting them", async
     throw new Error("unexpected mutation");
   });
 
-  await assert.rejects(client.ensureDesignProfileDefinition(), /incompatible/);
+  await assert.rejects(
+    client.ensureDesignProfileDefinition(),
+    /ownerType=PRODUCT, type=single_line_text_field/,
+  );
   assert.equal(mutationCalled, false);
 });
 

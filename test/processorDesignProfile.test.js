@@ -94,6 +94,7 @@ function installMockFetch(t) {
 
 function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
   const counters = { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 };
+  const calls = [];
   const products = [{
     id: "gid://shopify/Product/42",
     title: "Green Organza Suit",
@@ -105,6 +106,7 @@ function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
   }];
   return {
     counters,
+    calls,
     products,
     async countTotalProducts() { return 1; },
     async countUnprocessedProducts() { return 1; },
@@ -116,10 +118,11 @@ function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
       const rows = products.splice(0, products.length);
       return { products: rows, hasNextPage: false, endCursor: null };
     },
-    async backupOriginalDescription() { counters.backups += 1; },
-    async updateProduct() { counters.updates += 1; },
-    async updateMediaAltText() { counters.altUpdates += 1; },
+    async backupOriginalDescription() { calls.push("backup"); counters.backups += 1; },
+    async updateProduct() { calls.push("seo"); counters.updates += 1; },
+    async updateMediaAltText() { calls.push("alt"); counters.altUpdates += 1; },
     async writeDesignProfile() {
+      calls.push("profile");
       counters.profileWrites += 1;
       if (counters.profileWrites <= failProfileWrites) throw new Error("temporary profile write failure");
       return { verified: true };
@@ -172,6 +175,7 @@ test("profile backfill writes only the profile for ai-done products", async (t) 
   assert.equal(result.processed, 1);
   assert.equal(generationRequests(), 1);
   assert.equal(shopify.counters.profileWrites, 1);
+  assert.deepEqual(shopify.calls, ["profile"]);
   assert.equal(shopify.counters.backups, 0);
   assert.equal(shopify.counters.updates, 0);
   assert.equal(shopify.counters.altUpdates, 0);
@@ -243,6 +247,7 @@ test("profile write failure persists retry and recovers next run without another
   assert.equal(first.processed, 1);
   assert.equal(shopify.counters.updates, 1);
   assert.equal(shopify.counters.profileWrites, 1);
+  assert.deepEqual(shopify.calls.slice(0, 4), ["profile", "backup", "seo", "alt"]);
   assert.equal(pending.design_profile_retries.length, 1);
   assert.equal(pending.design_profile_retries[0].attempts, 1);
   assert.equal(generationRequests(), 1);
