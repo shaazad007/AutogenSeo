@@ -110,3 +110,38 @@ test("unknown or invalid product dates sort deterministically by ID", async () =
     "gid://shopify/Product/b",
   ]);
 });
+
+test("exact queue fetch preserves submitted ID order and skips missing or ai-done products", async () => {
+  const client = new ShopifyClient({ store: "example.myshopify.com", clientId: "id", clientSecret: "secret" });
+  let request;
+  client.graphql = async (query, variables) => {
+    request = { query, variables };
+    return { nodes: [
+      product("gid://shopify/Product/3", null, null),
+      product("gid://shopify/Product/1", null, null),
+      product("gid://shopify/Product/2", null, null, ["AI-DONE"]),
+      null,
+    ] };
+  };
+  const result = await client.fetchUnprocessedProductsByIds([
+    "gid://shopify/Product/1",
+    "gid://shopify/Product/2",
+    "gid://shopify/Product/missing",
+    "gid://shopify/Product/3",
+  ]);
+  assert.deepEqual(request.variables.ids, [
+    "gid://shopify/Product/1",
+    "gid://shopify/Product/2",
+    "gid://shopify/Product/missing",
+    "gid://shopify/Product/3",
+  ]);
+  assert.match(request.query, /nodes\(ids: \$ids\)/);
+  assert.deepEqual(result.products.map((item) => item.id), [
+    "gid://shopify/Product/1",
+    "gid://shopify/Product/3",
+  ]);
+  assert.deepEqual(result.skippedProductIds, [
+    "gid://shopify/Product/2",
+    "gid://shopify/Product/missing",
+  ]);
+});
