@@ -1,12 +1,12 @@
 {
-  "mode": "live",
-  "finished_at": "2026-11-11T18:55:36.272Z",
+  "mode": "profile-backfill",
+  "finished_at": "2026-11-11T19:01:52.094Z",
   "processed": 1,
   "failed": 0,
   "stopReason": null,
   "lines": [
-    "[18:54:34] Analyzing + writing (Gemini) for: Cross Stitch GOLDEN DUNE DSC08851 Collection",
-    "[18:55:06] Success! Updated Shopify product: 'Cross Stitch GOLDEN DUNE DSC08851 Collection'",
-    "[18:55:06] Waiting 30s for rate-limit guard..."
+    "[19:01:09] Analyzing + writing (Gemini) for: Kayseria E1998 LAWN EMBROIDERED",
+    "[19:01:22] Design Profile backfilled without changing SEO for: Kayseria E1998 LAWN EMBROIDERED",
+    "[19:01:22] Waiting 30s for rate-limit guard..."
   ]
 }
