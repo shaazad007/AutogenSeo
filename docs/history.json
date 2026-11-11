@@ -1,29 +1,5 @@
 [
   {
-    "at": "2026-10-23T08:39:29.855Z",
-    "total_done": 0,
-    "total_products": 10000,
-    "today_done": 55,
-    "processed_this_run": 55,
-    "failed_this_run": 3
-  },
-  {
-    "at": "2026-10-23T14:12:15.976Z",
-    "total_done": 0,
-    "total_products": 10000,
-    "today_done": 55,
-    "processed_this_run": 0,
-    "failed_this_run": 3
-  },
-  {
-    "at": "2026-10-23T18:57:34.490Z",
-    "total_done": 0,
-    "total_products": 10000,
-    "today_done": 55,
-    "processed_this_run": 0,
-    "failed_this_run": 3
-  },
-  {
     "at": "2026-10-24T04:16:33.791Z",
     "total_done": 0,
     "total_products": 10000,
@@ -716,6 +692,30 @@
     "total_done": 0,
     "total_products": 10000,
     "today_done": 434,
+    "processed_this_run": 1,
+    "failed_this_run": 0
+  },
+  {
+    "at": "2026-11-11T18:32:31.713Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 435,
+    "processed_this_run": 1,
+    "failed_this_run": 0
+  },
+  {
+    "at": "2026-11-11T18:55:36.272Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 436,
+    "processed_this_run": 1,
+    "failed_this_run": 0
+  },
+  {
+    "at": "2026-11-11T19:01:52.094Z",
+    "total_done": 0,
+    "total_products": 10000,
+    "today_done": 436,
     "processed_this_run": 1,
     "failed_this_run": 0
   }
