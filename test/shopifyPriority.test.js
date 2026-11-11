@@ -42,6 +42,7 @@ test("catalog fetch prioritizes publication date, then creation date and ID", as
   ]);
   assert.match(request.query, /sortKey:\s*PUBLISHED_AT,\s*reverse:\s*true/);
   assert.match(request.query, /publishedAt\s+createdAt/);
+  assert.match(request.query, /collections\(first:\s*10\)/);
   assert.equal(request.variables.query, "-tag:ai-done");
   assert.deepEqual(request.variables, { first: 2, after: "cursor-0", query: "-tag:ai-done" });
   assert.equal(page.hasNextPage, true);
@@ -52,6 +53,7 @@ test("collection fetch keeps collection scope and AI-done filtering with determi
   const client = new ShopifyClient({ store: "example.myshopify.com", clientId: "id", clientSecret: "secret" });
   client.getCollectionGidByHandle = async (handle) => {
     assert.equal(handle, "summer-edit");
+    client._collectionTitleCache = { "summer-edit": "Summer Edit" };
     return "gid://shopify/Collection/42";
   };
   let request;
@@ -81,6 +83,7 @@ test("collection fetch keeps collection scope and AI-done filtering with determi
     "gid://shopify/Product/new",
     "gid://shopify/Product/old",
   ]);
+  assert.ok(page.products.every((item) => item.processingCollectionTitle === "Summer Edit"));
   assert.match(request.query, /sortKey:\s*CREATED,\s*reverse:\s*true/);
   assert.match(request.query, /publishedAt\s+createdAt/);
   assert.deepEqual(request.variables, {

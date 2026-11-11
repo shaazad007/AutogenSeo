@@ -122,6 +122,7 @@ test("profile backfill honors the selected collection", async () => {
     collectionHandles: ["spring-edit"],
   });
   assert.deepEqual(page.products.map((product) => product.id), ["in-collection"]);
+  assert.equal(page.products[0].processingCollectionTitle, "Spring Edit");
 });
 
 test("refuses incompatible existing definitions without overwriting them", async () => {

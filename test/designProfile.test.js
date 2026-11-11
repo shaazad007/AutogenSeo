@@ -4,6 +4,8 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const {
   normalizeDesignProfile,
+  groundDesignProfileInput,
+  resolveCollectionBrand,
   fingerprintImages,
   fingerprintProductContext,
   stableJson,
@@ -95,6 +97,46 @@ test("unknown profile input stays unknown and malformed roots are rejected", () 
   assert.throws(() => normalizeDesignProfile("not-json-object"), /JSON object/);
 });
 
+test("collection is the brand and old description prevents component fabric crossover", () => {
+  const product = {
+    title: "Kayseria E1998",
+    vendor: "Sara Clothes",
+    processingCollectionTitle: "Kayseria",
+    descriptionHtml: `
+      <p>Shirt Fabric: Lawn. Color: Yellow.</p>
+      <p>Dupatta Fabric: Bamber Chiffon. Color: Yellow.</p>
+      <p>Trouser Fabric: Cambric.</p>
+    `,
+  };
+  const grounded = groundDesignProfileInput({
+    brand: { value: "Sara Clothes", source: "shopify_vendor", confidence: 1 },
+    fabric: {
+      shirt: { value: "Lawn", source: "shopify_description", confidence: 1 },
+      dupatta: { value: "Lawn", source: "shopify_description", confidence: 1 },
+      trouser: { value: "Cambric", source: "shopify_description", confidence: 1 },
+    },
+    dupatta: {
+      fabric: { value: "Bamber Chiffon", source: "shopify_description", confidence: 1 },
+    },
+    embroidery: {
+      density: { value: "dense", source: "shopify_description", confidence: 1 },
+    },
+  }, product);
+  const normalized = normalizeDesignProfile(grounded);
+
+  assert.equal(resolveCollectionBrand(product), "Kayseria");
+  assert.deepEqual(normalized.brand, {
+    value: "Kayseria",
+    source: "shopify_collection",
+    confidence: 1,
+  });
+  assert.equal(normalized.fabric.shirt.value, "Lawn");
+  assert.equal(normalized.fabric.dupatta.value, null);
+  assert.equal(normalized.fabric.trouser.value, "Cambric");
+  assert.equal(normalized.dupatta.fabric.value, "Bamber Chiffon");
+  assert.equal(normalized.embroidery.density.value, null);
+});
+
 function nullProfile() {
   return { design_style: { value: "party", source: "image", confidence: 1 } };
 }
@@ -126,6 +168,7 @@ test("profile prompt is optional and includes Shopify Color option evidence", ()
       title: "Organza Festive Suit",
       vendor: "Sara Clothes",
       descriptionHtml: "<p>Organza fabric</p>",
+      processingCollectionTitle: "Sapphire",
       options: [{ name: "Color", values: ["Mehndi Green", "Gold"] }],
     },
     designer: null,
@@ -137,6 +180,25 @@ test("profile prompt is optional and includes Shopify Color option evidence", ()
   assert.match(enabled, /design_profile/);
   assert.match(enabled, /\["Mehndi Green","Gold"\]/);
   assert.match(enabled, /Never claim a fabric from an image/);
+  assert.match(enabled, /Collection\/brand: Sapphire/);
+  assert.match(enabled, /shopify_collection/);
+});
+
+test("prompt keeps detailed pre-update description beyond the old 600 character cutoff", () => {
+  const prompt = buildCombinedPromptText({
+    promptConfig,
+    product: {
+      title: "Detailed Suit",
+      processingCollectionTitle: "Kayseria",
+      descriptionHtml: `<p>${"component detail ".repeat(50)}Bamber Chiffon Dupatta</p>`,
+      options: [],
+    },
+    designer: null,
+    modelMatch: null,
+    includeDesignProfile: true,
+  });
+  assert.match(prompt, /Bamber Chiffon Dupatta/);
+  assert.match(prompt, /roughly 160-260 words/);
 });
 
 test("malformed profile preserves successfully generated SEO fields", () => {

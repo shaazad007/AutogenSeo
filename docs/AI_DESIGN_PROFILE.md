@@ -22,6 +22,16 @@ Shopify Color/Colour option values are included in the product context before
 the model estimates visible colours. Manual metafields outside `custom.custom_ai_design`
 are not changed.
 
+The active Shopify collection title is the Design Profile brand and is recorded
+with source `shopify_collection`. The product description fetched before any SEO
+update is authoritative for explicit component fabrics, colours, embroidery,
+construction, and measurements. Shirt, dupatta, and trouser fabric claims are
+validated against their own description segments so one component's material is
+not copied to another. Variant colour evidence is used before image estimates;
+image vision fills only facts that are absent from Shopify text/options and are
+clearly visible. The same pre-update facts and image evidence produce a detailed
+professional replacement description without changing the title or handle.
+
 ## Preview and live behavior
 
 Preview asks for the profile in the existing image-plus-copy request and writes
