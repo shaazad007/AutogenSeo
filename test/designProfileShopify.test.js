@@ -26,7 +26,7 @@ function definition(overrides = {}) {
     id: "gid://shopify/MetafieldDefinition/1",
     name: "AI Design Profile",
     namespace: "custom",
-    key: "ai_design",
+    key: "custom_ai_design",
     ownerType: "PRODUCT",
     type: { name: "json" },
     ...overrides,
@@ -63,7 +63,7 @@ test("creates compatible product JSON definition, writes profile, verifies readb
       const input = variables.metafields[0];
       assert.equal(input.ownerId, productId);
       assert.equal(input.namespace, "custom");
-      assert.equal(input.key, "ai_design");
+      assert.equal(input.key, "custom_ai_design");
       assert.equal(input.type, "json");
       assert.equal(input.compareDigest, null);
       stored = input.value;
@@ -81,9 +81,9 @@ test("creates compatible product JSON definition, writes profile, verifies readb
   assert.deepEqual(JSON.parse(stored).metadata.image_fingerprint, "a".repeat(64));
 });
 
-test("profile backfill fetch selects only ai-done products missing custom.ai_design", async () => {
+test("profile backfill fetch selects only ai-done products missing custom.custom_ai_design", async () => {
   const client = mockClient(async (query, variables = {}) => {
-    assert.match(query, /metafield\(namespace: "custom", key: "ai_design"\)/);
+    assert.match(query, /metafield\(namespace: "custom", key: "custom_ai_design"\)/);
     assert.equal(variables.query, "tag:ai-done");
     return { products: {
       nodes: [
