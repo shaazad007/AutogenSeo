@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 420,
+  "today_done": 422,
   "today_date": "2026-11-11",
-  "last_product_id": "gid://shopify/Product/7173610832031",
-  "last_product_title": "Ramsha D 701 Chiffon Volume 7 2021",
-  "last_run_started_at": "2026-11-11T09:57:16.617Z",
+  "last_product_id": "gid://shopify/Product/15407752675556",
+  "last_product_title": "Imrozia SB-52 Sunehri Organza Mehandi Collection 2026",
+  "last_run_started_at": "2026-11-11T15:53:38.356Z",
   "last_run_finished_at": "2026-11-11T14:07:20.332Z",
-  "status": "paused_daily_quota",
+  "status": "running",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_42999473634",
-    "workflow_run_id": 42999473634,
+    "logical_job_id": "collection_1794412397069991",
+    "workflow_run_id": 43052806292,
     "github_run_attempt": 1,
-    "product_status": "partially_completed",
-    "processed_products": 410,
-    "total_products": 1390,
-    "completed_products": 410,
+    "product_status": "running",
+    "processed_products": 2,
+    "total_products": 100,
+    "completed_products": 2,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-11T14:07:20.332Z"
+    "updated_at": "2026-11-11T15:54:22.925Z"
   }
 }
