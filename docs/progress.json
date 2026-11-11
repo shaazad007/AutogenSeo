@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 423,
+  "today_done": 431,
   "today_date": "2026-11-11",
-  "last_product_id": "gid://shopify/Product/8892190261476",
-  "last_product_title": "Rajbari Design # 10 Nissa Floral Symphony  2026",
-  "last_run_started_at": "2026-11-11T16:25:57.927Z",
-  "last_run_finished_at": "2026-11-11T14:07:20.332Z",
-  "status": "running",
+  "last_product_id": "gid://shopify/Product/15448555159780",
+  "last_product_title": "Cross Stitch IVORY CHARM DSC08843 Collection",
+  "last_run_started_at": "2026-11-11T16:57:11.728Z",
+  "last_run_finished_at": "2026-11-11T17:02:35.107Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "collection_1794414345082515",
-    "workflow_run_id": 43058235733,
+    "logical_job_id": "ghjob_43063328240",
+    "workflow_run_id": 43063328240,
     "github_run_attempt": 1,
-    "product_status": "running",
-    "processed_products": 1,
-    "total_products": 100,
-    "completed_products": 1,
+    "product_status": "partially_completed",
+    "processed_products": 8,
+    "total_products": 977,
+    "completed_products": 8,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-11T16:26:12.964Z"
+    "updated_at": "2026-11-11T17:02:35.107Z"
   }
 }
