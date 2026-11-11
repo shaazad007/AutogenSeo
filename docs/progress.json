@@ -5,8 +5,8 @@
   "today_date": "2026-11-11",
   "last_product_id": "gid://shopify/Product/15448645435620",
   "last_product_title": "Kayseria E1998 LAWN EMBROIDERED",
-  "last_run_started_at": "2026-11-11T19:01:08.365Z",
-  "last_run_finished_at": "2026-11-11T19:01:52.092Z",
+  "last_run_started_at": "2026-11-11T19:28:30.161Z",
+  "last_run_finished_at": "2026-11-11T19:29:10.629Z",
   "status": "completed_for_today",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,8 +3499,8 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43083188336",
-    "workflow_run_id": 43083188336,
+    "logical_job_id": "ghjob_43087501964",
+    "workflow_run_id": 43087501964,
     "github_run_attempt": 1,
     "product_status": "completed",
     "processed_products": 1,
@@ -3508,7 +3508,7 @@
     "completed_products": 1,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-11T19:01:52.093Z"
+    "updated_at": "2026-11-11T19:29:10.629Z"
   },
   "design_profile_retries": []
 }
