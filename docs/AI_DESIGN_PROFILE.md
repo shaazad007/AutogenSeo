@@ -4,7 +4,7 @@
 
 The engine can include a version 1 fashion Design Profile in the same multimodal
 generation request used for the existing SEO output. The Shopify target is the
-product JSON metafield `ai_design.profile`. Product and variant titles, handles,
+product JSON metafield `custom.ai_design`. Product and variant titles, handles,
 SEO fields, tags, image alt text, collection filters, and `ai-done` selection
 continue to use the existing processing path.
 
@@ -19,7 +19,7 @@ image-byte SHA-256, and product-context SHA-256 metadata.
 Fabric is never inferred from an image. Fabric facts must cite Shopify title,
 description, or variant metadata. Brand facts may cite only title or vendor.
 Shopify Color/Colour option values are included in the product context before
-the model estimates visible colours. Manual metafields outside `ai_design.profile`
+the model estimates visible colours. Manual metafields outside `custom.ai_design`
 are not changed.
 
 ## Preview and live behavior
@@ -37,7 +37,7 @@ legacy SEO-only path. Enabling this behavior in Actions requires a separately
 approved workflow/configuration change and a controlled owner test; this pull
 request does not enable it or run against a live store.
 
-When enabled, the engine reads the `ai_design.profile` product metafield
+When enabled, the engine reads the `custom.ai_design` product metafield
 definition. It reuses a compatible PRODUCT/JSON definition, creates the
 definition only when absent, and refuses to overwrite an incompatible one. It
 sets the JSON value and verifies it with a Shopify readback. Existing matching

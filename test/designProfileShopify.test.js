@@ -25,8 +25,8 @@ function definition(overrides = {}) {
   return {
     id: "gid://shopify/MetafieldDefinition/1",
     name: "AI Design Profile",
-    namespace: "ai_design",
-    key: "profile",
+    namespace: "custom",
+    key: "ai_design",
     ownerType: "PRODUCT",
     type: { name: "json" },
     ...overrides,
@@ -62,8 +62,8 @@ test("creates compatible product JSON definition, writes profile, verifies readb
     if (query.includes("SetDesignProfile")) {
       const input = variables.metafields[0];
       assert.equal(input.ownerId, productId);
-      assert.equal(input.namespace, "ai_design");
-      assert.equal(input.key, "profile");
+      assert.equal(input.namespace, "custom");
+      assert.equal(input.key, "ai_design");
       assert.equal(input.type, "json");
       assert.equal(input.compareDigest, null);
       stored = input.value;
