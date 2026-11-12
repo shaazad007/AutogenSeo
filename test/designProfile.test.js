@@ -117,6 +117,44 @@ test("rejects image-sourced fabric while retaining schema version 1", () => {
   assert.equal(normalized.fabric.shirt.source, "unknown");
 });
 
+test("collection provenance is accepted and legacy vendor provenance remains valid", () => {
+  const current = normalizeDesignProfile({ brand: { value: "Imrozia", source: "collection", confidence: 1 } });
+  assert.equal(current.brand.value, "Imrozia");
+  assert.equal(current.brand.source, "collection");
+  assert.equal(current.schema_version, 1);
+  assert.equal(normalizeDesignProfile(profile()).brand.source, "shopify_vendor");
+});
+
+test("description does not add Sara Clothes branding or a footer automatically", () => {
+  const args = {
+    promptConfig,
+    product: { title: "Green Lawn Suit", vendor: "Sara Clothes", descriptionHtml: "<p>lawn</p>" },
+    designer: null,
+    modelMatch: null,
+  };
+  const prompt = buildCombinedPromptText(args);
+  assert.doesNotMatch(prompt, /BRAND: Sara Clothes|closing line mentioning the brand/i);
+  const result = postProcessResult({
+    description_html: "<p>Green lawn with floral embroidery.</p>",
+    key_visual_detail: "floral embroidery",
+    tags: [], image_alt_text: "Green embroidered suit",
+  }, { ...args, includeDesignProfile: false });
+  assert.doesNotMatch(result.description_html, /Sara Clothes|saraclothes\.com/i);
+});
+
+test("canonical prompt requires profile and description to share grounded facts", () => {
+  const prompt = buildCombinedPromptText({
+    promptConfig,
+    product: { title: "Green Lawn Suit", originalDescriptionHtml: "lawn" },
+    designer: null,
+    modelMatch: null,
+    includeDesignProfile: true,
+  });
+  assert.match(prompt, /normalized profile facts are the canonical fact set/i);
+  assert.match(prompt, /Never claim fabric or suit-piece count from images/i);
+  assert.match(prompt, /Verified brand collection/);
+});
+
 function nullProfile() {
   return { design_style: { value: "party", source: "image", confidence: 1 } };
 }
@@ -158,7 +196,7 @@ test("profile prompt is optional and includes Shopify Color option evidence", ()
   const enabled = buildCombinedPromptText({ ...args, includeDesignProfile: true });
   assert.match(enabled, /design_profile/);
   assert.match(enabled, /\["Mehndi Green","Gold"\]/);
-  assert.match(enabled, /Never claim a fabric from an image/);
+  assert.match(enabled, /Never claim fabric or suit-piece count from images/);
 });
 
 test("malformed profile preserves successfully generated SEO fields", () => {

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fixture-product-001",
+    "title": "Imrozia Floral Lawn Suit",
+    "vendor": "Store Vendor",
+    "original_description": "Three piece suit in lawn fabric.",
+    "collections": [{"handle":"imrozia","title":"Imrozia"},{"handle":"new-arrivals","title":"New Arrivals"}],
+    "image_facts": {"colour":"green","embroidery":"floral embroidery"},
+    "response": {"description_html":"<p>Green lawn with floral embroidery.</p>","key_visual_detail":"floral embroidery","tags":["green lawn suit"],"image_alt_text":"Green floral suit","design_profile":{"brand":{"value":"Store Vendor","source":"shopify_vendor","confidence":1},"colours":{"primary":{"value":"green","source":"image","confidence":0.9}},"fabric":{"shirt":{"value":"lawn","source":"old_description","confidence":1}},"embroidery":{"style":{"value":"floral embroidery","source":"image","confidence":0.9}}}}
+  },
+  {
+    "id": "fixture-product-002",
+    "title": "Azure Embroidered Set",
+    "vendor": "Azure House",
+    "original_description": "Three piece set. Fabric details not specified.",
+    "collections": [{"handle":"eid-sale","title":"Eid Sale"},{"handle":"sale","title":"Sale"}],
+    "image_facts": {"colour":"blue","embroidery":"gold embroidery"},
+    "response": {"description_html":"<p>Blue fabric with gold embroidery.</p>","key_visual_detail":"gold embroidery","tags":["blue embroidered set"],"image_alt_text":"Blue embroidered set","design_profile":{"colours":{"primary":{"value":"blue","source":"image","confidence":0.9}},"fabric":{"shirt":{"value":null,"source":"unknown","confidence":0}},"embroidery":{"style":{"value":"gold embroidery","source":"image","confidence":0.9}}}}
+  },
+  {
+    "id": "fixture-product-003",
+    "title": "Mushq Printed Shirt",
+    "vendor": "Mushq",
+    "original_description": "Printed shirt, fabric unspecified.",
+    "collections": [{"handle":"mushq","title":"Mushq"},{"handle":"summer","title":"Summer Sale"}],
+    "image_facts": {"colour":"yellow","print":"geometric print"},
+    "response": {"description_html":"<p>Yellow shirt with a geometric print.</p>","key_visual_detail":"geometric print","tags":["yellow printed shirt"],"image_alt_text":"Yellow geometric print shirt","design_profile":{"colours":{"primary":{"value":"yellow","source":"image","confidence":0.9}},"fabric":{"shirt":{"value":null,"source":"unknown","confidence":0}},"shirt":{"cut":{"value":"straight","source":"image","confidence":0.8}}}}
+  },
+  {
+    "id": "fixture-product-004",
+    "title": "Imrozia Daffodil Dupatta Set",
+    "vendor": "Unknown Vendor",
+    "original_description": "Lawn shirt with chiffon dupatta; three piece suit.",
+    "collections": [{"handle":"imrozia","title":"Imrozia"},{"handle":"eid-edit","title":"Eid Edit"}],
+    "image_facts": {"colour":"ivory","dupatta":"embroidered dupatta"},
+    "response": {"description_html":"<p>Ivory lawn shirt with an embroidered dupatta.</p>","key_visual_detail":"embroidered dupatta","tags":["ivory lawn suit"],"image_alt_text":"Ivory embroidered dupatta set","design_profile":{"colours":{"primary":{"value":"ivory","source":"image","confidence":0.9}},"fabric":{"shirt":{"value":"lawn","source":"old_description","confidence":1},"dupatta":{"value":"chiffon","source":"old_description","confidence":1}},"dupatta":{"embroidery":{"value":"embroidered","source":"image","confidence":0.8}}}}
+  },
+  {
+    "id": "fixture-product-005",
+    "title": "Classic Black Suit",
+    "vendor": "Classic Wear",
+    "original_description": "A suit with detailed borders.",
+    "collections": [{"handle":"new-arrivals","title":"New Arrivals"},{"handle":"eid-sale","title":"Eid Sale"}],
+    "image_facts": {"colour":"black","border":"embroidered border"},
+    "response": {"description_html":"<p>Black fabric with an embroidered border.</p>","key_visual_detail":"embroidered border","tags":["black embroidered suit"],"image_alt_text":"Black suit with embroidered border","design_profile":{"colours":{"primary":{"value":"black","source":"image","confidence":0.9}},"fabric":{"shirt":{"value":null,"source":"unknown","confidence":0}},"daman":{"border":{"value":"embroidered border","source":"image","confidence":0.9}}}}
+  }
+]

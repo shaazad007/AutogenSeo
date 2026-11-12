@@ -16,6 +16,12 @@ ke liye — koi embedded app, koi public OAuth login screen nahi.
 - Har product ki purani description apne-aap ek metafield mein backup ho jati hai, isliye wapas bhi jaya ja sakta hai.
 - **`preview` mode se hamesha shuru karein** — yeh sirf `/preview` folder mein files likhta hai, Shopify mein kuch nahi badalta.
 
+### Optional live Design Profile writes
+
+Normal live, queue-worker, and scheduled runs write `custom.custom_ai_design` only when the repository Actions variable `AI_DESIGN_PROFILE_LIVE_ENABLED` is exactly `true`. It defaults to off when unset; SEO description processing continues while it is off. To enable after preview review, open **Settings → Secrets and variables → Actions → Variables**, add `AI_DESIGN_PROFILE_LIVE_ENABLED=true`, and save. To roll back, set it to `false` or remove the variable. The separate `profile-backfill` mode remains available for existing products.
+
+Collection brand names are accepted only from `brand_collection_handles` in `config.json`; this is an explicit allow-list of Shopify collection handles. Unlisted sale/category collections are ignored and Shopify vendor is used as fallback. Leave the list empty to use vendor for brand facts.
+
 ---
 
 ## Setup — Step by Step
