@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 253,
+  "today_done": 258,
   "today_date": "2026-11-12",
-  "last_product_id": "gid://shopify/Product/15432140161252",
-  "last_product_title": "Mushq Royal Dusk Velvet Dynasty Edition 2026",
-  "last_run_started_at": "2026-11-12T17:25:27.079Z",
-  "last_run_finished_at": "2026-11-12T19:56:38.258Z",
+  "last_product_id": "gid://shopify/Product/15445010252004",
+  "last_product_title": "ETHNC WINTER WOMEN COLLECTION E1293-104-316",
+  "last_run_started_at": "2026-11-12T21:42:12.984Z",
+  "last_run_finished_at": "2026-11-12T21:45:07.546Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43269246961",
-    "workflow_run_id": 43269246961,
+    "logical_job_id": "ghjob_43312801961",
+    "workflow_run_id": 43312801961,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 163,
-    "total_products": 1305,
-    "completed_products": 158,
-    "failed_products": 5,
+    "processed_products": 5,
+    "total_products": 1147,
+    "completed_products": 5,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-12T19:56:38.258Z"
+    "updated_at": "2026-11-12T21:45:07.546Z"
   }
 }
