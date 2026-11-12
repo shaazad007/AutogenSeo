@@ -5,13 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview, live, collections, enqueue, or queue-worker"
+        description: "preview, live, profile-backfill, collections, enqueue, or queue-worker"
         required: true
         default: "preview"
         type: choice
         options:
           - preview
           - live
+          - profile-backfill
           - collections
           - enqueue
           - queue-worker
@@ -98,6 +99,7 @@ jobs:
           INPUT_COLLECTION_HANDLES: ${{ inputs.collection_handles }}
           INPUT_ENQUEUE_REQUEST_ID: ${{ inputs.enqueue_request_id }}
           INPUT_QUEUE_MODE: ${{ inputs.queue_mode }}
+          AI_DESIGN_PROFILE_ENABLED: ${{ inputs.mode == 'profile-backfill' }}
           GITHUB_TOKEN: ${{ github.token }}
         run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 

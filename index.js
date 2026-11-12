@@ -191,7 +191,7 @@ async function runQueueWorker(shopify, { limit, deadlineMs }) {
 async function main() {
   let { mode, limit, collectionHandle } = parseArgs();
 
-  if (!["preview", "live", "collections", "enqueue", "queue-worker", "scheduled"].includes(mode)) {
+  if (!["preview", "live", "profile-backfill", "collections", "enqueue", "queue-worker", "scheduled"].includes(mode)) {
     throw new Error(`Unknown --mode "${mode}".`);
   }
   if (!Number.isInteger(limit) || limit < 1 || limit > 100000) {
