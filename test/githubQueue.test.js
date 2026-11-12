@@ -39,6 +39,22 @@ test("one request creates ordered per-collection jobs and first collection owns 
   assert.equal(enqueueCollections(state, [{ handle: "abx", products: [{ id: "8" }] }], { requestId: "request-1" }).duplicate, true);
 });
 
+test("collection publication criteria persist on the queue job for worker refreshes", () => {
+  const state = emptyQueueState();
+  enqueueCollections(state, [{
+    handle: "imrozia",
+    products: [{ id: "new-1" }],
+    criteria: {
+      published_from: "2026-11-02T00:00:00.000Z",
+      published_before: "2026-11-04T00:00:00.000Z",
+    },
+  }], { requestId: "date-window" });
+  assert.deepEqual(state.jobs[0].criteria, {
+    published_from: "2026-11-02T00:00:00.000Z",
+    published_before: "2026-11-04T00:00:00.000Z",
+  });
+});
+
 test("349 products continue across runs with the same logical job and no duplicate completions", () => {
   const state = emptyQueueState();
   enqueueCollections(state, [

@@ -36,6 +36,14 @@ on:
         description: "Idempotency ID for one mobile enqueue request"
         required: false
         default: ""
+      published_from:
+        description: "Inclusive UTC publication timestamp for collection-scoped enqueue"
+        required: false
+        default: ""
+      published_before:
+        description: "Exclusive UTC publication timestamp for collection-scoped enqueue"
+        required: false
+        default: ""
       queue_mode:
         description: "Processing mode for the created collection jobs"
         required: false
@@ -72,6 +80,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      # A preceding enqueue run commits queue_state.json after it has already
+      # dispatched this worker. Refresh the selected branch tip after the
+      # concurrency gate so the worker sees that committed queue snapshot.
+      - name: Refresh branch tip
+        run: git pull --ff-only origin "$GITHUB_REF_NAME"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -98,6 +114,8 @@ jobs:
           INPUT_LOGICAL_JOB_ID: ${{ inputs.logical_job_id }}
           INPUT_COLLECTION_HANDLES: ${{ inputs.collection_handles }}
           INPUT_ENQUEUE_REQUEST_ID: ${{ inputs.enqueue_request_id }}
+          INPUT_PUBLISHED_FROM: ${{ inputs.published_from }}
+          INPUT_PUBLISHED_BEFORE: ${{ inputs.published_before }}
           INPUT_QUEUE_MODE: ${{ inputs.queue_mode }}
           AI_DESIGN_PROFILE_ENABLED: ${{ inputs.mode == 'profile-backfill' }}
           GITHUB_TOKEN: ${{ github.token }}

@@ -111,12 +111,26 @@ function validateHandles(raw) {
 
 async function enqueueCollectionRequest(shopify) {
   const handles = validateHandles(process.env.INPUT_COLLECTION_HANDLES || "");
+  const publishedFrom = process.env.INPUT_PUBLISHED_FROM?.trim() || null;
+  const publishedBefore = process.env.INPUT_PUBLISHED_BEFORE?.trim() || null;
+  if ((publishedFrom == null) !== (publishedBefore == null) ||
+      (publishedFrom != null && (!Number.isFinite(Date.parse(publishedFrom)) ||
+        !Number.isFinite(Date.parse(publishedBefore)) || Date.parse(publishedFrom) >= Date.parse(publishedBefore)))) {
+    throw new Error("Publication window must provide valid published_from and published_before timestamps in ascending order.");
+  }
+  const criteria = publishedFrom == null ? {} : {
+    published_from: publishedFrom,
+    published_before: publishedBefore,
+  };
   const collections = [];
   for (const handle of handles) {
     const gid = await shopify.getCollectionGidByHandle(handle);
     if (!gid) throw new Error(`Cannot enqueue unknown Shopify collection: ${handle}`);
-    const products = await shopify.fetchAllUnprocessedCollectionProducts(handle);
-    collections.push({ handle, title: shopify._collectionTitleCache?.[handle] || handle, products });
+    const products = await shopify.fetchAllUnprocessedCollectionProducts(handle, {
+      publishedFrom,
+      publishedBefore,
+    });
+    collections.push({ handle, title: shopify._collectionTitleCache?.[handle] || handle, products, criteria });
   }
   const state = loadQueueState(config.paths.queueState);
   const requestId = process.env.INPUT_ENQUEUE_REQUEST_ID || `${currentRunId()}:${process.env.GITHUB_RUN_ATTEMPT || "1"}`;
@@ -142,7 +156,10 @@ async function runQueueWorker(shopify, { limit, deadlineMs }) {
   // Discover newly eligible products on every worker run and put them ahead of
   // this collection's older pending backlog. Submission order still owns the
   // active collection; later collections never start early.
-  const fresh = await shopify.fetchAllUnprocessedCollectionProducts(job.collection_handle);
+  const fresh = await shopify.fetchAllUnprocessedCollectionProducts(job.collection_handle, {
+    publishedFrom: job.criteria?.published_from || null,
+    publishedBefore: job.criteria?.published_before || null,
+  });
   state.continuation_pending = false;
   state.continuation_dispatch_source_run_id = null;
   mergeNewEligibleProducts(state, job, fresh);
