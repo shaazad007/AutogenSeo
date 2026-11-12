@@ -1,13 +1,165 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T11:54:31.954144Z",
-  "jobs": [],
-  "requests": [
-    "mobile-1794482914361003"
+  "updated_at": "2026-11-12T12:10:21.393Z",
+  "jobs": [
+    {
+      "queue_job_id": "mobile-1794485400228297:1",
+      "collection_handle": "imrozia",
+      "collection_title": "Imrozia",
+      "criteria": {
+        "published_from": "2026-06-30T19:00:00.000Z",
+        "published_before": "2026-07-07T19:00:00.000Z"
+      },
+      "mode": "preview",
+      "submission_order": 1,
+      "created_at": "2026-11-12T12:10:21.393Z",
+      "updated_at": "2026-11-12T12:10:21.393Z",
+      "status": "queued",
+      "total": 20,
+      "completed": 0,
+      "skipped": 0,
+      "failed": 0,
+      "remaining": 20,
+      "items": [
+        {
+          "product_id": "gid://shopify/Product/9126731383012",
+          "title": "Imrozia IP-196 Frost Veil Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126731514084",
+          "title": "Imrozia IP-197 Sage Drift Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126731645156",
+          "title": "Imrozia IP-198 Rose Dune Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126731743460",
+          "title": "Imrozia IP-199 Amber Tide Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126731907300",
+          "title": "Imrozia IP-200 Cocoa Trace Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732038372",
+          "title": "Imrozia IP-201 Noir Fern Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732136676",
+          "title": "Imrozia IP-202 Pearl Loom Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732300516",
+          "title": "Imrozia IP-203 Rouge Frame Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732464356",
+          "title": "Imrozia IP-204 Ocean Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732595428",
+          "title": "Imrozia IP-205 Meadow Tint Elora Pret 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732726500",
+          "title": "Imrozia SL-137 Aqua Fleur Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732824804",
+          "title": "Imrozia SL-138 Sunlit Daffodil Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126732955876",
+          "title": "Imrozia SL-139 Powder Azure Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733086948",
+          "title": "Imrozia SL-140 Ivory Jardin Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733283556",
+          "title": "Imrozia SL-141 Noir Botanica Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733414628",
+          "title": "Imrozia SL-142 Crimson Rouge Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733545700",
+          "title": "Imrozia SL-143 Midnight Blossom Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733709540",
+          "title": "Imrozia SL-144 Ivory Wisteria Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733873380",
+          "title": "Imrozia SL-145 Blue Porcelain Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/9126733971684",
+          "title": "Imrozia SL-146 Blush Serenity Dahlia Lawn Vol-03 2026",
+          "status": "pending",
+          "attempts": 0
+        }
+      ],
+      "completed_product_ids": [],
+      "skipped_product_ids": [],
+      "failed_product_ids": [],
+      "current_run_id": null,
+      "last_run_id": null,
+      "run_history": [],
+      "wait_reason": null,
+      "continuation_attempts": 1,
+      "last_continuation_from_run_id": "43215427714"
+    }
   ],
-  "last_dispatch_from_run_id": "43209470086",
-  "continuation_pending": false,
-  "continuation_dispatch_source_run_id": null,
+  "requests": [
+    "mobile-1794482914361003",
+    "mobile-1794485400228297"
+  ],
+  "last_dispatch_from_run_id": "43215427714",
+  "continuation_pending": true,
+  "continuation_dispatch_source_run_id": "43215427714",
   "last_dispatch_reason": "enqueue",
-  "last_dispatch_at": "2026-11-12T11:28:48.651Z"
+  "last_dispatch_at": "2026-11-12T12:10:21.393Z"
 }
