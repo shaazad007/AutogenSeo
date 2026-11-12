@@ -1,0 +1,240 @@
+PRODUCT: Imrozia IP-197 Sage Drift Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-197-sage-drift-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (157 chars):
+Add the IP-197 Sage Drift Elora Pret 2026 by Imrozia to your wardrobe — scalloped embroidered neckline, dependable quality you can trust, shipped globally in
+
+TAGS:
+sara clothes, imrozia, cotton, stitched suit, sage green, embroidered suit, pret wear
+
+IMAGE ALT TEXT:
+Sage green embroidered stitched suit with scalloped neckline by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "sage green",
+      "source": "shopify_title",
+      "confidence": 0.95
+    },
+    "secondary": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "scalloped embroidered edge",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "tonal threadwork",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "density": {
+      "value": "heavy all-over",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "placement": {
+      "value": "front shirt and sleeves",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "classic straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "borders": {
+      "value": "embroidered scalloped cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "tonal embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "cutwork embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy cutwork hem border",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "sage green",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "solid with embroidered borders",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy embroidered pallu/border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "colour": {
+      "value": "sage green",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.9
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "sage green suit",
+    "embroidered cotton pret",
+    "pakistani stitched suit",
+    "festive wear",
+    "scalloped neckline kurti"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.898,
+    "image_fingerprint": "406c7d8a9c51a134861e45da428b3b8a8471d59903eef664cb99427bf3378710",
+    "source_fingerprint": "baac04eb923ce69d32642b0716b4e063754e8b55f3bf0c483e2b076f344919ee"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A study in pale luminescence, this sage green ensemble by Sara Clothes brings an understated richness to warm-weather dressing. You will notice the intricate tonal embroidery blanketing the straight-cut shirt, paired with delicate scalloped edges along the V-neckline and hem. The lightweight dupatta drapes effortlessly, framed by an ornate embroidered border that catches the light with every movement. Complete with coordinating trousers, it is an effortless composition of texture and tone.</p><h3>Why It Works</h3><ul><li>All-over tonal embroidery offers subtle depth without weight.</li><li>Scalloped neckline and hem add quiet architectural detail.</li><li>Lightweight coordinating dupatta balances the dense patterned panels.</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

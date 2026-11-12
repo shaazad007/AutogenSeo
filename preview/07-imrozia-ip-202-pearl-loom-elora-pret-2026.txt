@@ -1,0 +1,240 @@
+PRODUCT: Imrozia IP-202 Pearl Loom Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-202-pearl-loom-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (155 chars):
+New arrival: the Imrozia IP-202 Pearl Loom Elora Pret 2026, featuring tonal embroidery. Elegant, comfortable, and shipped worldwide with reliable tracking.
+
+TAGS:
+sara clothes, imrozia, cotton, stitched, pret, embroidered suit, ivory outfit, dupatta set
+
+IMAGE ALT TEXT:
+Embroidered ivory stitched suit with dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "ivory",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "tonal embroidery along neckline",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "tonal threadwork",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "placement": {
+      "value": "front panel, sleeves, hem border, and dupatta",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "classic straight shirt",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight with embroidered cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "borders": {
+      "value": "embroidered sheer border at cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "floral pattern on cuffs",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "wide embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "geometric open-work hem border",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "ivory",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "scattered motifs",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "embroidered border and scattered motifs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "ivory",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "ivory embroidered suit",
+    "cotton stitched suit",
+    "festive wear",
+    "three piece outfit",
+    "pakistani pret"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.878,
+    "image_fingerprint": "94b8da6a184d4b27ce46c03994c95404837491e6c4c02cdbbafd4a6463e0cc92",
+    "source_fingerprint": "8fd13665e43b3876bc0e5963fa534b3584baba05bc97595b5e70e783866ed063"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A daylight gathering calls for a quiet command of texture, met here in a monochromatic ensemble of soft ivory. Tonal embroidery traces the straight silhouette from rounded neckline to hem, where an open-work geometric border grounds the lighter drape of the trousers. Draped across the shoulder, a lightweight dupatta carries scattered motifs and a subtle tassel finish.</p><h3>Perfect For</h3><ul><li>Daytime receptions and seasonal gatherings</li><li>Intimate family celebrations</li><li>Quietly polished afternoon events</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

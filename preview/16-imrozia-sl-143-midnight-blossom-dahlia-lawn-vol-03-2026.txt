@@ -1,0 +1,239 @@
+PRODUCT: Imrozia SL-143 Midnight Blossom Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-143-midnight-blossom-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (159 chars):
+Add the SL-143 Midnight Blossom Dahlia Lawn Vol-03 by Imrozia to your wardrobe — floral print on black lawn, dependable quality you can trust, shipped globally
+
+TAGS:
+imrozia, lawn, stitched suit, floral print, black outfit, festive wear, sara clothes
+
+IMAGE ALT TEXT:
+Sara Clothes stitched black lawn suit with floral print and matching dupatta
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "pink",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "cream",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "lace trim",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "lace applique",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "motifs": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "neckline and hem",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "printed border",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "lace border",
+      "source": "image",
+      "confidence": 0.7
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "scalloped",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": "black lace",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "print": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "floral botanical",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "black lawn suit",
+    "floral printed outfit",
+    "stitched lawn dress",
+    "sara clothes festive wear"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.852,
+    "image_fingerprint": "add734b9ad7bb7ae5e32f385c119ee676c408c7f57a4300e15e4c4b5682879c9",
+    "source_fingerprint": "bcc50dca8eb1bfe44a23ef2f17ace9ed98728648b548f76e272092251a2193ec"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Sara Clothes presents the Imrozia SL-143 Midnight Blossom Dahlia Lawn Vol-03 2026, an immersive dark-ground ensemble grounded in rich botanical artistry.</p><h3>Styling & Occasion</h3><ul><li>Ideal for evening gatherings, festive occasions, and formal daytime dinners.</li><li>Pair with traditional metallic footwear and understated jewelry to balance the botanical motifs.</li></ul><h3>Stitching & Finish</h3><ul><li>Finished with delicate scalloped lace detailing along the dark hemline.</li><li>Structured straight trousers complement the elongated lines of the shirt.</li></ul><h3>Design Highlights</h3><ul><li>Vibrant pink, coral, and cream floral clusters bloom across a deep black canvas.</li><li>Intricate lace neck accents offset the vivid botanical print.</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

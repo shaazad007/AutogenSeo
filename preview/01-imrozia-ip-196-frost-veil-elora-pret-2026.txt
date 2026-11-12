@@ -1,0 +1,239 @@
+PRODUCT: Imrozia IP-196 Frost Veil Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-196-frost-veil-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (155 chars):
+Add the IP-196 Frost Veil Elora Pret 2026 by Imrozia to your wardrobe — tonal embroidery and tassels, dependable quality you can trust, shipped globally in
+
+TAGS:
+sara clothes, cotton suit, grey embroidered dress, stitched outfit, festive wear, traditional wear, embroidered kurti, dupatta set
+
+IMAGE ALT TEXT:
+Embroidered cotton festive kurti with dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "pink",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "contrast": {
+      "value": "silver",
+      "source": "image",
+      "confidence": 0.6
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "front yoke embroidery with button placket",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": "buttons",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "floral thread work",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and botanical motifs",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "density": {
+      "value": "medium",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "placement": {
+      "value": "yoke, sleeves, hem, and dupatta border",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "flared",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "scalloped embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy cuff embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "scalloped",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "embroidered panel border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "floral embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "embroidered pallu and borders",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "embroidery": {
+      "value": "border embroidery",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "wide leg trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.9
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "grey cotton suit",
+    "embroidered three piece outfit",
+    "festive wear for women",
+    "sara clothes stitched dress"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.862,
+    "image_fingerprint": "6b63f1dd682e329955a6b74626a2a38ebf7b494bef0f68bd9959de8459571c34",
+    "source_fingerprint": "e1cc25d0b65e19a0a7d983a31268655aae8d8c75c7eda8269fde289c973e3f56"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Sara Clothes presents an intricate grey three-piece ensemble, defined by soft tonal embroidery and delicate contrast accents across the front. The straight silhouette balances understated styling with ornate needlework on the neckline, hem, and wide sleeves. Paired with wide-leg trousers and a lightweight dupatta finished with hanging tassel details, this piece relies on subtle textures and measured proportions for an effortless daytime look.</p><h3>Style It With</h3><ul><li>Gold strappy heels to accent the tonal embroidery</li><li>Minimalist metallic jewelry for understated daytime gatherings</li><li>An evening clutch for formal dinners and festive daytime events</li></ul><h3>The Details</h3><ul><li>Straight-cut long shirt featuring intricate embroidery and button detailing along the round slit neckline</li><li>Wide-cut trousers offering a clean, relaxed silhouette</li><li>Lightweight sheer dupatta finished with detailed borders and corner tassels</li><li>Cotton construction with scalloped hem accents</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

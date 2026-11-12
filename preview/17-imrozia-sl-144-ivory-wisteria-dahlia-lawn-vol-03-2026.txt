@@ -1,0 +1,240 @@
+PRODUCT: Imrozia SL-144 Ivory Wisteria Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-144-ivory-wisteria-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (158 chars):
+Add the SL-144 Ivory Wisteria Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — floral dahlia print, dependable quality you can trust, shipped globally in
+
+TAGS:
+lawn, ivory, wisteria dahlia, stitched suit, floral print, embroidered suit, sara clothes
+
+IMAGE ALT TEXT:
+Ivory Wisteria Dahlia Lawn stitched suit with floral print by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "ivory",
+      "source": "shopify_title",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": "purple",
+      "source": "shopify_title",
+      "confidence": 1
+    },
+    "contrast": {
+      "value": "magenta",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": "buttons",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "cutwork",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "sleeves and hem",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "classic",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": "medium",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "flared",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "cutwork border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "scalloped cutwork",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "ivory and purple",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "wisteria dahlia print",
+      "source": "shopify_title",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight pants",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "ivory",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "summer",
+      "source": "shopify_description",
+      "confidence": 0.8
+    },
+    {
+      "value": "daywear",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "ivory lawn suit",
+    "floral printed shirt",
+    "wisteria dahlia lawn",
+    "stitched lawn outfit",
+    "cutwork sleeves kurti"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.886,
+    "image_fingerprint": "1189b557ccfd1fb08ea13a2fadcbb4c2c40592f2b3fe9e33c608e989248b50c1",
+    "source_fingerprint": "85b2db50cbd80b4406677ffbef652b0ee111609f670ae4c0fced6a8efdf06b58"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A fresh ivory base sets the stage for cascading wisteria and dahlia prints in rich purple and magenta tones. Intricate cutwork details finish the wide sleeves and hemline, creating a crisp contrast against the fluid drape of the printed dupatta and tailored trousers.</p><p>Subtle botanical motifs scatter across the length of the shirt, accented by a neat row of buttons along the round neckline. The lightweight fabric offers effortless movement, perfectly balanced by the structured flare of the trousers and the soft, billowing drape of the coordinating scarf. Available exclusively at Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

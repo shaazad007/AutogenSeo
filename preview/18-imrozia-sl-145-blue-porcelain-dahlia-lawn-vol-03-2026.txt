@@ -1,0 +1,245 @@
+PRODUCT: Imrozia SL-145 Blue Porcelain Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-145-blue-porcelain-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (156 chars):
+Add the SL-145 Blue Porcelain Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — blue floral print, dependable quality you can trust, shipped globally in
+
+TAGS:
+sara clothes, lawn, stitched suit, blue and white, floral print, scalloped hem, dupatta set, casual wear
+
+IMAGE ALT TEXT:
+Blue and white printed stitched lawn suit with dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "off-white",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "blue",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "contrast": {
+      "value": "cobalt blue",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "long shirt",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full sleeves",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "shape": {
+      "value": "straight sleeves",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "scalloped lace border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": "scalloped lace",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "blue and white",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "floral print",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "pattern": {
+      "value": "dahlia print",
+      "source": "shopify_title",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "casual",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "day wear",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "blue porcelain dahlia lawn",
+    "imrozia stitched suit",
+    "blue and white lawn dress",
+    "printed lawn with dupatta"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.906,
+    "image_fingerprint": "576689258cebf1238bdf14c830386ba8976bc7460e12afce1a81bcca6ca4cb2a",
+    "source_fingerprint": "d6349e08fdea9e8c347094ad69c24848b3a22cd5e1cd38be5305ccee84487141"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A striking study in cobalt and ivory, this Sara Clothes ensemble pairs a long tunic with classic trousers and a fluid dupatta. You'll notice the crisp off-white base acts as a clean canvas for expressive blue floral motifs that climb the front and sleeves. Delicate scalloped lace finishes the wide cuffs and hemline, introducing subtle texture to the silhouette. Pair it with simple slides for an effortless warm-weather look.</p>
+<h3>Why It Works</h3>
+<ul>
+<li>Vibrant blue botanical prints create sharp contrast against the pale background.</li>
+<li>Scalloped borders on the sleeves and hem add refined dimensional detail.</li>
+<li>Lightweight styling makes warm-weather dressing feel completely effortless.</li>
+</ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

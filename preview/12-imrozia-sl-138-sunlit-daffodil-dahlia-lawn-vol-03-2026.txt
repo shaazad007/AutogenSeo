@@ -1,0 +1,240 @@
+PRODUCT: Imrozia SL-138 Sunlit Daffodil Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-138-sunlit-daffodil-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (158 chars):
+Add the SL-138 Sunlit Daffodil Dahlia Lawn Vol-03 by Imrozia to your wardrobe — floral embroidery, dependable quality you can trust, shipped globally in days.
+
+TAGS:
+imrozia, lawn, stitched suit, yellow outfit, embroidered lawn, festive wear, sara clothes, printed dupatta
+
+IMAGE ALT TEXT:
+Yellow embroidered lawn stitched suit with printed dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "yellow",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "multi",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "off-white",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "u_neck",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "yoke embroidery",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "medium",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "yoke and daman",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "long shirt",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "border embroidery",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "heavy embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "off-white with yellow",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "print": {
+      "value": "floral print",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "border print",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "colour": {
+      "value": "yellow",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.9
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "casual",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "yellow lawn suit",
+    "imrozia stitched suit",
+    "embroidered yellow kurti",
+    "festive lawn dress",
+    "printed dupatta suit"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.845,
+    "image_fingerprint": "097d28cf63043f0c4ec959d4ab4e691ebe79a0ea4c43f08b2caefe4039f4f876",
+    "source_fingerprint": "ea42eacc0ef5eac4d94d785f5d7a29c626a3e7f6997ba6413d05dc70b638e3a8"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Sara Clothes presents the Imrozia SL-138 Sunlit Daffodil Dahlia Lawn Vol-03 2026, an ensemble rendered in a warm daffodil yellow shade. Delicate floral embroidery and geometric vertical stripes create a harmonious balance across the length of the shirt.</p><p>The shirt features a structured neckline with dense yoke detailing, complemented by wide sleeves bearing intricate borders. Paired with straightforward trousers and a softly printed contrasting dupatta that drapes with ease, this stitched outfit captures a refined traditional aesthetic through its thoughtful detailing and rich composition.</p><h3>Highlights</h3><ul><li>Daffodil yellow lawn fabric featuring fine embroidery and print work</li><li>Intricate yoke embroidery paired with a clean neckline finish</li><li>Vertical striped patterns accented with vibrant floral motifs down the front</li><li>Detailed broad borders along the sleeve hems and shirt daman</li><li>Accompanied by a printed dupatta and coordinated trousers</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

@@ -1,0 +1,240 @@
+PRODUCT: Imrozia SL-139 Powder Azure Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-139-powder-azure-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (159 chars):
+Add the SL-139 Powder Azure Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — powder azure floral print, dependable quality you can trust, shipped globally
+
+TAGS:
+sara clothes, imrozia, lawn, stitched suit, powder azure, floral print, embroidered suit, festive wear
+
+IMAGE ALT TEXT:
+Powder azure floral printed and embroidered lawn suit by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "powder azure",
+      "source": "shopify_title",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": "blue",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "green",
+      "source": "image",
+      "confidence": 0.7
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.9
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "embroidered placket border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "placement": {
+      "value": "neckline and borders",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "classic straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 1
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "printed and embroidered cuff border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "cuff embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "scalloped",
+      "source": "image",
+      "confidence": 1
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "geometric printed border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "powder azure",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "floral print",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "all-over floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "light green",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "day events",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "summer festive",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "powder azure lawn suit",
+    "imrozia stitched lawn",
+    "floral printed 3 piece suit",
+    "scalloped daman shirt",
+    "sara clothes lawn collection"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.874,
+    "image_fingerprint": "37166f6b60c28d92c46fffcb212b8852f2a33184e3adadb8d8b07b7c7f51a7ae",
+    "source_fingerprint": "fa491c5492f5d117821eaa0d2ee5fa3b7f7408229b2c26ee2a1465ca3769d92a"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A quiet afternoon breeze catches the delicate drape of powder azure lawn, stirring a botanical narrative of soft blues and greens. Sara Clothes presents the Imrozia SL-139, an intricately realized three-piece ensemble that balances airy lightness with precise detail.</p><p>Subtle floral prints bloom across the length of the shirt, grounded by geometric borders and intricate embroidery along the placket. Scalloped hems and solid trousers complete the silhouette with understated refinement.</p><h3>Design Highlights</h3><p>The outfit features an all-over botanical print in shades of blue, paired with detailed embroidery framing the neckline and geometric borders framing the hem.</p><h3>Stitch & Finish</h3><p>Tailored from premium lawn fabric, the straight-cut shirt is finished with delicate scalloped edges at the daman and coordinating wide-leg trousers.</p><h3>Styling & Occasion</h3><p>Draped with a matching printed dupatta, this ensemble offers effortless sophistication for daytime gatherings and festive occasions.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

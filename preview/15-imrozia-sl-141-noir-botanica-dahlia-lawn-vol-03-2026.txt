@@ -1,0 +1,235 @@
+PRODUCT: Imrozia SL-141 Noir Botanica Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-141-noir-botanica-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (153 chars):
+Add the SL-141 Noir Botanica Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — vibrant dahlia floral print, dependable quality you can trust, shipped
+
+TAGS:
+imrozia, noir botanica, lawn, stitched, floral print, sara clothes, black suit, embroidered lawn
+
+IMAGE ALT TEXT:
+Imrozia Noir Botanica Stitched Lawn Suit with Floral Print by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "multi",
+      "source": "image",
+      "confidence": 0.85
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": "lace applique",
+      "source": "image",
+      "confidence": 0.85
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight shirt",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "wide cuff",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "borders": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "multi",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "pattern": {
+      "value": "dahlia botanical",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "wide leg trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "dark grey",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "imrozia sl-141",
+    "noir botanica",
+    "floral lawn suit",
+    "black stitched lawn",
+    "dahlia print dress"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.891,
+    "image_fingerprint": "47faadcfd0f59d64660826384c382b7b58812a1694cb94e7c913118ec1f360bb",
+    "source_fingerprint": "5b1e10961d04c8581e4b2137b0ceaf96cbd028ab7ad906cc6a57fddbc08258dd"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A deep noir base grounds this striking ensemble, animated by sweeping dahlia motifs in vivid crimson and mustard tones. Dark, moody undertones meet bold botanical illustration, creating an arresting contrast across both length and drape. Complete with intricate dark lace detailing framing the neckline and sleeve cuffs, this three-piece composition commands attention through mood and craftsmanship.</p><h3>At a Glance</h3><ul><li>Noir base with vibrant dahlia floral print</li><li>Sculpted dark lace neckline and wide cuffs</li><li>Oversized botanical print dupatta</li><li>Brought to you by Sara Clothes</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

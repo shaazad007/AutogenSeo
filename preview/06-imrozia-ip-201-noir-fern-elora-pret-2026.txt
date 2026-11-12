@@ -1,0 +1,239 @@
+PRODUCT: Imrozia IP-201 Noir Fern Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-201-noir-fern-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (158 chars):
+Imrozia's IP-201 Noir Fern Elora Pret 2026 brings black floral pattern into your everyday closet. Trusted by shoppers across Pakistan, the UK, USA and Canada.
+
+TAGS:
+sara clothes, imrozia, pret 2026, cotton suit, teal and black, embroidered suit, unstitch suit, festive wear
+
+IMAGE ALT TEXT:
+Imrozia IP-201 Noir Fern Elora Pret 2026 embroidered cotton suit by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "teal",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "flowers and foliage",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "dense",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "placement": {
+      "value": "all over front",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight line",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "contrasting cuffs",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "contrasting panel border",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "solid with embroidered or lace edges",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight pants",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "colour": {
+      "value": "teal",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.7
+    },
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "teal and black cotton suit",
+    "imrozia pret",
+    "festive wear kurti",
+    "embroidered cotton ensemble"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.842,
+    "image_fingerprint": "42c1fe74c1ca127b2ee8da6f9ca7820af39aea234edd9a6a09a466796a481ce8",
+    "source_fingerprint": "eed371d58cf5e2e3407ef5920f009a000b4b3bbb5ba32996ab48cd83d57f3473"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Sara Clothes presents the Imrozia IP-201 Noir Fern Elora Pret 2026, featuring a vibrant teal base set against dense black floral patterns. The straight-cut shirt pairs with matching trousers and a lightweight sheer dupatta detailed with tassels.</p><p>Crafted for versatile styling, the rich colour contrast provides a distinct visual dynamic. Finished with delicate borders, this ensemble offers clean lines and thoughtful composition.</p><h3>Details</h3><ul><li>Includes stitched top, bottom, and dupatta</li><li>Fabric: Cotton</li><li>Black floral pattern on teal background</li><li>Sheer black dupatta with tassel accents</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

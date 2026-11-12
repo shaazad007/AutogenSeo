@@ -1,0 +1,239 @@
+PRODUCT: Imrozia IP-198 Rose Dune Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-198-rose-dune-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (159 chars):
+IP-198 Rose Dune Elora Pret 2026 by Imrozia — a tonal front embroidery design perfect for festive and everyday wear. Shop the complete collection online today.
+
+TAGS:
+sara clothes, imrozia, rose dune, pakistani fashion, pret 2026, cotton suit, embroidered dress, festive wear
+
+IMAGE ALT TEXT:
+Embroidered rose cotton pret suit with mauve dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "rose",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "mauve",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "keyhole cutwork detailing",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "tonal thread work",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and paisley patterns",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "heavy on front panel",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "placement": {
+      "value": "front panel and sleeve cuffs",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "embroidered scalloped cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "matching tonal embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "embroidered hem border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "scalloped embroidered edge",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "mauve",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "scattered motifs",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "bordered edges",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "rose",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "rose cotton suit",
+    "embroidered pret dress",
+    "pakistani designer suit",
+    "mauve dupatta outfit"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.875,
+    "image_fingerprint": "eb4299eafde08cfa07723f559d41f7d0a186abc45bd5f2105f0105ecc6167864",
+    "source_fingerprint": "299df33150bcfdbd096d6e29fa25f9f1f91d858e1d104015103250398523fa64"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Sara Clothes presents the Imrozia IP-198 Rose Dune Elora Pret 2026, an unpretentious expression of classic Pakistani craftsmanship. This rose-toned ensemble showcases elaborate tonal embroidery descending through the front panel, contrasted by a deep mauve dupatta accented with decorative tassels.</p><p>Designed for traditional gatherings, the structured silhouette pairs a straight-cut shirt with coordinated trousers and lightweight drapery. Every detail highlights careful hand-finished aesthetics, from the keyhole neckline to the intricately worked sleeve borders.</p><h3>Details</h3><ul><li>Includes stitched cotton top, bottom, and dupatta</li><li>Intricate tonal embroidery along the front and sleeves</li><li>Mauve dupatta finished with corner tassels</li><li>Keyhole neckline with subtle shaping</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

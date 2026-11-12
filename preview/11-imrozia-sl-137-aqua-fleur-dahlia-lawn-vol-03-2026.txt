@@ -1,0 +1,239 @@
+PRODUCT: Imrozia SL-137 Aqua Fleur Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-137-aqua-fleur-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (157 chars):
+Add the SL-137 Aqua Fleur Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — floral and geometric border prints, dependable quality you can trust, shipped
+
+TAGS:
+sara clothes, imrozia, lawn, stitched suit, aqua outfit, printed lawn, embroidered neckline, unstitched lawn
+
+IMAGE ALT TEXT:
+Sara Clothes embroidered and printed aqua lawn outfit with matching dupatta
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "aqua",
+      "source": "shopify_title",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "violet",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "yoke embroidery",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "floral and linear",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "neckline yoke",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight long-line",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "printed border bands",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "multi-tiered printed borders",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "aqua",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "print": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "all-over print with palla borders",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "aqua",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "casual",
+      "source": "image",
+      "confidence": 0.7
+    },
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "aqua lawn suit",
+    "printed embroidered lawn",
+    "traditional pakistani attire",
+    "three piece lawn outfit"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.867,
+    "image_fingerprint": "36d579add20b65cac4b16269333acf0f37200ccaa9b8a8092baac74bd687a7c2",
+    "source_fingerprint": "aa008820e4289d22c02a04477770b3c044f028c2b9682147929cf71a1dd90d89"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A clean, straight silhouette defines this aqua-toned ensemble by Sara Clothes, falling to a measured calf length with classic side slits and paired with matching straight trousers. The design balances structure with fluid movement through its layered geometric panels and botanical prints.</p><h3>Fit & Silhouette</h3><ul><li>Straight, long-line shirt cut with clean side slits</li><li>Full-length straight trousers for a streamlined look</li><li>Draped matching dupatta carrying coordinating motifs</li></ul><h3>Finishing Touches</h3><ul><li>Delicate neckline embroidery introducing tonal texture</li><li>Intricate floral and geometric border prints along the hem and sleeves</li><li>Contrasting violet and white accent panels framing the lower lengths</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

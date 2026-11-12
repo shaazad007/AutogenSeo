@@ -1,0 +1,240 @@
+PRODUCT: Imrozia IP-203 Rouge Frame Elora Pret 2026
+URL HANDLE (unchanged): imrozia-ip-203-rouge-frame-elora-pret-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (158 chars):
+Add the IP-203 Rouge Frame Elora Pret 2026 by Imrozia to your wardrobe — white floral embroidery on red, dependable quality you can trust, shipped globally in
+
+TAGS:
+imrozia, elora pret 2026, cotton suit, embroidered dress, red stitched outfit, festive wear, three piece suit, sara clothes
+
+IMAGE ALT TEXT:
+Imrozia red cotton embroidered stitched suit with off-white dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Imrozia",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "red",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "secondary": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "contrast": {
+      "value": "off-white",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Cotton",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "floral embroidery framing the neckline",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "dense",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "placement": {
+      "value": "front panel, sleeves, hem border, and neckline",
+      "source": "image",
+      "confidence": 0.95
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "long shirt",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full length",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "embroidered border at cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "floral embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "geometric embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy geometric and floral border",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "off-white",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "scalloped embroidered borders",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "embroidered scalloped edges",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "red",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.9
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.9
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "red embroidered suit",
+    "cotton stitched outfit",
+    "festive wear",
+    "three piece dress",
+    "imrozia pret"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.903,
+    "image_fingerprint": "5c9a1d92160b6bcf5d7d1a3dce0dd5ae144e545ef97076952e82964fb1ef5d53",
+    "source_fingerprint": "e30d354d7f7a7b9e969c6ff490b0d8440c6c75b2e4eae85551630b0e748950c0"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A vivid red canvas meets intricate white embroidery in this striking three-piece ensemble, creating a bold interplay of contrast and craftsmanship. The long shirt features dense floral compositions sprawling down the front panels, complemented by wide sleeves and an elaborate geometric hem border that grounds the ornate detailing.</p><p>Draped alongside the vibrant tunic is an off-white dupatta featuring decorative scalloped borders, adding a soft, layered dimension to the look. Paired with straight trousers in a matching solid red hue, the outfit balances rich surface ornamentation with clean, classic lines. Designed by Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

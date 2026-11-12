@@ -1,0 +1,240 @@
+PRODUCT: Imrozia SL-140 Ivory Jardin Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-140-ivory-jardin-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (159 chars):
+Add the SL-140 Ivory Jardin Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — floral print lawn suit, dependable quality you can trust, shipped globally in
+
+TAGS:
+lawn suit, ivory outfit, floral print, stitched suit, embroidered lawn, womenswear, festive wear, sara clothes
+
+IMAGE ALT TEXT:
+Embroidered and printed lawn suit with floral motifs by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "ivory",
+      "source": "shopify_title",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": "green",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "pink",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy tonal chest embroidery with keyhole detail",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": "tassels",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "neckline, sleeve cuffs, and daman",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "classic straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": "single panel front",
+      "source": "image",
+      "confidence": 0.7
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "flared cuffs",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "borders": {
+      "value": "lace border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "embroidered lace cuffs",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": "embroidered lace border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "border": {
+      "value": "matching embroidered hem",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "scalloped lace finish",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "ivory with multi-colour print",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "large dahlia floral print",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "all-over floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trouser",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "ivory",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    },
+    {
+      "value": "day wear",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "ivory lawn suit",
+    "floral printed shirt",
+    "embroidered neckline",
+    "stitched lawn dress",
+    "dahlia print outfit"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.86,
+    "image_fingerprint": "f39ddc9823c529554365f6de34733bd1ebfd29d8f568fe63a4abe0115437d7e1",
+    "source_fingerprint": "9a2473d4a9ad18694d3ab3457f2a220567aa8234b178e4bb723b44063038f6ea"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A quiet afternoon light catches the soft ivory tones and sweeping floral motifs of an unhurried wardrobe.</p><p>Vibrant dahlia prints bloom across the lightweight lawn fabric, anchored by intricate tonal embroidery along the neckline and wide lace-trimmed borders. The relaxed silhouette falls naturally into straight trousers, offering effortless movement and a refined balance of texture and print.</p><p>This thoughtfully crafted piece reflects the distinctive tailoring philosophy of Sara Clothes.</p>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>

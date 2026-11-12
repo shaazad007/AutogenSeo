@@ -1,0 +1,239 @@
+PRODUCT: Imrozia SL-146 Blush Serenity Dahlia Lawn Vol-03 2026
+URL HANDLE (unchanged): imrozia-sl-146-blush-serenity-dahlia-lawn-vol-03-2026
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (154 chars):
+Add the SL-146 Blush Serenity Dahlia Lawn Vol-03 2026 by Imrozia to your wardrobe — yoke embroidery and botanical print, dependable quality you can trust,
+
+TAGS:
+sara clothes, imrozia, lawn, stitched suit, floral print, embroidered kurti, blush pink outfit, three piece suit
+
+IMAGE ALT TEXT:
+Embroidered and printed lawn stitched suit with dupatta by Sara Clothes
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Sara Clothes",
+    "source": "shopify_title",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "blush pink",
+      "source": "shopify_title",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "blue",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.7
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    },
+    "trouser": {
+      "value": "Lawn",
+      "source": "shopify_description",
+      "confidence": 0.8
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "tonal yoke embroidery",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread work",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "motifs": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "moderate",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "yoke and sleeve borders",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "long shirt",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "calf length",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "printed border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "printed and patterned border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "blue and pink",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "floral and geometric print",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "pattern": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trouser",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "blush pink",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "casual",
+      "source": "image",
+      "confidence": 0.7
+    },
+    {
+      "value": "day wear",
+      "source": "image",
+      "confidence": 0.7
+    }
+  ],
+  "matching_keywords": [
+    "blush pink lawn suit",
+    "embroidered lawn shirt",
+    "printed dupatta suit",
+    "sara clothes lawn collection"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.852,
+    "image_fingerprint": "443eb43a55ebbd64099c6fc7b1c61c2970cd5f43645c216f3453d7d87eac414c",
+    "source_fingerprint": "45fcf2f27a1e1b7563205647ff467b4ff4303546273435eb065eadc208559962"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Where does a soft blush palette meet intricate floral artistry? </p><p>This stitched ensemble by Sara Clothes pairs a pale pink base with delicate tonal embroidery tracing the front yoke. A sweeping botanical print blooms across the lower panels in soft blues and pinks, anchored by geometric borders along the hem and matching sleeves. It is accompanied by a printed dupatta and straight trousers for an effortless, coordinated finish.</p><h3>Why You'll Love It</h3><ul><li>Soft blush pink hue with detailed yoke embroidery</li><li>Contrasting botanical and geometric prints along the hem and dupatta</li><li>Complete three-piece stitched set for effortless styling</li></ul>
+<p><a href="https://saraclothes.com">Sara Clothes</a></p>
