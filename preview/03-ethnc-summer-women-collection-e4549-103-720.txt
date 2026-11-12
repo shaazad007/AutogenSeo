@@ -1,0 +1,243 @@
+PRODUCT: ETHNC SUMMER WOMEN COLLECTION E4549-103-720
+URL HANDLE (unchanged): ethnc-summer-women-collection-e4549-103-720
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (115 chars):
+ETHNC SUMMER WOMEN COLLECTION E4549-103-720 features white cutwork lace. View product details and available options
+
+TAGS:
+mint green tunic, botanical print, cutwork lace, wide-leg trousers, summer collection, ethnic wear, flared sleeves, scalloped hem
+
+IMAGE ALT TEXT:
+Mint green tunic with botanical print and flared sleeves featuring white cutwork lace, paired with white wide-leg trousers.
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Ethnic",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "mint green",
+      "source": "image",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": "white",
+      "source": "image",
+      "confidence": 1
+    },
+    "contrast": {
+      "value": "pink",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": "lace panel",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": "button closure",
+      "source": "image",
+      "confidence": 1
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "cutwork",
+      "source": "image",
+      "confidence": 1
+    },
+    "motifs": {
+      "value": "botanical",
+      "source": "image",
+      "confidence": 1
+    },
+    "density": {
+      "value": "medium",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "placement": {
+      "value": "sleeves, hem, neckline",
+      "source": "image",
+      "confidence": 1
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 1
+    },
+    "silhouette": {
+      "value": "relaxed",
+      "source": "image",
+      "confidence": 1
+    },
+    "length": {
+      "value": "knee-length",
+      "source": "image",
+      "confidence": 1
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 1
+    },
+    "shape": {
+      "value": "flared",
+      "source": "image",
+      "confidence": 1
+    },
+    "borders": {
+      "value": "cutwork lace",
+      "source": "image",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": "cutwork",
+      "source": "image",
+      "confidence": 1
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "scalloped",
+      "source": "image",
+      "confidence": 1
+    },
+    "lace": {
+      "value": "cutwork",
+      "source": "image",
+      "confidence": 1
+    },
+    "border": {
+      "value": "lace",
+      "source": "image",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "wide-leg",
+      "source": "image",
+      "confidence": 1
+    },
+    "colour": {
+      "value": "white",
+      "source": "image",
+      "confidence": 1
+    },
+    "embellishment": {
+      "value": "cutwork lace hem",
+      "source": "image",
+      "confidence": 1
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.9
+  },
+  "occasion": [],
+  "matching_keywords": [
+    "mint green tunic",
+    "botanical print",
+    "cutwork lace",
+    "wide-leg trousers",
+    "flared sleeves",
+    "scalloped hem"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.98,
+    "image_fingerprint": "17d1e21dcf567019e5e2719397fd7769fc1bd9ce9e5ab27a205b1ed05ca96613",
+    "source_fingerprint": "6a84994e5c2c87836bd2827b0fcb2a244ca5c706ea19bc08bb93174a622f83f8"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A mint green tunic with a symmetrical botanical print and a V-neckline framed by white cutwork lace. The ensemble pairs the printed top with white trousers, both finished with intricate lace detailing.</p>
+<h2>Craft Details</h2>
+<p>The tunic features a straight, relaxed silhouette with wide, flared sleeves that extend to the wrist. The neckline is embellished with a white lace panel and a central button closure. The hemline is scalloped, showcasing a band of white cutwork lace that mirrors the sleeve detailing.</p>
+<h2>Fabric &amp; Components</h2>
+<p>The set consists of a printed tunic and white wide-leg trousers. The garment is finished with white cutwork lace accents on the sleeves, neckline, and hem.</p>
+<li>Printed tunic</li>
+<li>White wide-leg trousers</li>
+<h2>Finishing Details</h2>
+<li>Mint green tunic with symmetrical botanical print</li>
+<li>Flared sleeves with white cutwork lace</li>
+<li>Scalloped hemline with intricate lace detailing</li>
+<li>White wide-leg trousers with cutwork lace hem</li>
+<li>V-neckline with embellished lace panel</li>
+<h2>Styling Notes</h2>
+<p>The wide-leg trousers and flared sleeves create a balanced, flowing silhouette that pairs well with flat footwear.</p>

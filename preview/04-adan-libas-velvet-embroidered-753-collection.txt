@@ -1,0 +1,239 @@
+PRODUCT: Adan Libas VELVET EMBROIDERED 753 Collection
+URL HANDLE (unchanged): adan-libas-velvet-embroidered-753-collection
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (125 chars):
+Adan Libas VELVET EMBROIDERED 753 Collection features diamond embroidery on shawl. View product details and available options
+
+TAGS:
+adan libas, velvet unstitched suit, embroidered shawl, black velvet shirt, 753 collection, traditional wear, velvet trouser, silver embroidery
+
+IMAGE ALT TEXT:
+Adan Libas 753 Collection unstitched black velvet suit with silver diamond embroidery on the shawl and striped trouser hems.
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Adan Libas",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.98
+    },
+    "secondary": {
+      "value": "silver",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "contrast": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "velvet",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "velvet",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "velvet",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embroidery": {
+      "value": "dense V-shaped panel",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embellishments": {
+      "value": "silver threadwork",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "traditional",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "diamond medallions and floral",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "density": {
+      "value": "high",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "placement": {
+      "value": "neckline, sleeves, shawl border, and trouser hem",
+      "source": "image",
+      "confidence": 0.95
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.85
+    },
+    "silhouette": {
+      "value": "relaxed",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": "standard",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "panels": {
+      "value": "front placket",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 1
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "borders": {
+      "value": "wide striped cuff",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embroidery": {
+      "value": "floral and geometric",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "stitched edge",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.98
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": "diamond medallions",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embroidery": {
+      "value": "heavy border and motifs",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "fabric": {
+      "value": "velvet",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "wide leg",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "black",
+      "source": "image",
+      "confidence": 0.98
+    },
+    "embellishment": {
+      "value": "horizontal striped hem",
+      "source": "image",
+      "confidence": 0.95
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.95
+  },
+  "occasion": [],
+  "matching_keywords": [
+    "black velvet unstitched suit",
+    "embroidered shawl",
+    "velvet trouser",
+    "silver embroidery",
+    "traditional wear",
+    "adan libas 753"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.928,
+    "image_fingerprint": "58b7471d1db204b40a12ce776d9d81d5f49b549b10986f931ee1640f92fd2c76",
+    "source_fingerprint": "aa1b72688403383be0940f85985cff9198f03487e09ce961fe34a364928cef3c"
+  }
+}
+
+DESCRIPTION HTML:
+<h2>Design &amp; Embroidery</h2>
+<p>The shirt features a rounded neckline framed by a dense, V-shaped embroidery panel that extends down the chest. Long sleeves are finished with wide, structured cuffs decorated with horizontal silver stripes and floral motifs. The accompanying shawl is distinguished by a repeating pattern of diamond-shaped medallions and a heavily embellished border.</p>
+<h2>Product Details</h2>
+<li>Black velvet base fabric</li>
+<li>Diamond-shaped embroidery motifs on the shawl</li>
+<li>Horizontal striped detailing on the trouser hem</li>
+<li>Dense V-shaped embroidery on the shirt neckline</li>
+<li>Unstitched Embroidered Velvet Shirt</li>
+<li>Unstitched Embroidered Velvet Shawl</li>
+<li>Unstitched Embroidered Velvet Trouser</li>
+<h2>Styling Notes</h2>

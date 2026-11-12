@@ -1,0 +1,234 @@
+PRODUCT: Akbar Aslam Luxury Lawn Dewlyn Pret
+URL HANDLE (unchanged): akbar-aslam-luxury-lawn-dewlyn-pret
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (109 chars):
+Akbar Aslam Luxury Lawn Dewlyn Pret features floral print pattern. View product details and available options
+
+TAGS:
+akbar aslam, luxury lawn, pret, floral print, grey outfit, printed suit, womenswear
+
+IMAGE ALT TEXT:
+Akbar Aslam Luxury Lawn Dewlyn Pret grey floral printed shirt and trousers
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Akbar Aslam",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "beige",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "contrast": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Four Seasons Fabric",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": "Four Seasons Fabric",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": "decorative buttons",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight silhouette",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "colour": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "casual",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [],
+  "matching_keywords": [
+    "floral print suit",
+    "grey printed pret",
+    "lawn two piece"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.894,
+    "image_fingerprint": "071345b7d5a42ef01e25d8a4d9e2b54afdf4a779793732456186a752f820bb8f",
+    "source_fingerprint": "05c85624924895b983c5335679250f5c53b0c19343e83ca6e27a5ddd9ba53a81"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Akbar Aslam presents the Luxury Lawn Dewlyn Pret collection, featuring coordinated printed pieces crafted for seasonal wardrobes.</p>
+<h2>Key Details</h2>
+<p>The ensemble showcases an all-over floral print rendered in soft neutral and beige tones against a grey base, complemented by matching trousers.</p>
+<p>Crafted from Four Seasons Fabric.</p>
+<li>Four Seasons Fabric construction</li>
+<li>All-over floral print pattern</li>
+<li>Slit neckline with button placket detailing</li>
+<li>Full-length straight sleeves</li>
+<li>Coordinated printed trousers</li>

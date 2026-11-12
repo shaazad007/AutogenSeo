@@ -1,0 +1,243 @@
+PRODUCT: ETHNC WINTER WOMEN COLLECTION E0956-104-003
+URL HANDLE (unchanged): ethnc-winter-women-collection-e0956-104-003
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (123 chars):
+ETHNC WINTER WOMEN COLLECTION E0956-104-003 features floral embroidery on ivory. View product details and available options
+
+TAGS:
+ivory pishwas, floral embroidery, full length dress, traditional wear, ethnic winter, green border, flared silhouette
+
+IMAGE ALT TEXT:
+Ivory pishwas with red, orange, and green floral embroidery, a flared full-length silhouette, and a wide green and gold
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Ethnic",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "ivory",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": "green",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "contrast": {
+      "value": "red, orange",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embroidery": {
+      "value": "floral yoke",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": "metallic thread",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "traditional floral",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "motifs": {
+      "value": "flowers, vines",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "density": {
+      "value": "high at neckline and hem",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "placement": {
+      "value": "bodice, skirt, cuffs, hem",
+      "source": "image",
+      "confidence": 0.95
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "full-length",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "silhouette": {
+      "value": "flared",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "length": {
+      "value": "floor-length",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 1
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "borders": {
+      "value": "embroidered cuff",
+      "source": "image",
+      "confidence": 0.95
+    },
+    "embroidery": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "traditional",
+    "source": "image",
+    "confidence": 0.95
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "ivory pishwas",
+    "floral embroidery",
+    "full length dress",
+    "ethnic winter",
+    "traditional dress",
+    "green border"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.932,
+    "image_fingerprint": "64d10bb5a7beeff4adcc1559fa8801a6b4f7106a0a879907d7a2e7637c06ae2e",
+    "source_fingerprint": "dd1870bae918ea7acd8043ea981ecfcea7237b0f49a4d70e1f27425206b34510"
+  }
+}
+
+DESCRIPTION HTML:
+<h2>Colour, Print &amp; Craft</h2>
+<p>The primary colour is a soft ivory, accented by floral embroidery in red, orange, and green. The embroidery is densest at the neckline and the wide hem border, where it is interspersed with metallic thread. The sleeves are long and fitted, ending in a decorative, embroidered cuff. The skirt features a flared, A-line silhouette with scattered floral motifs and small, metallic dot embellishments.</p>
+<h2>Product Details</h2>
+<p>Ivory pishwas. The garment is a single, full-length dress.</p>
+<li>Full-length, flared pishwas silhouette</li>
+<li>High neckline with embroidered yoke</li>
+<li>Floral embroidery in red, orange, and green</li>
+<li>Long sleeves with decorative cuffs</li>
+<li>Ivory pishwas</li>
