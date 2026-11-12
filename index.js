@@ -181,6 +181,7 @@ async function runQueueWorker(shopify, { limit, deadlineMs }) {
     logicalJobId: job.queue_job_id,
     deadlineMs,
     productIds: pendingIds,
+    queueCollection: { handle: job.collection_handle, title: job.collection_title },
     onProductResult: async ({ productId, status, error }) => {
       recordProductResult(job, productId, status, error);
       saveQueueState(config.paths.queueState, state);

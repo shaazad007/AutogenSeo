@@ -8,7 +8,7 @@ const {
   fingerprintProductContext,
   stableJson,
 } = require("../lib/designProfile");
-const { buildCombinedPromptText, postProcessResult } = require("../lib/promptShared");
+const { buildCombinedPromptText, postProcessResult, validateDescriptionClaims } = require("../lib/promptShared");
 
 const promptConfig = {
   detect: "garment colour, neckline, sleeves, embroidery",
@@ -117,6 +117,71 @@ test("rejects image-sourced fabric while retaining schema version 1", () => {
   assert.equal(normalized.fabric.shirt.source, "unknown");
 });
 
+test("collection provenance is accepted and legacy vendor provenance remains valid", () => {
+  const current = normalizeDesignProfile({ brand: { value: "Imrozia", source: "collection", confidence: 1 } });
+  assert.equal(current.brand.value, "Imrozia");
+  assert.equal(current.brand.source, "collection");
+  assert.equal(current.schema_version, 1);
+  assert.equal(normalizeDesignProfile(profile()).brand.source, "shopify_vendor");
+});
+
+test("description does not add Sara Clothes branding or a footer automatically", () => {
+  const args = {
+    promptConfig,
+    product: { title: "Green Lawn Suit", vendor: "Sara Clothes", descriptionHtml: "<p>lawn</p>" },
+    designer: null,
+    modelMatch: null,
+  };
+  const prompt = buildCombinedPromptText(args);
+  assert.doesNotMatch(prompt, /BRAND: Sara Clothes|closing line mentioning the brand/i);
+  assert.match(prompt, /Do not automatically add the store brand “Sara Clothes”/);
+  const verifiedBrandPrompt = buildCombinedPromptText({ ...args, product: { ...args.product, brandCollectionTitle: "Imrozia" } });
+  assert.match(verifiedBrandPrompt, /Imrozia/);
+  const result = postProcessResult({
+    description_html: "<p>Imrozia green lawn with floral embroidery.</p><p>Sara Clothes</p>",
+    key_visual_detail: "floral embroidery",
+    tags: [], image_alt_text: "Green embroidered suit",
+  }, { ...args, includeDesignProfile: false });
+  assert.match(result.description_html, /Imrozia/);
+  assert.doesNotMatch(result.description_html, /Sara Clothes|saraclothes\.com/i);
+});
+
+test("canonical description validation removes contradictory and ungrounded claims", () => {
+  const profileFacts = normalizeDesignProfile({
+    colours: { primary: { value: "green", source: "image", confidence: 0.9 } },
+    fabric: { shirt: { value: null, source: "unknown", confidence: 0 } },
+  });
+  const html = "<p>Green embroidery is visible.</p><p>Red silk three-piece suit.</p>";
+  const validated = validateDescriptionClaims(html, {
+    profile: profileFacts,
+    product: { title: "Embroidered suit", originalDescriptionHtml: "Detailed embroidery." },
+  });
+  assert.match(validated, /Green embroidery/);
+  assert.doesNotMatch(validated, /Red silk|three-piece/);
+});
+
+test("prompt text is UTF-8 clean and contains no mojibake or BOM", () => {
+  const fs = require("node:fs");
+  const source = fs.readFileSync(require.resolve("../lib/promptShared"));
+  assert.notEqual(source.subarray(0, 3).toString("hex"), "efbbbf");
+  const text = source.toString("utf8");
+  assert.doesNotMatch(text, /â€”|â€“|â€™|Ã|Â/);
+  assert.match(text, /fashion-magazine copy/);
+});
+
+test("canonical prompt requires profile and description to share grounded facts", () => {
+  const prompt = buildCombinedPromptText({
+    promptConfig,
+    product: { title: "Green Lawn Suit", originalDescriptionHtml: "lawn" },
+    designer: null,
+    modelMatch: null,
+    includeDesignProfile: true,
+  });
+  assert.match(prompt, /normalized profile facts are the canonical fact set/i);
+  assert.match(prompt, /Never claim fabric or suit-piece count from images/i);
+  assert.match(prompt, /Verified brand collection/);
+});
+
 function nullProfile() {
   return { design_style: { value: "party", source: "image", confidence: 1 } };
 }
@@ -158,7 +223,7 @@ test("profile prompt is optional and includes Shopify Color option evidence", ()
   const enabled = buildCombinedPromptText({ ...args, includeDesignProfile: true });
   assert.match(enabled, /design_profile/);
   assert.match(enabled, /\["Mehndi Green","Gold"\]/);
-  assert.match(enabled, /Never claim a fabric from an image/);
+  assert.match(enabled, /Never claim fabric or suit-piece count from images/);
 });
 
 test("malformed profile preserves successfully generated SEO fields", () => {

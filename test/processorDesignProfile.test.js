@@ -62,6 +62,7 @@ function makeConfig(root, enabled) {
       CLOUDFLARE_API_TOKEN: null,
       CLOUDFLARE_ACCOUNT_ID: null,
       AI_DESIGN_PROFILE_ENABLED: enabled,
+      AI_DESIGN_PROFILE_LIVE_ENABLED: false,
     },
     paths,
   };
@@ -199,6 +200,33 @@ test("profile backfill writes only the profile for ai-done products", async (t) 
   assert.equal(progress.today_done, 0);
 });
 
+test("live profile feature flag OFF keeps SEO processing and skips profile generation/write", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-live-off-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, false);
+  const shopify = fakeShopify();
+  const generationRequests = installMockFetch(t);
+  const result = await runBatch({ shopify, config, mode: "live", limit: 1, runLog: [] });
+  assert.equal(result.processed, 1);
+  assert.equal(generationRequests(), 1);
+  assert.equal(shopify.counters.updates, 1);
+  assert.equal(shopify.counters.profileWrites, 0);
+});
+
+test("live profile feature flag ON generates and writes profile in the same AI request", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-live-on-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, false);
+  config.env.AI_DESIGN_PROFILE_LIVE_ENABLED = true;
+  const shopify = fakeShopify();
+  const generationRequests = installMockFetch(t);
+  const result = await runBatch({ shopify, config, mode: "live", limit: 1, runLog: [] });
+  assert.equal(result.processed, 1);
+  assert.equal(generationRequests(), 1, "profile must not trigger a second AI request");
+  assert.equal(shopify.counters.updates, 1);
+  assert.equal(shopify.counters.profileWrites, 1);
+});
+
 test("profile backfill retries a saved profile without another AI request", async (t) => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-backfill-retry-"));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
@@ -250,6 +278,7 @@ test("profile write failure persists retry and recovers next run without another
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-retry-"));
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
   const config = makeConfig(root, true);
+  config.env.AI_DESIGN_PROFILE_LIVE_ENABLED = true;
   const shopify = fakeShopify({ failProfileWrites: 1 });
   const generationRequests = installMockFetch(t);
 
