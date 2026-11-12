@@ -712,11 +712,11 @@
     "failed_this_run": 2
   },
   {
-    "at": "2026-11-12T20:06:05.085Z",
+    "at": "2026-11-12T19:56:38.259Z",
     "total_done": 0,
     "total_products": 10000,
-    "today_done": 99,
-    "processed_this_run": 4,
-    "failed_this_run": 0
+    "today_done": 253,
+    "processed_this_run": 158,
+    "failed_this_run": 5
   }
 ]
