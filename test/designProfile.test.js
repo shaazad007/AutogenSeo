@@ -160,6 +160,24 @@ test("canonical description validation removes contradictory and ungrounded clai
   assert.doesNotMatch(validated, /Red silk|three-piece/);
 });
 
+test("claim validation preserves list wrappers around supported details", () => {
+  const profileFacts = normalizeDesignProfile({
+    colours: { primary: { value: "green", source: "image", confidence: 0.9 } },
+  });
+  const html = "<h2>Product Details</h2><ul><li>Green embroidery is visible.</li><li>Red silk three-piece suit.</li></ul>";
+  const validated = validateDescriptionClaims(html, {
+    profile: profileFacts,
+    product: { title: "Embroidered garment", originalDescriptionHtml: "" },
+  });
+  assert.equal(validated, "<h2>Product Details</h2><ul><li>Green embroidery is visible.</li></ul>");
+  assert.equal((validated.match(/<li>/g) || []).length, (validated.match(/<\/li>/g) || []).length);
+  assert.equal((validated.match(/<ul>/g) || []).length, (validated.match(/<\/ul>/g) || []).length);
+  assert.equal(validateDescriptionClaims("<h2>Unsupported</h2><ul><li>Red silk three-piece suit.</li></ul>", {
+    profile: profileFacts,
+    product: { title: "Embroidered garment", originalDescriptionHtml: "" },
+  }), "");
+});
+
 test("prompt text is UTF-8 clean and contains no mojibake or BOM", () => {
   const fs = require("node:fs");
   const source = fs.readFileSync(require.resolve("../lib/promptShared"));
