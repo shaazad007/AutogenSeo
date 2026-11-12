@@ -95,6 +95,28 @@ test("unknown profile input stays unknown and malformed roots are rejected", () 
   assert.throws(() => normalizeDesignProfile("not-json-object"), /JSON object/);
 });
 
+test("accepts new provenance sources and preserves legacy schema sources", () => {
+  const normalized = normalizeDesignProfile({
+    brand: { value: "Imrozia", source: "collection", confidence: 1 },
+    fabric: { shirt: { value: "lawn", source: "old_description", confidence: 0.9 } },
+    shirt: { cut: { value: "straight", source: "title", confidence: 0.8 } },
+  });
+  assert.equal(normalized.schema_version, 1);
+  assert.equal(normalized.brand.source, "collection");
+  assert.equal(normalized.fabric.shirt.source, "old_description");
+  assert.equal(normalized.shirt.cut.source, "title");
+  assert.equal(normalizeDesignProfile(profile()).brand.source, "shopify_vendor");
+});
+
+test("rejects image-sourced fabric while retaining schema version 1", () => {
+  const normalized = normalizeDesignProfile({
+    fabric: { shirt: { value: "silk", source: "image", confidence: 1 } },
+  });
+  assert.equal(normalized.schema_version, 1);
+  assert.equal(normalized.fabric.shirt.value, null);
+  assert.equal(normalized.fabric.shirt.source, "unknown");
+});
+
 function nullProfile() {
   return { design_style: { value: "party", source: "image", confidence: 1 } };
 }
