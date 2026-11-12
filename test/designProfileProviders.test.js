@@ -67,7 +67,10 @@ async function withMockFetch(t, generator, responseBody) {
   const result = await generator();
   assert.equal(generationRequests, 1, "profile must share the existing image+copy request");
   assert.match(requestText, /design_profile/);
+  assert.match(requestText, /description_content/);
   assert.match(requestText, /Green/);
+  const requestBody = JSON.parse(requestText);
+  assert.equal(requestBody.generationConfig?.temperature ?? requestBody.temperature, 0.35);
   assert.ok(result.design_profile);
   assert.equal(result.design_profile.schema_version, 1);
 }

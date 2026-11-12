@@ -22,6 +22,10 @@ Normal live, queue-worker, and scheduled runs write `custom.custom_ai_design` on
 
 Collection brand names are accepted only from `brand_collection_handles` in `config.json`; this is an explicit allow-list of Shopify collection handles. Unlisted sale/category collections are ignored and Shopify vendor is used as fallback. Leave the list empty to use vendor for brand facts.
 
+### Product content specification
+
+The AI Vision, Design Profile, editorial description, factual SEO metadata, semantic HTML, and preview requirements are documented in the [AI Vision + SEO Product Content Master Spec](docs/AUTOGENSEO_AI_VISION_SEO_PRODUCT_CONTENT_MASTER_SPEC.md).
+
 ---
 
 ## Setup — Step by Step

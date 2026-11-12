@@ -1,5 +1,7 @@
 # AI Design Profile
 
+The complete product-content contract, including stable editorial voice, structured description output, deterministic layouts, SEO constraints, and preview acceptance, is in the [AI Vision + SEO Product Content Master Spec](AUTOGENSEO_AI_VISION_SEO_PRODUCT_CONTENT_MASTER_SPEC.md).
+
 ## Scope and version
 
 The engine can include a version 1 fashion Design Profile in the same multimodal
@@ -37,12 +39,13 @@ images, tags, and the normal daily SEO count untouched. The manual workflow
 limit and existing collection filter still apply. Scheduled runs never use
 backfill mode.
 
-Live profile generation and writes require
-`AI_DESIGN_PROFILE_ENABLED=true`. The default is false. The current GitHub
-Actions schedule leaves this flag unset, so scheduled live runs remain on the
-legacy SEO-only path. The manual `profile-backfill` dispatch opts in for that
-single run; it does not enable profile writes for scheduled runs. No live store
-was used for these tests.
+Normal live profile generation and writes require
+`AI_DESIGN_PROFILE_LIVE_ENABLED=true`. It defaults to false/unset, and the
+GitHub Actions workflow passes `false` when the variable is absent. The
+separate `AI_DESIGN_PROFILE_ENABLED` flag is used only by the explicit manual
+`profile-backfill` mode. Neither flag should be enabled based only on mocked
+tests; owner-reviewed real-model read-only previews for 3-5 products come
+first. No live store was used for automated tests.
 
 When enabled, the engine reads the `custom.custom_ai_design` product metafield
 definition. It reuses a compatible PRODUCT/JSON definition, creates the
@@ -68,8 +71,8 @@ part of this change.
 
 ## Rollback and controls
 
-- Keep `AI_DESIGN_PROFILE_ENABLED` unset/false to leave production behavior
-  disabled.
+- Keep `AI_DESIGN_PROFILE_LIVE_ENABLED` unset/false to leave normal live
+  profile generation and writes disabled.
 - If later enabled, turn the flag off to stop new profile generation and
   writes. Existing metafields and pending retry data are preserved.
 - Reverting the engine change restores the prior SEO-only generator. It does
