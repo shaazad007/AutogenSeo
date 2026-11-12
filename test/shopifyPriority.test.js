@@ -92,6 +92,43 @@ test("collection fetch keeps collection scope and AI-done filtering with determi
   assert.equal(page.endCursor, "collection-cursor");
 });
 
+test("collection enqueue date window excludes products outside the selected dates", async () => {
+  const client = new ShopifyClient({ store: "example.myshopify.com", clientId: "id", clientSecret: "secret" });
+  client.getCollectionGidByHandle = async (handle) => {
+    assert.equal(handle, "imrozia");
+    return "gid://shopify/Collection/42";
+  };
+  let page = 0;
+  client.fetchCollectionProductsPage = async (_gid, { cursor }) => {
+    page++;
+    if (cursor == null) return {
+      products: [
+        product("in-range-new", "2026-11-02T16:00:00Z", "2026-11-02T16:00:00Z"),
+        product("before", "2026-11-01T23:59:59Z", "2026-11-01T23:59:59Z"),
+      ],
+      hasNextPage: true,
+      endCursor: "page-2",
+    };
+    return {
+      products: [
+        product("in-range-old", "2026-11-02T00:00:00Z", "2026-11-02T00:00:00Z"),
+        product("at-exclusive-end", "2026-11-04T00:00:00Z", "2026-11-04T00:00:00Z"),
+        product("unknown-date", null, "2026-11-03T00:00:00Z"),
+      ],
+      hasNextPage: false,
+      endCursor: null,
+    };
+  };
+
+  const selected = await client.fetchAllUnprocessedCollectionProducts("imrozia", {
+    publishedFrom: "2026-11-02T00:00:00Z",
+    publishedBefore: "2026-11-04T00:00:00Z",
+  });
+
+  assert.equal(page, 2);
+  assert.deepEqual(selected.map((item) => item.id), ["in-range-new", "in-range-old"]);
+});
+
 test("unknown or invalid product dates sort deterministically by ID", async () => {
   const client = new ShopifyClient({ store: "example.myshopify.com", clientId: "id", clientSecret: "secret" });
   client.graphql = async () => ({
