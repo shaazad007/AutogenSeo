@@ -5,14 +5,17 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "preview (safe), live, or collections (read-only inventory refresh)"
+        description: "preview, live, profile-backfill, collections, enqueue, or queue-worker"
         required: true
         default: "preview"
         type: choice
         options:
           - preview
           - live
+          - profile-backfill
           - collections
+          - enqueue
+          - queue-worker
       limit:
         description: "How many products to process in this run"
         required: true
@@ -25,6 +28,22 @@ on:
         description: "App-generated ID that remains stable across a workflow rerun"
         required: false
         default: ""
+      collection_handles:
+        description: "JSON array of selected collection handles, kept in selection order"
+        required: false
+        default: "[]"
+      enqueue_request_id:
+        description: "Idempotency ID for one mobile enqueue request"
+        required: false
+        default: ""
+      queue_mode:
+        description: "Processing mode for the created collection jobs"
+        required: false
+        default: "live"
+        type: choice
+        options:
+          - live
+          - preview
 
   # Automatic runs — live mode. Runs 4x/day (roughly every 6 hours) instead of
   # once, because at the current delay_seconds in config.json, one 6-hour
@@ -39,6 +58,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: shopify-cloth-ai-run
@@ -76,6 +96,11 @@ jobs:
           INPUT_LIMIT: ${{ inputs.limit }}
           INPUT_COLLECTION_HANDLE: ${{ inputs.collection_handle }}
           INPUT_LOGICAL_JOB_ID: ${{ inputs.logical_job_id }}
+          INPUT_COLLECTION_HANDLES: ${{ inputs.collection_handles }}
+          INPUT_ENQUEUE_REQUEST_ID: ${{ inputs.enqueue_request_id }}
+          INPUT_QUEUE_MODE: ${{ inputs.queue_mode }}
+          AI_DESIGN_PROFILE_ENABLED: ${{ inputs.mode == 'profile-backfill' }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 
       # No need to hand-calculate a "safe" number anymore — index.js has its
@@ -94,10 +119,11 @@ jobs:
           SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}  # optional — leave the secret unset if you don't want the Groq fallback
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}  # optional third provider
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: node index.js --mode=live --limit=100000
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node index.js --mode=scheduled --limit=100000
 
       # if: always() is essential — without it, this step is SKIPPED whenever
       # the run above fails, times out, or gets cancelled, and every product
@@ -108,11 +134,26 @@ jobs:
         run: |
           git config user.name "shopify-cloth-ai-bot"
           git config user.email "actions@github.com"
-          git add docs/progress.json docs/failed.csv docs/last-run-log.json docs/history.json preview/ || true
+          git add docs/progress.json docs/failed.csv docs/last-run-log.json docs/history.json docs/queue_state.json preview/ || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: update progress [skip ci]"
           fi
-          # Never hide a rebase conflict: a detached HEAD cannot push and can
-          # silently strand this run's progress and preview files.
-          git pull --rebase
-          git push
+          # Serialize queue writers above and rebase any unrelated default-branch updates.
+          # A queue-state conflict fails visibly; never overwrite a newer snapshot.
+          branch="${GITHUB_REF_NAME}"
+          if ! git pull --rebase origin "$branch"; then
+            git rebase --abort
+            echo "::error::Repository progress/queue conflict; newer queue state was preserved."
+            exit 1
+          fi
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:$branch"; then exit 0; fi
+            git fetch origin "$branch"
+            if ! git rebase "origin/$branch"; then
+              git rebase --abort
+              echo "::error::Queue state conflicted with a newer repository update; refusing to overwrite it."
+              exit 1
+            fi
+          done
+          echo "::error::Could not push queue state after three safe rebase attempts."
+          exit 1
