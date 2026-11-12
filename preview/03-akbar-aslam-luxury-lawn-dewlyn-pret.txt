@@ -1,0 +1,244 @@
+PRODUCT: Akbar Aslam Luxury Lawn Dewlyn Pret
+URL HANDLE (unchanged): akbar-aslam-luxury-lawn-dewlyn-pret
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (160 chars):
+Add the Akbar Aslam Luxury Lawn Dewlyn Pret by Sara Clothes to your wardrobe — floral print on grey, dependable quality you can trust, shipped globally in days.
+
+TAGS:
+akbar aslam, luxury lawn, pret, printed suit, floral print, lawn suit, two piece
+
+IMAGE ALT TEXT:
+Akbar Aslam Luxury Lawn Dewlyn Pret printed two-piece outfit
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Akbar Aslam",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "cream",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "brown",
+      "source": "image",
+      "confidence": 0.7
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "lawn",
+      "source": "title",
+      "confidence": 0.9
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "v_neck",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": "buttons",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "silhouette": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "full",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "straight trousers",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "colour": {
+      "value": "grey",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "casual",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "daywear",
+      "source": "image",
+      "confidence": 0.7
+    },
+    {
+      "value": "casual",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "akbar aslam lawn",
+    "dewlyn pret",
+    "printed lawn suit",
+    "floral printed shirt"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.85,
+    "image_fingerprint": "071345b7d5a42ef01e25d8a4d9e2b54afdf4a779793732456186a752f820bb8f",
+    "source_fingerprint": "05c85624924895b983c5335679250f5c53b0c19343e83ca6e27a5ddd9ba53a81"
+  }
+}
+
+DESCRIPTION HTML:
+<p>A quiet afternoon calls for an outfit that feels entirely effortless yet composed. The Akbar Aslam Luxury Lawn Dewlyn Pret brings a refined touch to daily dressing with its considered details and cohesive print.</p>
+<p>Crafted for versatility, this ensemble pairs a printed long shirt with matching trousers, utilizing a four seasons fabric suitable for changing weather. The piece balances traditional cuts with contemporary ease, offering a polished look straight out of the box.</p>
+<h3>Design Highlights</h3>
+<h3>Stitching &amp; Finish</h3>
+<p>Clean straight hems and precise panel construction define the silhouette, ensuring a smooth drape. The wide-leg trousers echo the main print for a unified appearance from top to hem.</p>
+<h3>Styling &amp; Occasion</h3>
+<p>An ideal choice for daytime gatherings or relaxed social visits. Pair with minimal flats and understated jewelry to keep the focus on the intricate botanical pattern.</p>

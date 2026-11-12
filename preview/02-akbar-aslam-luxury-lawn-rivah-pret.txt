@@ -1,0 +1,247 @@
+PRODUCT: Akbar Aslam Luxury Lawn Rivah Pret
+URL HANDLE (unchanged): akbar-aslam-luxury-lawn-rivah-pret
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (155 chars):
+Add the Akbar Aslam Luxury Lawn Rivah Pret by Sara Clothes to your wardrobe — embroidered lawn shirt and chiffon dupatta, dependable quality you can trust,
+
+TAGS:
+akbar aslam, luxury lawn, pret, pakistani fashion, embroidered suit, chiffon dupatta, ready to wear, festive wear
+
+IMAGE ALT TEXT:
+Akbar Aslam Luxury Lawn Rivah Pret with embroidered lawn shirt and chiffon dupatta
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Akbar Aslam",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "teal",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "pink",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "white",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Lawn",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Chiffon",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Dyed Cotton Prêt",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "u_neck",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "embroidery": {
+      "value": "embroidered neckline",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "thread embroidery",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "motifs": {
+      "value": "floral and botanical motifs",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "density": {
+      "value": "medium",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "placement": {
+      "value": "front and sleeves",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": "straight cut",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "silhouette": {
+      "value": "long shirt",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": "open cuffs",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "borders": {
+      "value": "embroidered border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "heavy sleeve embroidery",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "scalloped",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "printed border with embroidered details",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": "embroidered daman",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": "teal",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "print": {
+      "value": "printed",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "pattern": {
+      "value": "floral",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": "embroidered details",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "fabric": {
+      "value": "Chiffon",
+      "source": "old_description",
+      "confidence": 1
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "wide leg trouser",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "colour": {
+      "value": "teal",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "old_description",
+    "confidence": 0.9
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "old_description",
+      "confidence": 0.9
+    },
+    {
+      "value": "formal",
+      "source": "image",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "akbar aslam luxury lawn",
+    "rivah pret",
+    "teal embroidered lawn suit",
+    "chiffon dupatta lawn dress"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.894,
+    "image_fingerprint": "fc5de623ade6fbae628063b0b3aa505bbc21873b877d5d2638d34e2553a09c0b",
+    "source_fingerprint": "59a05002054222c43fb0c714e72cae744f4a2149f30aaed6cdce7ed8d2e24ad1"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Discover the refined craftsmanship of the Akbar Aslam Luxury Lawn Rivah Pret collection, featuring intricately detailed lawn shirting paired with a chiffon dupatta.</p>
+<h3>Styling & Occasion</h3>
+<li>Suitable for festive gatherings and formal celebrations</li>
+<li>Pair with traditional accessories to complete the look</li>
+<h3>Stitching & Finish</h3>
+<li>Ready-to-wear dyed cotton trouser included</li>
+<li>Includes printed border with embroidered details</li>
+<h3>Design Highlights</h3>
+<li>Delicate embroidery across the lawn shirt</li>
+<li>Chiffon dupatta with printed and embroidered elements</li>

@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 92,
+  "today_done": 95,
   "today_date": "2026-11-12",
-  "last_product_id": "gid://shopify/Product/9126733971684",
-  "last_product_title": "Imrozia SL-146 Blush Serenity Dahlia Lawn Vol-03 2026",
-  "last_run_started_at": "2026-11-12T12:10:38.233Z",
-  "last_run_finished_at": "2026-11-12T12:28:28.531Z",
+  "last_product_id": "gid://shopify/Product/15438215577828",
+  "last_product_title": "Akbar Aslam Luxury Lawn Dewlyn Pret",
+  "last_run_started_at": "2026-11-12T15:48:06.157Z",
+  "last_run_finished_at": "2026-11-12T15:57:37.875Z",
   "status": "completed_for_today",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "mobile-1794485400228297:1",
-    "workflow_run_id": 43215478726,
+    "logical_job_id": "ghjob_43251674435",
+    "workflow_run_id": 43251674435,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 20,
-    "total_products": 100000,
-    "completed_products": 19,
-    "failed_products": 1,
+    "processed_products": 5,
+    "total_products": 5,
+    "completed_products": 3,
+    "failed_products": 2,
     "skipped_products": 0,
-    "updated_at": "2026-11-12T12:28:28.531Z"
+    "updated_at": "2026-11-12T15:57:37.875Z"
   }
 }

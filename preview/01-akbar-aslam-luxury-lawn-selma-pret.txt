@@ -1,0 +1,244 @@
+PRODUCT: Akbar Aslam Luxury Lawn Selma Pret
+URL HANDLE (unchanged): akbar-aslam-luxury-lawn-selma-pret
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (157 chars):
+Add the Akbar Aslam Luxury Lawn Selma Pret by Sara Clothes to your wardrobe — organza embroidered hand embellished, dependable quality you can trust, shipped
+
+TAGS:
+akbar aslam, luxury lawn, pret, organza suit, embroidered dress, festive wear, formal wear, womens fashion
+
+IMAGE ALT TEXT:
+Akbar Aslam Luxury Lawn Selma Pret with organza embroidered details
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Akbar Aslam",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "secondary": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "Organza",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": "Organza",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "trouser": {
+      "value": "Russian Grip",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": "Hand Embellished",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": "Front, Back, Sleeves, Borders, Pallu",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "silhouette": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "length": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "borders": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": "Hand Embellished Sleeve 26\"",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": "Front Border 30\", Back Border 30\", Another Back Border 30\", Front+Pallu Border 2 yards",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": "Organza Embroidered",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": "Organza Embroidered Dupatta 2.5 yards",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "fabric": {
+      "value": "Organza",
+      "source": "shopify_description",
+      "confidence": 1
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": "Russian Grip Trouser",
+      "source": "shopify_description",
+      "confidence": 1
+    },
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "festive",
+    "source": "title",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "festive",
+      "source": "title",
+      "confidence": 0.8
+    }
+  ],
+  "matching_keywords": [
+    "akbar aslam",
+    "luxury lawn",
+    "selma pret",
+    "organza suit",
+    "embroidered dress",
+    "festive wear"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.971,
+    "image_fingerprint": "68287e5c0a5ae93482c0866b17001fb523293253205f7a148695135300a264e7",
+    "source_fingerprint": "209305aebe2e7f1e5218b231e659f08d9e6354a28aa881e9c450cb44cb952278"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Discover the refined artistry of Akbar Aslam Luxury Lawn Selma Pret, an ensemble defined by meticulous craftsmanship and exquisite detailing.</p>
+<h3>Styling &amp; Occasion</h3>
+<li>Ideal for festive gatherings, formal evenings, and celebratory occasions.</li>
+<li>Pair with traditional accessories to complete a sophisticated look.</li>
+<h3>Stitching &amp; Finish</h3>
+<li>Custom stitching options available to ensure a tailored fit.</li>
+<li>Includes Russian Grip Inner and Russian Grip Trouser.</li>
+<h3>Design Highlights</h3>
+<li>Features intricate organza embroidered hand-embellished front, back, sleeves, and borders.</li>
+<li>Accompanied by a matching organza embroidered dupatta measuring 2.5 yards.</li>
