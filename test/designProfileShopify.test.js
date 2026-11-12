@@ -199,3 +199,28 @@ test("rejects a metafield write that does not match verified readback", async ()
 
   await assert.rejects(client.writeDesignProfile(productId, designProfile), /readback did not match/);
 });
+
+test("original description backup is write-once and preserves existing HTML", async () => {
+  const calls = [];
+  const client = mockClient(async (query, variables = {}) => {
+    calls.push({ query, variables });
+    if (query.includes("ExistingOriginalDescription")) {
+      return { product: { metafield: { value: "<p>first original</p>" } } };
+    }
+    throw new Error("backup mutation must not run when a backup exists");
+  });
+
+  const result = await client.backupOriginalDescription(productId, "<p>new live HTML</p>");
+  assert.deepEqual(result, { preserved: true, value: "<p>first original</p>" });
+  assert.equal(calls.length, 1);
+  assert.match(calls[0].query, /namespace: "ai_backup"/);
+});
+
+test("original description falls back to current description when backup is absent", async () => {
+  const client = mockClient(async (query) => {
+    assert.match(query, /descriptionHtml/);
+    return { product: { descriptionHtml: "<p>current original</p>", metafield: null } };
+  });
+
+  assert.equal(await client.fetchOriginalDescription(productId), "<p>current original</p>");
+});

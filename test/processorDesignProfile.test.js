@@ -92,7 +92,7 @@ function installMockFetch(t) {
   return () => generationRequests;
 }
 
-function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
+function fakeShopify({ failProfileWrites = 0, failOriginalDescriptionRead = false, aiDone = false } = {}) {
   const counters = { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 };
   const products = [{
     id: "gid://shopify/Product/42",
@@ -116,6 +116,10 @@ function fakeShopify({ failProfileWrites = 0, aiDone = false } = {}) {
       const rows = products.splice(0, products.length);
       return { products: rows, hasNextPage: false, endCursor: null };
     },
+    async fetchOriginalDescription() {
+      if (failOriginalDescriptionRead) throw new Error("temporary Shopify read failure");
+      return "";
+    },
     async backupOriginalDescription() { counters.backups += 1; },
     async updateProduct() { counters.updates += 1; },
     async updateMediaAltText() { counters.altUpdates += 1; },
@@ -132,6 +136,7 @@ test("Preview includes the Design Profile and performs no Shopify writes", async
   t.after(() => fs.rmSync(root, { recursive: true, force: true }));
   const config = makeConfig(root, false);
   const shopify = fakeShopify();
+  delete shopify.fetchOriginalDescription;
   const generationRequests = installMockFetch(t);
 
   const result = await runBatch({
@@ -151,6 +156,22 @@ test("Preview includes the Design Profile and performs no Shopify writes", async
   assert.match(preview, /"schema_version": 1/);
   assert.equal(generationRequests(), 1);
   assert.deepEqual(shopify.counters, { backups: 0, updates: 0, altUpdates: 0, profileWrites: 0 });
+});
+
+test("backup description read failure falls back per product and continues", async (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "design-profile-backup-read-fallback-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const config = makeConfig(root, false);
+  const shopify = fakeShopify({ failOriginalDescriptionRead: true });
+  const generationRequests = installMockFetch(t);
+  const runLog = [];
+
+  const result = await runBatch({ shopify, config, mode: "preview", limit: 1, runLog });
+  const preview = fs.readFileSync(path.join(config.paths.preview, "01-green-organza-suit.txt"), "utf8");
+  assert.equal(result.processed, 1);
+  assert.equal(generationRequests(), 1);
+  assert.match(runLog.join("\n"), /using current Shopify description/);
+  assert.match(preview, /AI DESIGN PROFILE:/);
 });
 
 test("profile backfill writes only the profile for ai-done products", async (t) => {
