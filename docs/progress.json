@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 449,
+  "today_done": 458,
   "today_date": "2026-11-13",
-  "last_product_id": "gid://shopify/Product/15395169435876",
-  "last_product_title": "Xenia Nigah Khaddar Extended Stay 2026",
-  "last_run_started_at": "2026-11-13T16:59:54.885Z",
-  "last_run_finished_at": "2026-11-13T17:05:33.456Z",
+  "last_product_id": "gid://shopify/Product/15395143024868",
+  "last_product_title": "Raj Bari Seren Silk Silah Premium Silk Edit 2026",
+  "last_run_started_at": "2026-11-13T21:09:44.817Z",
+  "last_run_finished_at": "2026-11-13T21:20:10.958Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43468283846",
-    "workflow_run_id": 43468283846,
+    "logical_job_id": "ghjob_43508146454",
+    "workflow_run_id": 43508146454,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 7,
-    "total_products": 958,
-    "completed_products": 7,
-    "failed_products": 0,
+    "processed_products": 15,
+    "total_products": 951,
+    "completed_products": 9,
+    "failed_products": 6,
     "skipped_products": 0,
-    "updated_at": "2026-11-13T17:05:33.456Z"
+    "updated_at": "2026-11-13T21:20:10.958Z"
   }
 }
