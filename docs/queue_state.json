@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T23:14:30.467Z",
+  "updated_at": "2026-11-13T23:31:50.025Z",
   "jobs": [
     {
       "queue_job_id": "mobile-1794485400228297:1",
@@ -232,133 +232,173 @@
       "mode": "live",
       "submission_order": 2,
       "created_at": "2026-11-13T23:14:30.466Z",
-      "updated_at": "2026-11-13T23:14:30.466Z",
-      "status": "queued",
+      "updated_at": "2026-11-13T23:31:50.025Z",
+      "status": "waiting_provider_quota",
       "total": 31,
-      "completed": 0,
+      "completed": 20,
       "skipped": 0,
       "failed": 0,
-      "remaining": 31,
+      "remaining": 11,
       "items": [
         {
           "product_id": "gid://shopify/Product/8903093780708",
           "title": "Aabyaan Rivana (AZ-07) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:14:50.762Z"
         },
         {
           "product_id": "gid://shopify/Product/8903093977316",
           "title": "Aabyaan Virelle (AZ-13) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:15:27.880Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094141156",
           "title": "Aabyaan Somiya (AZ-12) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:16:09.040Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094272228",
           "title": "Aabyaan Elowen (AZ-11) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:16:58.232Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094436068",
           "title": "Aabyaan Zeriel (AZ-08) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:17:49.501Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094567140",
           "title": "Aabyaan Amara (AZ-06) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:18:43.464Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094665444",
           "title": "Aabyaan Averra (AZ-01) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:19:38.212Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094796516",
           "title": "Aabyaan Tivara (AZ-03) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:20:49.555Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094894820",
           "title": "Aabyaan Lareen (AZ-02) Shezlin Chikankari Edit 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:21:41.022Z"
         },
         {
           "product_id": "gid://shopify/Product/8903094960356",
           "title": "Aabyaan Calina (AZ-09) Shezlin Chikankari Edit 2005",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:22:30.968Z"
         },
         {
           "product_id": "gid://shopify/Product/8903095091428",
           "title": "Aabyaan Serene (AZ-04) Shezlin Chikankari Edit 2005",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:23:32.057Z"
         },
         {
           "product_id": "gid://shopify/Product/8903095222500",
           "title": "Aabyaan Nuraya (AZ-10) Shezlin Chikankari Edit 2005",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:24:20.121Z"
         },
         {
           "product_id": "gid://shopify/Product/8903095353572",
           "title": "Aabyaan Evara (AZ-05) Shezlin Chikankari Edit 2005",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:25:17.087Z"
         },
         {
           "product_id": "gid://shopify/Product/8892185837796",
           "title": "Aabyaan Eshaal (AP-07) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:26:07.181Z"
         },
         {
           "product_id": "gid://shopify/Product/8892185936100",
           "title": "Aabyaan Aylin (AP-02) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:26:56.032Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186099940",
           "title": "Aabyaan Rivah (AP-08) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:27:47.720Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186231012",
           "title": "Aabyaan Lavia (AP-01) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:28:38.001Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186362084",
           "title": "Aabyaan Zovia (AP-06) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:29:30.829Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186460388",
           "title": "Aabyaan Rihana (AP-05) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:30:19.225Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186558692",
           "title": "Aabyaan Falak (AP-04) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-13T23:31:10.851Z"
         },
         {
           "product_id": "gid://shopify/Product/8892186656996",
@@ -427,13 +467,44 @@
           "attempts": 0
         }
       ],
-      "completed_product_ids": [],
+      "completed_product_ids": [
+        "gid://shopify/Product/8903093780708",
+        "gid://shopify/Product/8903093977316",
+        "gid://shopify/Product/8903094141156",
+        "gid://shopify/Product/8903094272228",
+        "gid://shopify/Product/8903094436068",
+        "gid://shopify/Product/8903094567140",
+        "gid://shopify/Product/8903094665444",
+        "gid://shopify/Product/8903094796516",
+        "gid://shopify/Product/8903094894820",
+        "gid://shopify/Product/8903094960356",
+        "gid://shopify/Product/8903095091428",
+        "gid://shopify/Product/8903095222500",
+        "gid://shopify/Product/8903095353572",
+        "gid://shopify/Product/8892185837796",
+        "gid://shopify/Product/8892185936100",
+        "gid://shopify/Product/8892186099940",
+        "gid://shopify/Product/8892186231012",
+        "gid://shopify/Product/8892186362084",
+        "gid://shopify/Product/8892186460388",
+        "gid://shopify/Product/8892186558692"
+      ],
       "skipped_product_ids": [],
       "failed_product_ids": [],
-      "current_run_id": null,
-      "last_run_id": null,
-      "run_history": [],
-      "wait_reason": null,
+      "current_run_id": "43525620671",
+      "last_run_id": "43525620671",
+      "run_history": [
+        {
+          "run_id": "43525620671",
+          "attempt": 1,
+          "started_at": "2026-11-13T23:14:43.465Z",
+          "finished_at": "2026-11-13T23:31:50.024Z",
+          "processed": 20,
+          "failed": 0,
+          "stop_reason": "daily_quota"
+        }
+      ],
+      "wait_reason": "daily_quota",
       "continuation_attempts": 1,
       "last_continuation_from_run_id": "43525583192"
     }
@@ -444,8 +515,8 @@
     "mobile-1794611652761618"
   ],
   "last_dispatch_from_run_id": "43525583192",
-  "continuation_pending": true,
-  "continuation_dispatch_source_run_id": "43525583192",
+  "continuation_pending": false,
+  "continuation_dispatch_source_run_id": null,
   "last_dispatch_reason": "enqueue",
   "last_dispatch_at": "2026-11-13T23:14:30.467Z"
 }
