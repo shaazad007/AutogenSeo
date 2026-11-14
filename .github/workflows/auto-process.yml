@@ -59,7 +59,7 @@ on:
     - cron: "0 3 * * *"   # ~8am PKT/IST
     - cron: "0 9 * * *"   # ~2pm PKT/IST
     - cron: "0 15 * * *"  # ~8pm PKT/IST
-    - cron: "0 21 * * *"  # ~2am PKT/IST
+    - cron: "10 21 * * *" # ~2:10am PKT/IST
 
 permissions:
   contents: write
