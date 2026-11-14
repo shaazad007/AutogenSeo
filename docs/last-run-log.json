@@ -1,15 +1,15 @@
 {
-  "mode": "preview",
-  "finished_at": "2026-11-14T19:59:05.798Z",
+  "mode": "live",
+  "finished_at": "2026-11-14T20:04:29.980Z",
   "processed": 2,
   "failed": 0,
   "stopReason": null,
   "lines": [
-    "[19:57:58] Analyzing + writing (Gemini) for: ETHNC WINTER WOMEN COLLECTION E3829-108-104",
-    "[19:58:01] Preview written for: ETHNC WINTER WOMEN COLLECTION E3829-108-104",
-    "[19:58:01] Waiting 30s for rate-limit guard...",
-    "[19:58:31] Analyzing + writing (Gemini) for: Asim Jofa PRINTED CAMBRIC 1 AJPBD-02",
-    "[19:58:35] Preview written for: Asim Jofa PRINTED CAMBRIC 1 AJPBD-02",
-    "[19:58:35] Waiting 30s for rate-limit guard..."
+    "[20:03:23] Analyzing + writing (Gemini) for: ETHNC WINTER WOMEN COLLECTION E3829-108-104",
+    "[20:03:26] Success! Updated Shopify product: 'ETHNC WINTER WOMEN COLLECTION E3829-108-104'",
+    "[20:03:26] Waiting 30s for rate-limit guard...",
+    "[20:03:56] Analyzing + writing (Gemini) for: Asim Jofa PRINTED CAMBRIC 1 AJPBD-02",
+    "[20:03:59] Success! Updated Shopify product: 'Asim Jofa PRINTED CAMBRIC 1 AJPBD-02'",
+    "[20:03:59] Waiting 30s for rate-limit guard..."
   ]
 }
