@@ -1,12 +1,12 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 478,
-  "today_date": "2026-11-13",
-  "last_product_id": "gid://shopify/Product/8892186558692",
-  "last_product_title": "Aabyaan Falak (AP-04) Print Luxe 2026",
-  "last_run_started_at": "2026-11-13T23:14:43.466Z",
-  "last_run_finished_at": "2026-11-13T23:31:50.023Z",
+  "today_done": 3,
+  "today_date": "2026-11-14",
+  "last_product_id": "gid://shopify/Product/7726029537508",
+  "last_product_title": "Aabyaan Arya (AA-08) Aarzu Luxury Lawn 2022",
+  "last_run_started_at": "2026-11-14T01:09:53.614Z",
+  "last_run_finished_at": "2026-11-14T01:12:19.697Z",
   "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3500,14 +3500,14 @@
   "collections_refresh_status": "complete",
   "current_run": {
     "logical_job_id": "mobile-1794611652761618:1",
-    "workflow_run_id": 43525620671,
+    "workflow_run_id": 43538863863,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 20,
-    "total_products": 942,
-    "completed_products": 20,
+    "processed_products": 3,
+    "total_products": 1400,
+    "completed_products": 3,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-13T23:31:50.023Z"
+    "updated_at": "2026-11-14T01:12:19.697Z"
   }
 }

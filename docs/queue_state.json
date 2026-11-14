@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T23:31:50.025Z",
+  "updated_at": "2026-11-14T01:12:19.700Z",
   "jobs": [
     {
       "queue_job_id": "mobile-1794485400228297:1",
@@ -232,14 +232,86 @@
       "mode": "live",
       "submission_order": 2,
       "created_at": "2026-11-13T23:14:30.466Z",
-      "updated_at": "2026-11-13T23:31:50.025Z",
+      "updated_at": "2026-11-14T01:12:19.700Z",
       "status": "waiting_provider_quota",
       "total": 31,
-      "completed": 20,
+      "completed": 23,
       "skipped": 0,
       "failed": 0,
-      "remaining": 11,
+      "remaining": 8,
       "items": [
+        {
+          "product_id": "gid://shopify/Product/8892186656996",
+          "title": "Aabyaan Sariya (AP-03) Print Luxe 2026",
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T01:10:02.000Z"
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029832420",
+          "title": "Aabyaan Jia (AA-10) Aarzu Luxury Lawn 2022",
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T01:10:41.000Z"
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029537508",
+          "title": "Aabyaan Arya (AA-08) Aarzu Luxury Lawn 2022",
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T01:11:30.921Z"
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029701348",
+          "title": "Aabyaan Nuri (AA-09) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029406436",
+          "title": "Aabyaan Zarmina (AA-07) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029242596",
+          "title": "Aabyaan Mehr (AA-06) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029111524",
+          "title": "Aabyaan Safeena (AA-05) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726029045988",
+          "title": "Aabyaan Mehak (AA-04) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726028947684",
+          "title": "Aabyaan Muskan (AA-03) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726028914916",
+          "title": "Aabyaan Unze (AA-02) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/7726028816612",
+          "title": "Aabyaan Layla (AA-01) Aarzu Luxury Lawn 2022",
+          "status": "pending",
+          "attempts": 0
+        },
         {
           "product_id": "gid://shopify/Product/8903093780708",
           "title": "Aabyaan Rivana (AZ-07) Shezlin Chikankari Edit 2026",
@@ -399,75 +471,12 @@
           "attempts": 1,
           "last_error": null,
           "updated_at": "2026-11-13T23:31:10.851Z"
-        },
-        {
-          "product_id": "gid://shopify/Product/8892186656996",
-          "title": "Aabyaan Sariya (AP-03) Print Luxe 2026",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029832420",
-          "title": "Aabyaan Jia (AA-10) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029537508",
-          "title": "Aabyaan Arya (AA-08) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029701348",
-          "title": "Aabyaan Nuri (AA-09) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029406436",
-          "title": "Aabyaan Zarmina (AA-07) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029242596",
-          "title": "Aabyaan Mehr (AA-06) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029111524",
-          "title": "Aabyaan Safeena (AA-05) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726029045988",
-          "title": "Aabyaan Mehak (AA-04) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726028947684",
-          "title": "Aabyaan Muskan (AA-03) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726028914916",
-          "title": "Aabyaan Unze (AA-02) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
-        },
-        {
-          "product_id": "gid://shopify/Product/7726028816612",
-          "title": "Aabyaan Layla (AA-01) Aarzu Luxury Lawn 2022",
-          "status": "pending",
-          "attempts": 0
         }
       ],
       "completed_product_ids": [
+        "gid://shopify/Product/8892186656996",
+        "gid://shopify/Product/7726029832420",
+        "gid://shopify/Product/7726029537508",
         "gid://shopify/Product/8903093780708",
         "gid://shopify/Product/8903093977316",
         "gid://shopify/Product/8903094141156",
@@ -491,8 +500,8 @@
       ],
       "skipped_product_ids": [],
       "failed_product_ids": [],
-      "current_run_id": "43525620671",
-      "last_run_id": "43525620671",
+      "current_run_id": "43538863863",
+      "last_run_id": "43538863863",
       "run_history": [
         {
           "run_id": "43525620671",
@@ -500,6 +509,15 @@
           "started_at": "2026-11-13T23:14:43.465Z",
           "finished_at": "2026-11-13T23:31:50.024Z",
           "processed": 20,
+          "failed": 0,
+          "stop_reason": "daily_quota"
+        },
+        {
+          "run_id": "43538863863",
+          "attempt": 1,
+          "started_at": "2026-11-14T01:09:53.612Z",
+          "finished_at": "2026-11-14T01:12:19.699Z",
+          "processed": 3,
           "failed": 0,
           "stop_reason": "daily_quota"
         }
