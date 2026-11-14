@@ -1,0 +1,237 @@
+PRODUCT: ETHNC WINTER WOMEN COLLECTION E3829-108-104
+URL HANDLE (unchanged): ethnc-winter-women-collection-e3829-108-104
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (119 chars):
+ETHNC WINTER WOMEN COLLECTION E3829-108-104 features draped waist gathering. View product details and available options
+
+TAGS:
+ethnic, mustard gold dress, full length dress, boat neck dress, long sleeve dress, textured fabric, womens winter collection
+
+IMAGE ALT TEXT:
+Ethnic mustard-gold full-length dress with a boat neckline, long sleeves, and draped waist gathering in textured fabric.
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Ethnic",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "mustard-gold",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "secondary": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "contrast": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "subtle textured fabric",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "boat",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "silhouette": {
+      "value": "body-skimming",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "length": {
+      "value": "full-length",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "old_description",
+      "confidence": 1
+    },
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "borders": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "formal",
+    "source": "image",
+    "confidence": 0.8
+  },
+  "occasion": [
+    {
+      "value": "evening",
+      "source": "old_description",
+      "confidence": 1
+    }
+  ],
+  "matching_keywords": [
+    "mustard gold dress",
+    "boat neck dress",
+    "long sleeve dress",
+    "evening dress",
+    "textured dress"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.978,
+    "image_fingerprint": "c6775edba3319f6a1135ef7617bac02e98f3f475c3cda0d9875bfa60c7be53e7",
+    "source_fingerprint": "fab44440c66400753ea721d6881543d5211c239c7849ab68177a66f6bd220403"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Designed for evening wear, this full-length mustard-gold dress features a fluid, body-skimming silhouette tailored from a subtle textured fabric.</p>
+<h2>Craft Details</h2><p>The minimalist full-length construction is enhanced by graceful draped gathering accentuating the waist, creating a refined shape.</p>
+<h2>Fabric &amp; Components</h2><p>Crafted from a subtle textured fabric.</p>
+<h2>Finishing Details</h2><ul><li>Full-length dress in a body-skimming silhouette</li><li>Boat neckline and long sleeves</li><li>Graceful draped gathering at the waist</li></ul>

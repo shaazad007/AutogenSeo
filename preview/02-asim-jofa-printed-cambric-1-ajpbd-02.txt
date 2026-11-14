@@ -1,0 +1,229 @@
+PRODUCT: Asim Jofa PRINTED CAMBRIC 1 AJPBD-02
+URL HANDLE (unchanged): asim-jofa-printed-cambric-1-ajpbd-02
+TITLE: unchanged — this system never edits the product title
+--------------------------------------------------
+META DESCRIPTION (114 chars):
+Asim Jofa PRINTED CAMBRIC 1 AJPBD-02 features rhythmic printed pattern. View product details and available options
+
+TAGS:
+asim jofa, cambric, printed shirt, off-white, rhythmic patterns, women clothing, casual wear
+
+IMAGE ALT TEXT:
+Asim Jofa off-white printed cambric shirt featuring rhythmic patterns and tassel neckline details.
+
+AI DESIGN PROFILE:
+{
+  "brand": {
+    "value": "Asim Jofa",
+    "source": "shopify_vendor",
+    "confidence": 1
+  },
+  "colours": {
+    "primary": {
+      "value": "off-white",
+      "source": "old_description",
+      "confidence": 0.9
+    },
+    "secondary": {
+      "value": "orange",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "contrast": {
+      "value": "red",
+      "source": "image",
+      "confidence": 0.8
+    }
+  },
+  "fabric": {
+    "shirt": {
+      "value": "cambric",
+      "source": "title",
+      "confidence": 1
+    },
+    "dupatta": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "trouser": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "neckline": {
+    "shape": {
+      "value": "round",
+      "source": "image",
+      "confidence": 0.7
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishments": {
+      "value": "tassel ties",
+      "source": "image",
+      "confidence": 0.9
+    }
+  },
+  "embroidery": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "motifs": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "density": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "placement": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "shirt": {
+    "cut": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "silhouette": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "length": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "panels": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "sleeves": {
+    "length": {
+      "value": "long",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "shape": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "borders": {
+      "value": "red accent border",
+      "source": "image",
+      "confidence": 0.9
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "daman": {
+    "shape": {
+      "value": "straight",
+      "source": "image",
+      "confidence": 0.8
+    },
+    "lace": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "border": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "dupatta": {
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "print": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "pattern": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embroidery": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "fabric": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "trouser": {
+    "style": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "colour": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    },
+    "embellishment": {
+      "value": null,
+      "source": "unknown",
+      "confidence": 0
+    }
+  },
+  "design_style": {
+    "value": "casual",
+    "source": "image",
+    "confidence": 0.7
+  },
+  "occasion": [],
+  "matching_keywords": [
+    "asim jofa printed cambric",
+    "off white printed shirt",
+    "rhythmic pattern shirt"
+  ],
+  "schema_version": 1,
+  "metadata": {
+    "schema_version": 1,
+    "evidence_source": "ai_vision+shopify_product_context",
+    "confidence": 0.85,
+    "image_fingerprint": "fe7a11032211d7a3e3721f3d5752c5ea7fca5e7f89563c203b50596fcfe3061a",
+    "source_fingerprint": "ecd1871b78ffb0591e2dc79d875822a381c0bfb626714e4eeea3d2508f570d86"
+  }
+}
+
+DESCRIPTION HTML:
+<p>Asim Jofa presents an off-white printed shirt styled with rhythmic patterns.</p>
+<h2>Craft Details</h2><p>Crafted from cambric, this piece showcases a polished off-white base accented with patterned prints and subtle color accents.</p>
+<h2>Fabric &amp; Components</h2><p>Cambric shirt.</p><ul><li>1 printed shirt</li></ul>
+<h2>Finishing Details</h2><ul><li>Off-white printed shirt with rhythmic patterns</li><li>Cambric construction</li><li>Long sleeves with contrasting red border details</li><li>Tassel detailing on the neckline</li></ul>
