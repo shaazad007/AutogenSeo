@@ -53,11 +53,8 @@ on:
           - live
           - preview
 
-  # Automatic runs — live mode. Runs 4x/day (roughly every 6 hours) instead of
-  # once, because at the current delay_seconds in config.json, one 6-hour
-  # GitHub Actions job can only safely process ~150-170 products — running
-  # more often adds up to a higher daily total without ever hitting GitHub's
-  # hard 6-hour-per-job limit. Adjust times freely; these are UTC.
+  # Automatic AI Vision Design Profile backfill, four times per day.
+  # These UTC cron times run roughly every six hours.
   schedule:
     - cron: "0 3 * * *"   # ~8am PKT/IST
     - cron: "0 9 * * *"   # ~2pm PKT/IST
@@ -122,15 +119,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node index.js --mode="$INPUT_MODE" --limit="$INPUT_LIMIT" --collection-handle="$INPUT_COLLECTION_HANDLE"
 
-      # No need to hand-calculate a "safe" number anymore — index.js has its
-      # own internal time budget (job_time_budget_minutes in config.json,
-      # default 320 minutes) and stops itself cleanly well before GitHub's
-      # 6-hour hard limit, resuming automatically on the next scheduled run.
-      # It also stops cleanly (not as a pile of "failures") if every configured
-      # image provider reaches its quota or rate limit. A high limit here means
-      # "keep going
-      # until the time budget or the daily_cap in config.json is reached".
-      - name: Run processor (scheduled — live)
+      # A high limit drains eligible products that already have ai-done but
+      # still lack a Design Profile. The processor enforces its internal time budget.
+      - name: Run processor (scheduled — AI Vision profile backfill)
         if: github.event_name == 'schedule'
         timeout-minutes: 335
         env:
@@ -141,9 +132,9 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          AI_DESIGN_PROFILE_LIVE_ENABLED: ${{ vars.AI_DESIGN_PROFILE_LIVE_ENABLED || 'false' }}
+          AI_DESIGN_PROFILE_ENABLED: 'true'
           GITHUB_TOKEN: ${{ github.token }}
-        run: node index.js --mode=scheduled --limit=100000
+        run: node index.js --mode=profile-backfill --limit=100000
 
       # if: always() is essential — without it, this step is SKIPPED whenever
       # the run above fails, times out, or gets cancelled, and every product
