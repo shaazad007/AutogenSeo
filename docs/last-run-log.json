@@ -1,15 +1,15 @@
 {
-  "mode": "live",
-  "finished_at": "2026-11-14T20:04:29.980Z",
+  "mode": "profile-backfill",
+  "finished_at": "2026-11-14T20:08:52.817Z",
   "processed": 2,
   "failed": 0,
   "stopReason": null,
   "lines": [
-    "[20:03:23] Analyzing + writing (Gemini) for: ETHNC WINTER WOMEN COLLECTION E3829-108-104",
-    "[20:03:26] Success! Updated Shopify product: 'ETHNC WINTER WOMEN COLLECTION E3829-108-104'",
-    "[20:03:26] Waiting 30s for rate-limit guard...",
-    "[20:03:56] Analyzing + writing (Gemini) for: Asim Jofa PRINTED CAMBRIC 1 AJPBD-02",
-    "[20:03:59] Success! Updated Shopify product: 'Asim Jofa PRINTED CAMBRIC 1 AJPBD-02'",
-    "[20:03:59] Waiting 30s for rate-limit guard..."
+    "[20:07:41] Analyzing + writing (Gemini) for: ETHNC SUMMER WOMEN COLLECTION MTB09078",
+    "[20:07:46] Design Profile backfilled without changing SEO for: ETHNC SUMMER WOMEN COLLECTION MTB09078",
+    "[20:07:46] Waiting 30s for rate-limit guard...",
+    "[20:08:17] Analyzing + writing (Gemini) for: ETHNC SUMMER WOMEN COLLECTION DSC00306",
+    "[20:08:22] Design Profile backfilled without changing SEO for: ETHNC SUMMER WOMEN COLLECTION DSC00306",
+    "[20:08:22] Waiting 30s for rate-limit guard..."
   ]
 }
