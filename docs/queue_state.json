@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T09:44:05.408Z",
+  "updated_at": "2026-11-14T22:09:37.930Z",
   "jobs": [
     {
       "queue_job_id": "mobile-1794485400228297:1",
@@ -558,16 +558,1403 @@
       "wait_reason": null,
       "continuation_attempts": 1,
       "last_continuation_from_run_id": "43525583192"
+    },
+    {
+      "queue_job_id": "mobile-1794694162003499:1",
+      "collection_handle": "adans-libas",
+      "collection_title": "Adans Libas",
+      "criteria": {
+        "published_from": "2024-07-31T19:00:00.000Z",
+        "published_before": "2026-11-14T19:00:00.000Z"
+      },
+      "mode": "live",
+      "submission_order": 3,
+      "created_at": "2026-11-14T22:09:37.929Z",
+      "updated_at": "2026-11-14T22:09:37.929Z",
+      "status": "queued",
+      "total": 226,
+      "completed": 0,
+      "skipped": 0,
+      "failed": 0,
+      "remaining": 226,
+      "items": [
+        {
+          "product_id": "gid://shopify/Product/8872158068964",
+          "title": "Adan Libas Chiffon 7583 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158101732",
+          "title": "Adan Libas Chiffon 7584 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158134500",
+          "title": "Adan Libas Chiffon 7588 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158167268",
+          "title": "Adan Libas Chiffon 7581 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158200036",
+          "title": "Adan Libas Chiffon 7582 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158232804",
+          "title": "Adan Libas Chiffon 7587 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158265572",
+          "title": "Adan Libas Chiffon 7586 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158298340",
+          "title": "Adan Libas Chiffon 7585 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158331108",
+          "title": "Adan Libas Chiffon 7580 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158363876",
+          "title": "Adan Libas Chiffon 7589 Chiffon 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158396644",
+          "title": "Adan Libas Velvet 7784 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158429412",
+          "title": "Adan Libas Velvet 7783 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158462180",
+          "title": "Adan Libas Velvet 7528 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158494948",
+          "title": "Adan Libas Velvet 7527 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158560484",
+          "title": "Adan Libas Velvet 7526 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158593252",
+          "title": "Adan Libas Velvet 7524 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158658788",
+          "title": "Adan Libas Velvet 7522 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158691556",
+          "title": "Adan Libas Velvet7521 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872158724324",
+          "title": "Adan Libas Velvet 7520 Velvet 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872164688100",
+          "title": "Adan Libas  Khaddar 1568 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872164819172",
+          "title": "Adan Libas  Dream Dhanak 7919 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872164950244",
+          "title": "Adan Libas  Dream Dhanak 7917 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165048548",
+          "title": "Adan Libas  Dhanak 7904 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165146852",
+          "title": "Adan Libas  Dhanak 7902 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165245156",
+          "title": "Adan Libas  Viscose 7854 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165343460",
+          "title": "Adan Libas  Viscose 7853 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165441764",
+          "title": "Adan Libas  Viscose 7852 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165540068",
+          "title": "Adan Libas  Viscose 7851 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165671140",
+          "title": "Adan Libas  Viscose 7850 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165769444",
+          "title": "Adan Libas  Slub 7779 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165834980",
+          "title": "Adan Libas  Slub 7778 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165900516",
+          "title": "Adan Libas  Slub 7777 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872165998820",
+          "title": "Adan Libas  Slub 7776 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166064356",
+          "title": "Adan Libas  Slub 7775 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166129892",
+          "title": "Adan Libas  Slub 7774 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166260964",
+          "title": "Adan Libas  Slub 7773 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166424804",
+          "title": "Adan Libas  Slub 7772 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166523108",
+          "title": "Adan Libas  Slub 7771 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166588644",
+          "title": "Adan Libas  Slub 7770 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166686948",
+          "title": "Adan Libas  Slub 7758 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166785252",
+          "title": "Adan Libas  Slub 7757 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166883556",
+          "title": "Adan Libas  Slub 7755 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872166949092",
+          "title": "Adan Libas  Slub 7754 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167047396",
+          "title": "Adan Libas  Slub 7753 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167112932",
+          "title": "Adan Libas  Slub 7751 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167211236",
+          "title": "Adan Libas  Slub 7750 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167309540",
+          "title": "Adan Libas  Linen 7663 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167407844",
+          "title": "Adan Libas  Linen 7661 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167473380",
+          "title": "Adan Libas  Viscose 7645 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167571684",
+          "title": "Adan Libas  Viscose 7644 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167637220",
+          "title": "Adan Libas  Viscose 7643 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167735524",
+          "title": "Adan Libas  Viscose 7642 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167833828",
+          "title": "Adan Libas  Viscose 7640 Winter Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872167899364",
+          "title": "Adan Libas  Chikankaari 0020 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168030436",
+          "title": "Adan Libas  Chikankaari 0019 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168128740",
+          "title": "Adan Libas  Chikankaari 0018 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168194276",
+          "title": "Adan Libas  Chikankaari 0017 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168292580",
+          "title": "Adan Libas  Chikankaari 0016 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168423652",
+          "title": "Adan Libas  Chikankaari 0015 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168521956",
+          "title": "Adan Libas  Chikankaari 0014 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168620260",
+          "title": "Adan Libas  Chikankaari 0013 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168784100",
+          "title": "Adan Libas  Chikankaari 0012 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168849636",
+          "title": "Adan Libas  Chikankaari 0011 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872168947940",
+          "title": "Adan Libas  Chikankari Satin 09 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169046244",
+          "title": "Adan Libas  Chikankari Satin 08 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169111780",
+          "title": "Adan Libas  Chikankari Satin 06 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169210084",
+          "title": "Adan Libas  Chikankari Satin 05 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169275620",
+          "title": "Adan Libas  Chikankari Satin 04 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169373924",
+          "title": "Adan Libas  Chikankari Satin 03 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169439460",
+          "title": "Adan Libas  Chikankari Satin 02 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169504996",
+          "title": "Adan Libas  Chikankari Satin 01 Chikankaari Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169570532",
+          "title": "Adan Libas  Prints 1347 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872169636068",
+          "title": "Adan Libas  Crepe Silk 1631 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170094820",
+          "title": "Adan Libas  Crepe Silk 1630 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170356964",
+          "title": "Adan Libas  Crepe Silk 1629 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170422500",
+          "title": "Adan Libas  Crepe Silk 1628 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170520804",
+          "title": "Adan Libas  Crepe Silk 1627 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170619108",
+          "title": "Adan Libas  Crepe Silk 1626 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170717412",
+          "title": "Adan Libas  Crepe Silk 1625 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170815716",
+          "title": "Adan Libas  Crepe Silk 1624 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170914020",
+          "title": "Adan Libas  Crepe Silk 1623 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872170979556",
+          "title": "Adan Libas  Crepe Silk 1622 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171077860",
+          "title": "Adan Libas  Silk 1620 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171208932",
+          "title": "Adan Libas  Silk 1619 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171274468",
+          "title": "Adan Libas  Silk 1618 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171372772",
+          "title": "Adan Libas  Silk 1617 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171438308",
+          "title": "Adan Libas  Silk 1616 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171536612",
+          "title": "Adan Libas  Silk 1615 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171634916",
+          "title": "Adan Libas  Silk 1614 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171700452",
+          "title": "Adan Libas  Silk 1613 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171798756",
+          "title": "Adan Libas  Silk 1611 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171897060",
+          "title": "Adan Libas  Silk 7682 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872171962596",
+          "title": "Adan Libas  Silk 7681 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172060900",
+          "title": "Adan Libas  Silk 7680 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172126436",
+          "title": "Adan Libas  Silk 7679 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172224740",
+          "title": "Adan Libas  Silk 7678 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172323044",
+          "title": "Adan Libas  Silk 7677 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172388580",
+          "title": "Adan Libas  Silk 7675 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172486884",
+          "title": "Adan Libas  Silk 7674 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172552420",
+          "title": "Adan Libas  Silk 7672 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172650724",
+          "title": "Adan Libas  Silk 7671 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172749028",
+          "title": "Adan Libas  Silk 7670 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172814564",
+          "title": "Adan Libas  2-Pc Emb Silk 7635 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172912868",
+          "title": "Adan Libas  2-Pc Emb Silk 7634 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872172978404",
+          "title": "Adan Libas  2-Pc Emb Silk 7633 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173076708",
+          "title": "Adan Libas  2-Pc Emb Silk 7632 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173175012",
+          "title": "Adan Libas  2-Pc Emb Silk 7631 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173240548",
+          "title": "Adan Libas  2-Pc Emb Silk 7630 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173338852",
+          "title": "Adan Libas  Silk Shirt-1Pc 7629 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173404388",
+          "title": "Adan Libas  Silk Shirt-1Pc 7628 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173502692",
+          "title": "Adan Libas  Silk Shirt-1Pc 7627 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173568228",
+          "title": "Adan Libas  Silk Shirt-1Pc 7626 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173633764",
+          "title": "Adan Libas  Silk Shirt-1Pc 7625 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173699300",
+          "title": "Adan Libas  Silk Shirt-1Pc 7624 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173764836",
+          "title": "Adan Libas  Silk Shirt-1Pc 7623 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173797604",
+          "title": "Adan Libas  Silk Shirt-1Pc 7622 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173895908",
+          "title": "Adan Libas  Silk Shirt-1Pc 7621 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872173994212",
+          "title": "Adan Libas  Silk Shirt-1Pc 7620 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174125284",
+          "title": "Adan Libas  Emb Silk 7551 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174289124",
+          "title": "Adan Libas  Emb Silk 7550 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174452964",
+          "title": "Adan Libas  Emb Silk 7549 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174649572",
+          "title": "Adan Libas  Emb Silk 7548 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174747876",
+          "title": "Adan Libas  Emb Silk 7547 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872174944484",
+          "title": "Adan Libas  Emb Silk 7546 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175108324",
+          "title": "Adan Libas  Emb Silk 7545 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175272164",
+          "title": "Adan Libas  Emb Silk 7544 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175403236",
+          "title": "Adan Libas  Emb Silk 7543 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175501540",
+          "title": "Adan Libas  Emb Silk 7542 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175665380",
+          "title": "Adan Libas  Emb Silk 7541 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175829220",
+          "title": "Adan Libas  Emb Silk 7540 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872175960292",
+          "title": "Adan Libas  Adan'S Silk 37 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176091364",
+          "title": "Adan Libas  Adan'S Silk 36 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176255204",
+          "title": "Adan Libas  Adan'S Silk 35 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176386276",
+          "title": "Adan Libas  Adan'S Silk 34 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176550116",
+          "title": "Adan Libas  Adan'S Silk 32 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176681188",
+          "title": "Adan Libas  Adan'S Silk 31 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176845028",
+          "title": "Adan Libas  Adan'S Silk 30 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872176976100",
+          "title": "Adan Libas  Adan'S Silk 28 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177074404",
+          "title": "Adan Libas  Adan'S Silk 27 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177205476",
+          "title": "Adan Libas  Adan'S Silk 26 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177336548",
+          "title": "Adan Libas  Adan'S Silk 24 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177434852",
+          "title": "Adan Libas  Adan'S Silk 23 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177565924",
+          "title": "Adan Libas  Adan'S Silk 22 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177696996",
+          "title": "Adan Libas  Adan'S Silk 20 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177828068",
+          "title": "Adan Libas  Adan'S Silk 19 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872177959140",
+          "title": "Adan Libas  Adan'S Silk 18 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178057444",
+          "title": "Adan Libas  Adan'S Silk 16 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178188516",
+          "title": "Adan Libas  Adan'S Silk 15 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178286820",
+          "title": "Adan Libas  Adan'S Silk 14 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178385124",
+          "title": "Adan Libas  Adan'S Silk 13 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178516196",
+          "title": "Adan Libas  Adan'S Silk 12 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178647268",
+          "title": "Adan Libas  Adan'S Silk 11 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178745572",
+          "title": "Adan Libas  Adan'S Silk 10 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178843876",
+          "title": "Adan Libas  Adan'S Silk 09 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872178974948",
+          "title": "Adan Libas  Adan'S Silk 08 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179106020",
+          "title": "Adan Libas  Adan'S Silk 07 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179204324",
+          "title": "Adan Libas  Adan'S Silk 05 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179335396",
+          "title": "Adan Libas  Adan'S Silk 04 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179499236",
+          "title": "Adan Libas  Adan'S Silk 03 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179564772",
+          "title": "Adan Libas  Adan'S Silk 02 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179630308",
+          "title": "Adan Libas  Adan'S Silk 01 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179695844",
+          "title": "Adan Libas  Silk 4121 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179794148",
+          "title": "Adan Libas  Silk 4120 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179859684",
+          "title": "Adan Libas  Silk 4119 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872179957988",
+          "title": "Adan Libas  Silk 4118 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180023524",
+          "title": "Adan Libas  Silk 4117 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180089060",
+          "title": "Adan Libas  Silk 4116 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180154596",
+          "title": "Adan Libas  Silk 4115 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180220132",
+          "title": "Adan Libas  Silk 4114 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180318436",
+          "title": "Adan Libas  Silk 4113 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180383972",
+          "title": "Adan Libas  Silk 4112 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180449508",
+          "title": "Adan Libas  Silk 4111 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180580580",
+          "title": "Adan Libas  Silk 4110 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180646116",
+          "title": "Adan Libas  Gradient 06 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180711652",
+          "title": "Adan Libas  Gradient 05 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180777188",
+          "title": "Adan Libas  Gradient 04 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180842724",
+          "title": "Adan Libas  Gradient 02 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180908260",
+          "title": "Adan Libas  Silk Print 10 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872180973796",
+          "title": "Adan Libas  Silk Print 08 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181039332",
+          "title": "Adan Libas  Silk Print 06 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181137636",
+          "title": "Adan Libas  Silk Print 04 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181203172",
+          "title": "Adan Libas  Silk Print 03 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181268708",
+          "title": "Adan Libas  Silk Print 02 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181334244",
+          "title": "Adan Libas  Silk Print 01 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181399780",
+          "title": "Adan Libas  Ethnic Silk 05 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181465316",
+          "title": "Adan Libas  Ethnic Silk 04 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181530852",
+          "title": "Adan Libas  Ethnic Silk 03 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181596388",
+          "title": "Adan Libas  Ethnic Silk 02 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181661924",
+          "title": "Adan Libas  Ethnic Silk 01 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181727460",
+          "title": "Adan Libas  Noor Silk 06 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181792996",
+          "title": "Adan Libas  Noor Silk 05 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181891300",
+          "title": "Adan Libas  Noor Silk 04 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872181956836",
+          "title": "Adan Libas  Noor Silk 03 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872182055140",
+          "title": "Adan Libas  Noor Silk 02 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872182153444",
+          "title": "Adan Libas  Noor Silk 01 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872182218980",
+          "title": "Adan Libas  Silk 07 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8872182317284",
+          "title": "Adan Libas  Printed Silk 2 Silk Collection 2025",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047829220",
+          "title": "Marchesa Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047632612",
+          "title": "Blush Grey Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047567076",
+          "title": "Forest Blue Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047501540",
+          "title": "Bazel Glow Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047468772",
+          "title": "Cerise Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047436004",
+          "title": "Razzle Red Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047403236",
+          "title": "Rosa Dark Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047337700",
+          "title": "Fox Trot Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047304932",
+          "title": "Felicia Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047272164",
+          "title": "Sunset Adan Libas Online Flourite  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047239396",
+          "title": "Mystic Delight Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047206628",
+          "title": "Mineral Green Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047173860",
+          "title": "Cloud Burst Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504047141092",
+          "title": "Blooming Somence Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046977252",
+          "title": "Desk Blooming Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046878948",
+          "title": "Bright Maroon Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046813412",
+          "title": "Peachy Slush Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046747876",
+          "title": "Falu Red Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046715108",
+          "title": "Oasis Adan Libas Online Ibteda  2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046682340",
+          "title": "Passion Dance Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046616804",
+          "title": "Radical Glam Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046584036",
+          "title": "Island Paradise Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046551268",
+          "title": "Moonlight Jade Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046518500",
+          "title": "Splendid Splatter Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046485732",
+          "title": "Loving Touch Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046387428",
+          "title": "Glowing Memories Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046256356",
+          "title": "Ethnic Delight Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046223588",
+          "title": "Fairy Floss Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        },
+        {
+          "product_id": "gid://shopify/Product/8504046158052",
+          "title": "Aster Azure Adan Libas Online Exclusive Chiffon 2022",
+          "status": "pending",
+          "attempts": 0
+        }
+      ],
+      "completed_product_ids": [],
+      "skipped_product_ids": [],
+      "failed_product_ids": [],
+      "current_run_id": null,
+      "last_run_id": null,
+      "run_history": [],
+      "wait_reason": null,
+      "continuation_attempts": 1,
+      "last_continuation_from_run_id": "43646580212"
     }
   ],
   "requests": [
     "mobile-1794482914361003",
     "mobile-1794485400228297",
-    "mobile-1794611652761618"
+    "mobile-1794611652761618",
+    "mobile-1794694162003499"
   ],
-  "last_dispatch_from_run_id": "43525583192",
-  "continuation_pending": false,
-  "continuation_dispatch_source_run_id": null,
+  "last_dispatch_from_run_id": "43646580212",
+  "continuation_pending": true,
+  "continuation_dispatch_source_run_id": "43646580212",
   "last_dispatch_reason": "enqueue",
-  "last_dispatch_at": "2026-11-13T23:14:30.467Z"
+  "last_dispatch_at": "2026-11-14T22:09:37.930Z"
 }
