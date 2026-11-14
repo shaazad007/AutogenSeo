@@ -1,11 +1,11 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 407,
+  "today_done": 410,
   "today_date": "2026-11-14",
-  "last_product_id": "gid://shopify/Product/15464970518756",
-  "last_product_title": "Asim Jofa Embroidered Lawn Stitched AJULWD-08",
-  "last_run_started_at": "2026-11-14T15:38:36.514Z",
+  "last_product_id": "gid://shopify/Product/8872158134500",
+  "last_product_title": "Adan Libas Chiffon 7588 Chiffon 2025",
+  "last_run_started_at": "2026-11-14T22:09:54.478Z",
   "last_run_finished_at": "2026-11-14T09:44:05.405Z",
   "status": "running",
   "estimated_days_left": 8,
@@ -3499,15 +3499,15 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43611258860",
-    "workflow_run_id": 43611258860,
+    "logical_job_id": "mobile-1794694162003499:1",
+    "workflow_run_id": 43646600499,
     "github_run_attempt": 1,
     "product_status": "running",
-    "processed_products": 397,
-    "total_products": 1389,
-    "completed_products": 396,
-    "failed_products": 1,
+    "processed_products": 3,
+    "total_products": 993,
+    "completed_products": 3,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-14T19:57:07.747Z"
+    "updated_at": "2026-11-14T22:11:28.784Z"
   }
 }

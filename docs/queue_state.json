@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T22:09:37.930Z",
+  "updated_at": "2026-11-14T22:11:28.785Z",
   "jobs": [
     {
       "queue_job_id": "mobile-1794485400228297:1",
@@ -570,31 +570,37 @@
       "mode": "live",
       "submission_order": 3,
       "created_at": "2026-11-14T22:09:37.929Z",
-      "updated_at": "2026-11-14T22:09:37.929Z",
-      "status": "queued",
+      "updated_at": "2026-11-14T22:11:28.785Z",
+      "status": "running",
       "total": 226,
-      "completed": 0,
+      "completed": 3,
       "skipped": 0,
       "failed": 0,
-      "remaining": 226,
+      "remaining": 223,
       "items": [
         {
           "product_id": "gid://shopify/Product/8872158068964",
           "title": "Adan Libas Chiffon 7583 Chiffon 2025",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T22:10:06.431Z"
         },
         {
           "product_id": "gid://shopify/Product/8872158101732",
           "title": "Adan Libas Chiffon 7584 Chiffon 2025",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T22:10:41.906Z"
         },
         {
           "product_id": "gid://shopify/Product/8872158134500",
           "title": "Adan Libas Chiffon 7588 Chiffon 2025",
-          "status": "pending",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "last_error": null,
+          "updated_at": "2026-11-14T22:11:28.785Z"
         },
         {
           "product_id": "gid://shopify/Product/8872158167268",
@@ -1935,12 +1941,22 @@
           "attempts": 0
         }
       ],
-      "completed_product_ids": [],
+      "completed_product_ids": [
+        "gid://shopify/Product/8872158068964",
+        "gid://shopify/Product/8872158101732",
+        "gid://shopify/Product/8872158134500"
+      ],
       "skipped_product_ids": [],
       "failed_product_ids": [],
-      "current_run_id": null,
-      "last_run_id": null,
-      "run_history": [],
+      "current_run_id": "43646600499",
+      "last_run_id": "43646600499",
+      "run_history": [
+        {
+          "run_id": "43646600499",
+          "attempt": 1,
+          "started_at": "2026-11-14T22:09:54.476Z"
+        }
+      ],
       "wait_reason": null,
       "continuation_attempts": 1,
       "last_continuation_from_run_id": "43646580212"
@@ -1953,8 +1969,8 @@
     "mobile-1794694162003499"
   ],
   "last_dispatch_from_run_id": "43646580212",
-  "continuation_pending": true,
-  "continuation_dispatch_source_run_id": "43646580212",
+  "continuation_pending": false,
+  "continuation_dispatch_source_run_id": null,
   "last_dispatch_reason": "enqueue",
   "last_dispatch_at": "2026-11-14T22:09:37.930Z"
 }
