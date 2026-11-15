@@ -1,13 +1,13 @@
 {
   "total_products": 10000,
   "total_done": 0,
-  "today_done": 410,
-  "today_date": "2026-11-14",
-  "last_product_id": "gid://shopify/Product/8872158134500",
-  "last_product_title": "Adan Libas Chiffon 7588 Chiffon 2025",
-  "last_run_started_at": "2026-11-14T22:09:54.478Z",
-  "last_run_finished_at": "2026-11-14T09:44:05.405Z",
-  "status": "running",
+  "today_done": 0,
+  "today_date": "2026-11-15",
+  "last_product_id": "gid://shopify/Product/15466853269732",
+  "last_product_title": "ETHNC SUMMER KIDS COLLECTION E1716-402-003",
+  "last_run_started_at": "2026-11-15T00:59:36.104Z",
+  "last_run_finished_at": "2026-11-15T01:10:06.731Z",
+  "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -3499,15 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "mobile-1794694162003499:1",
-    "workflow_run_id": 43646600499,
+    "logical_job_id": "ghjob_43660889593",
+    "workflow_run_id": 43660889593,
     "github_run_attempt": 1,
-    "product_status": "running",
-    "processed_products": 3,
-    "total_products": 993,
-    "completed_products": 3,
+    "product_status": "partially_completed",
+    "processed_products": 11,
+    "total_products": 100000,
+    "completed_products": 11,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-14T22:11:28.784Z"
-  }
+    "updated_at": "2026-11-15T01:10:06.731Z"
+  },
+  "design_profile_retries": []
 }
