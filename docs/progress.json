@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-16",
-  "last_product_id": "gid://shopify/Product/15412736393444",
-  "last_product_title": "Qalamkar QMF-08 Romilly Raw Silk Elirah Formals Collection 2026",
-  "last_run_started_at": "2026-11-16T19:23:02.978Z",
-  "last_run_finished_at": "2026-11-16T19:31:55.089Z",
+  "last_product_id": "gid://shopify/Product/15412482343140",
+  "last_product_title": "Ethnic E4925-103-808 Silhouette Rozana Winter Drop III",
+  "last_run_started_at": "2026-11-16T23:38:13.055Z",
+  "last_run_finished_at": "2026-11-16T23:39:17.934Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43938704337",
-    "workflow_run_id": 43938704337,
+    "logical_job_id": "ghjob_43980948854",
+    "workflow_run_id": 43980948854,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 4,
+    "processed_products": 1,
     "total_products": 100000,
-    "completed_products": 4,
+    "completed_products": 1,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-16T19:31:55.089Z"
+    "updated_at": "2026-11-16T23:39:17.934Z"
   },
   "design_profile_retries": []
 }
