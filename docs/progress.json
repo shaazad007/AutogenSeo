@@ -2,11 +2,11 @@
   "total_products": 10000,
   "total_done": 0,
   "today_done": 0,
-  "today_date": "2026-11-15",
-  "last_product_id": "gid://shopify/Product/15445264859364",
-  "last_product_title": "ETHNC SUMMER WOMEN COLLECTION E4298-103-624",
-  "last_run_started_at": "2026-11-15T20:07:00.778Z",
-  "last_run_finished_at": "2026-11-15T20:15:06.916Z",
+  "today_date": "2026-11-16",
+  "last_product_id": "gid://shopify/Product/15445223899364",
+  "last_product_title": "ETHNC SUMMER WOMEN COLLECTION E4452-103-901",
+  "last_run_started_at": "2026-11-16T00:56:05.944Z",
+  "last_run_finished_at": "2026-11-16T01:29:54.655Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43756198727",
-    "workflow_run_id": 43756198727,
+    "logical_job_id": "ghjob_43783255729",
+    "workflow_run_id": 43783255729,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 10,
+    "processed_products": 16,
     "total_products": 100000,
-    "completed_products": 10,
+    "completed_products": 16,
     "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-15T20:15:06.916Z"
+    "updated_at": "2026-11-16T01:29:54.655Z"
   },
   "design_profile_retries": []
 }
