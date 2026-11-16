@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-16",
-  "last_product_id": "gid://shopify/Product/15412736688356",
-  "last_product_title": "Qalamkar QMF-06 Sloane Organza Elirah Formals Collection 2026",
-  "last_run_started_at": "2026-11-16T10:18:05.582Z",
-  "last_run_finished_at": "2026-11-16T14:21:24.671Z",
+  "last_product_id": "gid://shopify/Product/15412736393444",
+  "last_product_title": "Qalamkar QMF-08 Romilly Raw Silk Elirah Formals Collection 2026",
+  "last_run_started_at": "2026-11-16T19:23:02.978Z",
+  "last_run_finished_at": "2026-11-16T19:31:55.089Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_43847569726",
-    "workflow_run_id": 43847569726,
+    "logical_job_id": "ghjob_43938704337",
+    "workflow_run_id": 43938704337,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 325,
+    "processed_products": 4,
     "total_products": 100000,
-    "completed_products": 323,
-    "failed_products": 2,
+    "completed_products": 4,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-16T14:21:24.671Z"
+    "updated_at": "2026-11-16T19:31:55.089Z"
   },
   "design_profile_retries": []
 }
