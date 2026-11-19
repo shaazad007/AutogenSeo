@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-19",
-  "last_product_id": "gid://shopify/Product/9230809104612",
-  "last_product_title": "Sapphire PBW26CHMV103 Pre Fall Collection RTW 2026",
-  "last_run_started_at": "2026-11-19T18:01:51.814Z",
-  "last_run_finished_at": "2026-11-19T18:39:08.221Z",
+  "last_product_id": "gid://shopify/Product/9230809596132",
+  "last_product_title": "Sapphire PBW26CHMV101 Pre Fall Collection RTW 2026",
+  "last_run_started_at": "2026-11-19T22:33:03.385Z",
+  "last_run_finished_at": "2026-11-19T22:44:23.972Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_44583409218",
-    "workflow_run_id": 44583409218,
+    "logical_job_id": "ghjob_44629648106",
+    "workflow_run_id": 44629648106,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 18,
+    "processed_products": 10,
     "total_products": 100000,
-    "completed_products": 17,
-    "failed_products": 1,
+    "completed_products": 10,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-19T18:39:08.221Z"
+    "updated_at": "2026-11-19T22:44:23.972Z"
   },
   "design_profile_retries": []
 }
