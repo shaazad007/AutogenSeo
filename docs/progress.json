@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-20",
-  "last_product_id": "gid://shopify/Product/9230810054884",
-  "last_product_title": "Sapphire PRW26C1015SB Pre Fall Collection RTW 2026",
-  "last_run_started_at": "2026-11-20T02:14:21.189Z",
-  "last_run_finished_at": "2026-11-20T02:19:57.568Z",
+  "last_product_id": "gid://shopify/Product/9193409675492",
+  "last_product_title": "Sapphire PRW26CHMV99D Pehchan Ready To Wear Collection 2026",
+  "last_run_started_at": "2026-11-20T10:40:38.263Z",
+  "last_run_finished_at": "2026-11-20T15:36:42.636Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_44659324346",
-    "workflow_run_id": 44659324346,
+    "logical_job_id": "ghjob_44721209104",
+    "workflow_run_id": 44721209104,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 6,
+    "processed_products": 386,
     "total_products": 100000,
-    "completed_products": 6,
-    "failed_products": 0,
+    "completed_products": 381,
+    "failed_products": 5,
     "skipped_products": 0,
-    "updated_at": "2026-11-20T02:19:57.568Z"
+    "updated_at": "2026-11-20T15:36:42.636Z"
   },
   "design_profile_retries": []
 }

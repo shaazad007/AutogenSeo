@@ -535,3 +535,12 @@ gid://shopify/Product/9230804582628,Sapphire 3PEDYS26V845 Pre Fall Collection 20
 gid://shopify/Product/9230805795044,Sapphire 3PEDYS26V844 Pre Fall Collection 2026,sapphire-3pedys26v844-pre-fall-collection-2026,"Could not parse Gemini JSON output: Unexpected token 'h', ...""""value"": thread, ""so""... is not valid JSON",2026-11-19T14:32:08.061Z
 gid://shopify/Product/9230807105764,Sapphire PES2SCHMV628 Pre Fall Collection RTW 2026,sapphire-pes2schmv628-pre-fall-collection-rtw-2026,"Gemini request failed (503): {""error"":{""code"":503,""message"":""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."",""status"":""UNAVAILABLE""}}",2026-11-19T14:56:26.973Z
 gid://shopify/Product/9230808973540,Sapphire PEW26WMV1015 Pre Fall Collection RTW 2026,sapphire-pew26wmv1015-pre-fall-collection-rtw-2026,"Could not parse Cloudflare Workers AI JSON output (finish_reason=length, output_chars=5225): Unterminated string in JSON at position 5225",2026-11-19T18:33:02.017Z
+gid://shopify/Product/9230810874084,Sapphire PE6SCSTV634S Pre Fall Collection RTW 2026,sapphire-pe6scstv634s-pre-fall-collection-rtw-2026,"Could not parse Gemini JSON output: Unexpected token '<', ...""s"",
+      <output>
+}"" is not valid JSON",2026-11-20T10:48:53.918Z
+gid://shopify/Product/9203336937700,Khaadi 1-26-334-A-G1-VG_MULTI Basics: A Day In Bloom Autumn Collection 2026,khaadi-1-26-334-a-g1-vg_multi-basics-a-day-in-bloom-autumn-collection-2026,"Could not parse Gemini JSON output: Unexpected token 'v', ...""e"",
+      v-neck wit""... is not valid JSON",2026-11-20T11:37:49.528Z
+gid://shopify/Product/9203337494756,Khaadi 5-26-202-F-J1-VG_MULTI Khaas: Dressed In Drama 2026,khaadi-5-26-202-f-j1-vg_multi-khaas-dressed-in-drama-2026,"Could not parse Gemini JSON output: Unexpected token 'e', ...""""value"": neckline an""... is not valid JSON",2026-11-20T11:49:14.479Z
+gid://shopify/Product/9193392373988,Sapphire PRW26CV928SB Pehchan Ready To Wear Collection 2026,sapphire-prw26cv928sb-pehchan-ready-to-wear-collection-2026,Could not parse Gemini JSON output: Expected property name or '}' in JSON at position 33,2026-11-20T13:25:12.322Z
+gid://shopify/Product/9193401483492,Sapphire PRW26SSTV913 Pehchan Ready To Wear Collection 2026,sapphire-prw26sstv913-pehchan-ready-to-wear-collection-2026,"Could not parse Gemini JSON output: Unexpected token '<', ...""r"",
+      <output tr""... is not valid JSON",2026-11-20T14:24:59.814Z
