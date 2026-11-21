@@ -3,11 +3,11 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-21",
-  "last_product_id": "gid://shopify/Product/9160259436772",
-  "last_product_title": "Nishat Linen 42602652 Printed Whimsy Edit FTB 2026",
-  "last_run_started_at": "2026-11-21T10:23:49.159Z",
-  "last_run_finished_at": "2026-11-21T14:17:14.470Z",
-  "status": "paused_provider_limits",
+  "last_product_id": "gid://shopify/Product/9160259862756",
+  "last_product_title": "Nishat Linen 42602643 Printed Whimsy Edit FTB 2026",
+  "last_run_started_at": "2026-11-21T16:39:16.131Z",
+  "last_run_finished_at": "2026-11-21T16:47:42.519Z",
+  "status": "paused_daily_quota",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_44894133402",
-    "workflow_run_id": 44894133402,
+    "logical_job_id": "ghjob_44925733968",
+    "workflow_run_id": 44925733968,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 329,
+    "processed_products": 10,
     "total_products": 100000,
-    "completed_products": 324,
-    "failed_products": 5,
+    "completed_products": 9,
+    "failed_products": 1,
     "skipped_products": 0,
-    "updated_at": "2026-11-21T14:17:14.470Z"
+    "updated_at": "2026-11-21T16:47:42.519Z"
   },
   "design_profile_retries": []
 }
