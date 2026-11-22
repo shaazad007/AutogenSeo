@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-22",
-  "last_product_id": "gid://shopify/Product/9107951550692",
-  "last_product_title": "Sapphire DWBA342652 Light Smoke Green Summer Lawn 2026",
-  "last_run_started_at": "2026-11-22T10:27:33.106Z",
-  "last_run_finished_at": "2026-11-22T13:57:29.596Z",
+  "last_product_id": "gid://shopify/Product/9107951747300",
+  "last_product_title": "Sapphire DWDC2791B0 Light Grey Summer Lawn 2026",
+  "last_run_started_at": "2026-11-22T16:56:59.675Z",
+  "last_run_finished_at": "2026-11-22T17:06:58.433Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_45012517104",
-    "workflow_run_id": 45012517104,
+    "logical_job_id": "ghjob_45046634868",
+    "workflow_run_id": 45046634868,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 289,
+    "processed_products": 9,
     "total_products": 100000,
-    "completed_products": 283,
-    "failed_products": 6,
+    "completed_products": 9,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-22T13:57:29.596Z"
+    "updated_at": "2026-11-22T17:06:58.433Z"
   },
   "design_profile_retries": []
 }
