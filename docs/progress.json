@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-22",
-  "last_product_id": "gid://shopify/Product/9160261370084",
-  "last_product_title": "Nishat Linen 42602640 Printed Whimsy Edit FTB 2026",
-  "last_run_started_at": "2026-11-22T01:09:36.386Z",
-  "last_run_finished_at": "2026-11-22T01:57:42.277Z",
+  "last_product_id": "gid://shopify/Product/9107951550692",
+  "last_product_title": "Sapphire DWBA342652 Light Smoke Green Summer Lawn 2026",
+  "last_run_started_at": "2026-11-22T10:27:33.106Z",
+  "last_run_finished_at": "2026-11-22T13:57:29.596Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_44970100489",
-    "workflow_run_id": 44970100489,
+    "logical_job_id": "ghjob_45012517104",
+    "workflow_run_id": 45012517104,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 16,
+    "processed_products": 289,
     "total_products": 100000,
-    "completed_products": 14,
-    "failed_products": 2,
+    "completed_products": 283,
+    "failed_products": 6,
     "skipped_products": 0,
-    "updated_at": "2026-11-22T01:57:42.277Z"
+    "updated_at": "2026-11-22T13:57:29.596Z"
   },
   "design_profile_retries": []
 }
