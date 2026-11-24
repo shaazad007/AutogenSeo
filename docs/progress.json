@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-24",
-  "last_product_id": "gid://shopify/Product/9075445137636",
-  "last_product_title": "Khaadi 1-26-142-A-B-VG_MULTI Monochrome Edit 2026",
-  "last_run_started_at": "2026-11-24T05:16:04.503Z",
-  "last_run_finished_at": "2026-11-24T05:18:33.874Z",
+  "last_product_id": "gid://shopify/Product/9074790891748",
+  "last_product_title": "Sapphire PPEWS26CL323 Andaaz 2026",
+  "last_run_started_at": "2026-11-24T13:01:33.720Z",
+  "last_run_finished_at": "2026-11-24T16:53:01.328Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_45332083722",
-    "workflow_run_id": 45332083722,
+    "logical_job_id": "ghjob_45399165494",
+    "workflow_run_id": 45399165494,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 2,
+    "processed_products": 120,
     "total_products": 100000,
-    "completed_products": 2,
-    "failed_products": 0,
+    "completed_products": 55,
+    "failed_products": 65,
     "skipped_products": 0,
-    "updated_at": "2026-11-24T05:18:33.874Z"
+    "updated_at": "2026-11-24T16:53:01.328Z"
   },
   "design_profile_retries": []
 }
