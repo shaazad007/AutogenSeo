@@ -3,10 +3,10 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-25",
-  "last_product_id": "gid://shopify/Product/9074797084900",
-  "last_product_title": "Nishat Linen KFE26-223 Luxury Pret Vol 2 2026",
-  "last_run_started_at": "2026-11-25T11:50:53.821Z",
-  "last_run_finished_at": "2026-11-25T14:58:52.963Z",
+  "last_product_id": "gid://shopify/Product/9074794561764",
+  "last_product_title": "Sapphire 3PESUS26V145 Raunak 2026",
+  "last_run_started_at": "2026-11-25T19:00:17.582Z",
+  "last_run_finished_at": "2026-11-25T19:41:11.714Z",
   "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_45608178159",
-    "workflow_run_id": 45608178159,
+    "logical_job_id": "ghjob_45680795223",
+    "workflow_run_id": 45680795223,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 137,
+    "processed_products": 16,
     "total_products": 100000,
-    "completed_products": 95,
-    "failed_products": 42,
+    "completed_products": 16,
+    "failed_products": 0,
     "skipped_products": 0,
-    "updated_at": "2026-11-25T14:58:52.963Z"
+    "updated_at": "2026-11-25T19:41:11.714Z"
   },
   "design_profile_retries": []
 }
