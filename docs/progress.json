@@ -3,11 +3,11 @@
   "total_done": 0,
   "today_done": 0,
   "today_date": "2026-11-27",
-  "last_product_id": "gid://shopify/Product/8918315106532",
-  "last_product_title": "Nishat Linen Kfe26-123 Luxury Pret 2026",
-  "last_run_started_at": "2026-11-27T11:32:26.915Z",
-  "last_run_finished_at": "2026-11-27T16:52:57.495Z",
-  "status": "paused_time_budget",
+  "last_product_id": "gid://shopify/Product/8966150914276",
+  "last_product_title": "Sapphire 3SFS26HMV321 Eid Lunch Looks 2026",
+  "last_run_started_at": "2026-11-27T18:44:12.313Z",
+  "last_run_finished_at": "2026-11-27T20:17:23.442Z",
+  "status": "paused_provider_limits",
   "estimated_days_left": 8,
   "new_products_detected_last_run": 0,
   "collections": {
@@ -3499,16 +3499,16 @@
   "collections_last_refreshed_at": "2026-11-06T16:43:42.955Z",
   "collections_refresh_status": "complete",
   "current_run": {
-    "logical_job_id": "ghjob_45991271407",
-    "workflow_run_id": 45991271407,
+    "logical_job_id": "ghjob_46051641949",
+    "workflow_run_id": 46051641949,
     "github_run_attempt": 1,
     "product_status": "partially_completed",
-    "processed_products": 565,
+    "processed_products": 143,
     "total_products": 100000,
-    "completed_products": 337,
-    "failed_products": 228,
+    "completed_products": 142,
+    "failed_products": 1,
     "skipped_products": 0,
-    "updated_at": "2026-11-27T16:52:57.495Z"
+    "updated_at": "2026-11-27T20:17:23.442Z"
   },
   "design_profile_retries": []
 }
